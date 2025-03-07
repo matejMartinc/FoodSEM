@@ -41,9 +41,7 @@ def add_examples(df_sample_dataset, user_prompt, setting, div):
     for idx, row in df_sample.iterrows():
         prompt += row['sample'] + '\n\n'
 
-    prompt +=  "Respond to the following question in the same manner as seen in the examples above.\n\nQuestion: " + user_prompt + '\nAnswer: '
-    #print('Final prompt')
-    #print(prompt)
+    prompt += "Respond to the following question in the same manner as seen in the examples above.\n\nQuestion: " + user_prompt + '\nAnswer: '
     return prompt
 
 
@@ -142,20 +140,12 @@ if __name__ == '__main__':
                         answers = [(" ".join((x.split('<|end_of_text|>')[0].split('<|im_end|>')[0]).split('<|eot_id|>')[0].split())).strip() for x in answers]
                         if get_answer:
                             prev_answer = answers[0]
-                        #print('Tokenizer output')
-                        #print(tokenizer_input)
-                        #print('Answer')
-                        #print(answers)
-                        #print('-------------------------------------')
+
                         tokenizer_input = [" ".join(x.strip().split()) for x in tokenizer_input]
 
                         original_prompts = [x.strip() for x in original_prompts]
                         batched_examples = zip(original_prompts, tokenizer_input, answers, true_outputs)
                         all_data.extend(batched_examples)
-                        #print(i)
-                        #if i > 1:
-                        #    print('breaking')
-                        #    break
 
                     df = pd.DataFrame(all_data, columns=['Original prompt', 'True prompt', 'Answer', 'True'])
                     if not os.path.exists("results/" + setting):

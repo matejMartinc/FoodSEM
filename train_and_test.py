@@ -6,6 +6,8 @@ from datasets import load_dataset
 from trl import SFTTrainer, DataCollatorForCompletionOnlyLM, SFTConfig, setup_chat_format
 
 
+#This function concatenates all the train datasets for a specific fold and adds the dolly_hhrlhf data to the train set
+#to prevent model overfitting
 def concat_all(folder_path, adapter_model, shuffle=False, add_data=True):
     df_all = pd.DataFrame([], columns=['instruction', 'output'])
     files = os.listdir(folder_path)
@@ -40,16 +42,17 @@ def concat_all(folder_path, adapter_model, shuffle=False, add_data=True):
 
 if __name__ == '__main__':
     TRAIN_SET_PATH = 'train_sets_ner_nel'
-    TEST_SET_PATH = 'train_sets_ner_nel'
+    TEST_SET_PATH = 'test_sets_ner_nel'
     base_model = "meta-llama/Meta-Llama-3-8B-Instruct"
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    load_adapter = False
 
+    #setting this to True will only test the already trained models and the script will not train new models
+    load_adapter = False
     print('Load adapter', load_adapter)
 
-    adapter_model = "cv_ner_nel_padding_token_return_1024_Meta-Llama-3-8B-Instruct"
-
+    adapter_model = "food_sem_Meta-Llama-3-8B-Instruct"
     folds = ['split_0', 'split_1', 'split_2', 'split_3', 'split_4']
+
     test_batch = 16
     for fold in folds:
         # Loading a dataset
@@ -76,9 +79,12 @@ if __name__ == '__main__':
 
         tokenizer = AutoTokenizer.from_pretrained(base_model, trust_remote_code=True)
 
-        #optional if you fine-tune the already instruction-tuned model
-        model, tokenizer = setup_chat_format(model, tokenizer)
-        #set pad token
+        #setting up chat template is only needed if you fine-tune the not instruction-tuned model (e.g., Meta-Llama-3-8B)
+        #if hasattr(tokenizer, "chat_template") and tokenizer.chat_template is not None:
+        #    tokenizer.chat_template = None  # Reset the chat template
+        #model, tokenizer = setup_chat_format(model, tokenizer)
+
+        #set pad token which does by default not exist in the LLama 3 model
         tokenizer.pad_token = '<|pad|>'
         tokenizer.pad_token_id = 128255
 
@@ -99,12 +105,12 @@ if __name__ == '__main__':
 
         if load_adapter:
             model.load_adapter("models/" + adapter_model + '_' + fold)
-            #model.load_adapter("models/" + adapter_model)
 
         else:
             model.config.use_cache = False  # silence the warnings. Please re-enable for inference!
             model.config.pretraining_tp = 1
             model = prepare_model_for_kbit_training(model)
+
             # LoRA config
             peft_config = LoraConfig(
                 r=16,
@@ -117,7 +123,7 @@ if __name__ == '__main__':
             model = get_peft_model(model, peft_config)
 
             # Training Arguments
-            # Hyperparameters should be adjusted based on the hardware you using
+            # Hyperparameters should be adjusted based on the hardware you are using
             training_arguments = SFTConfig(
                 output_dir="./results/" + adapter_model,
                 num_train_epochs=1,
@@ -134,7 +140,8 @@ if __name__ == '__main__':
                 group_by_length=True,
                 dataset_text_field="text",
                 gradient_checkpointing=True,
-                gradient_checkpointing_kwargs={'use_reentrant': False}
+                gradient_checkpointing_kwargs={'use_reentrant': False},
+                packing=False,
             )
 
             trainer = SFTTrainer(
@@ -143,7 +150,6 @@ if __name__ == '__main__':
                 peft_config=peft_config,
                 tokenizer=tokenizer,
                 args=training_arguments,
-                packing=False,
             )
 
 
@@ -155,69 +161,69 @@ if __name__ == '__main__':
 
         model.config.use_cache = True
         model.eval()
+
+        #Test the model on each dataset in the test fold
         all_datasets = os.listdir(test_folder)
         for td in all_datasets:
             all_data = []
-            if '_combined.tsv' not in td:
-                print('Testing on ', td)
-                if 'ner' not in td:
-                    current_batch = test_batch
-                else:
-                    current_batch = 1
-                df = pd.read_csv(os.path.join(test_folder, td), encoding='utf8', sep='\t')
-                prev_answer = ""
-                for i in range(0, len(df), current_batch):
-                    if i % (current_batch * 10) == 0:
-                        print('Generating example', i)
-                    examples = df[i:i + current_batch]
-                    tokenizer_input = []
-                    true_outputs = []
-                    for true_output in examples['output']:
-                        true_outputs.append(true_output)
-                    original_prompts = []
-                    true_prompts = []
-                    for user_prompt in examples['instruction']:
-                        original_prompts.append(user_prompt)
-                        # print("List of instructions: ", all_questions)
-                        system_prompt = ''
-                        get_answer = False
-                        if not '</div>' in user_prompt:
-                            messages = [
-                                {
-                                    "role": "user",
-                                    "content": f"{system_prompt} {user_prompt}".strip()
-                                }
-                            ]
-                            prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
-                            get_answer = True
-                        else:
-                            _, question = user_prompt.split("</div>")
-                            messages = [
-                                {
-                                    "role": "user",
-                                    "content": f"{prev_answer.strip()} {question.strip()}".strip()
-                                }
-                            ]
-                            prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
-                        tokenizer_input.append(prompt)
+            print('Testing on ', test_folder, td)
+            if 'ner' not in td:
+                current_batch = test_batch
+            else:
+                current_batch = 1
+            df = pd.read_csv(os.path.join(test_folder, td), encoding='utf8', sep='\t')
+            prev_answer = ""
+            for i in range(0, len(df), current_batch):
+                if i % (current_batch * 10) == 0:
+                    print('Generating example', i)
+                examples = df[i:i + current_batch]
+                tokenizer_input = []
+                true_outputs = []
+                for true_output in examples['output']:
+                    true_outputs.append(true_output)
+                original_prompts = []
+                true_prompts = []
+                for user_prompt in examples['instruction']:
+                    original_prompts.append(user_prompt)
+                    # print("List of instructions: ", all_questions)
+                    system_prompt = ''
+                    get_answer = False
+                    if not '</div>' in user_prompt:
+                        messages = [
+                            {
+                                "role": "user",
+                                "content": f"{system_prompt} {user_prompt}".strip()
+                            }
+                        ]
+                        prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+                        get_answer = True
+                    else:
+                        _, question = user_prompt.split("</div>")
+                        messages = [
+                            {
+                                "role": "user",
+                                "content": f"{prev_answer.strip()} {question.strip()}".strip()
+                            }
+                        ]
+                        prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+                    tokenizer_input.append(prompt)
 
-                    inputs = tokenizer(tokenizer_input, return_tensors="pt", padding=True, truncation=True, max_length=1024).to(device)
-                    generated_ids = model.generate(**inputs, max_new_tokens=1024, do_sample=True)
-                    answers = tokenizer.batch_decode(generated_ids[:, inputs['input_ids'].shape[1]:])
-                    answers = [(" ".join((x.split('<|end_of_text|>')[0].split('<|im_end|>')[0]).split('<|eot_id|>')[0]
-                                .replace("<|start_header_id|>assistant", '').replace("<|end_header_id|>", '')
-                                         .replace("<|start_header_id|>", '').split())).strip() for x in answers]
-                    if get_answer:
-                        prev_answer = answers[0]
-                    tokenizer_input = [" ".join(x.strip().split()) for x in tokenizer_input]
-                    original_prompts = [x.strip() for x in original_prompts]
-                    batched_examples = zip(original_prompts, tokenizer_input, answers, true_outputs)
-                    all_data.extend(batched_examples)
+                inputs = tokenizer(tokenizer_input, return_tensors="pt", padding=True, truncation=True, max_length=1024).to(device)
+                generated_ids = model.generate(**inputs, max_new_tokens=1024, do_sample=True)
+                answers = tokenizer.batch_decode(generated_ids[:, inputs['input_ids'].shape[1]:])
+                answers = [(" ".join((x.split('<|end_of_text|>')[0].split('<|im_end|>')[0]).split('<|eot_id|>')[0]
+                            .replace("<|start_header_id|>assistant", '').replace("<|end_header_id|>", '')
+                                     .replace("<|start_header_id|>", '').split())).strip() for x in answers]
+                if get_answer:
+                    prev_answer = answers[0]
+                tokenizer_input = [" ".join(x.strip().split()) for x in tokenizer_input]
+                original_prompts = [x.strip() for x in original_prompts]
+                batched_examples = zip(original_prompts, tokenizer_input, answers, true_outputs)
+                all_data.extend(batched_examples)
 
-
-                df = pd.DataFrame(all_data, columns=['Original prompt', 'True prompt', 'Answer', 'True'])
-                results_output = "results/" + adapter_model + '/' + td.split('.')[0] + '_' + fold + ".tsv"
-                df.to_csv(results_output, encoding='utf8', sep='\t', index=False)
+            df_out = pd.DataFrame(all_data, columns=['Original prompt', 'True prompt', 'Answer', 'True'])
+            results_output = "results/" + adapter_model + '/' + td.split('.')[0] + '_' + fold + ".tsv"
+            df_out.to_csv(results_output, encoding='utf8', sep='\t', index=False)
         del model
         del tokenizer
 

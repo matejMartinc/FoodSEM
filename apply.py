@@ -20,6 +20,7 @@ if __name__ == '__main__':
     )
 
     tokenizer = AutoTokenizer.from_pretrained(base_model, trust_remote_code=True)
+
     tokenizer.pad_token = '<|pad|>'
     tokenizer.pad_token_id = 128255
 
@@ -29,7 +30,7 @@ if __name__ == '__main__':
     model.eval()
 
     system_prompt = ""
-    user_prompt = "Calculate the nutrient values per 100 grams in a recipe with these ingredients: 10 ounce candies, marshmallows, 1/4 cup butter, without salt, 6 cup cocoa, dry powder, unsweetened"
+    user_prompt = "Please, may we have links to the Hansard taxonomy for these entities provided: soft butter, mango, daiquiri mixer, maple extract, salt, anise flavored liqueur, hemp seeds, yeast mixture, thighs?"
 
     messages = [
         {
@@ -46,7 +47,5 @@ if __name__ == '__main__':
     inputs = tokenizer(tokenizer_input, return_tensors="pt", padding=True, truncation=True, max_length=1024).to(device)
     generated_ids = model.generate(**inputs, max_new_tokens=1024, do_sample=True)
     answers = tokenizer.batch_decode(generated_ids[:, inputs['input_ids'].shape[1]:])
-    answers = [x.split('<|end_of_text|>')[0].split('<|im_end|>')[0].split('<|eot_id|>')[0]
-                                .replace("<|start_header_id|>assistant", '').replace("<|end_header_id|>", '')
-                                         .replace("<|start_header_id|>", '').split().strip() for x in answers]
+    answers = [x.split('<|eot_id|>')[0].strip() for x in answers]
     print(answers)
