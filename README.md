@@ -1,6 +1,6 @@
 # Code for experiments conducted in the paper 'FoodSEM: Large Language Model Specialized in Food Named-Entity Linking' #
 
-## Also checkout the trained model available on HuggingFace: huggingface.co/Anonymous-pre-publication/FoodSEM-LLM
+## Also checkout the trained model available on HuggingFace: [huggingface.co/Anonymous-pre-publication/FoodSEM-LLM](huggingface.co/Anonymous-pre-publication/FoodSEM-LLM)
 ## Installation, documentation ##
 
 Published results were produced in Python 3.12 programming environment on AlmaLinux 8.10 (Cerulean Leopard) operating system. Instructions for installation assume the usage of PyPI package manager and availability of CUDA (we use version 12.8).<br/>
