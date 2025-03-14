@@ -32,7 +32,7 @@ def concat_all(folder_path, adapter_model, shuffle=False, add_data=True):
             if len(user_prompt.split()) + len(true_output.split()) < 1024:
                 train.append((user_prompt.strip(), true_output.strip()))
         df_mosaic = pd.DataFrame(train, columns=['instruction', 'output'])
-        df_mosaic.to_csv('data/mosaic_whole_long_removed.tsv', encoding='utf8', sep='\t', index=False)
+        df_mosaic.to_csv('datasets/mosaic_whole_long_removed.tsv', encoding='utf8', sep='\t', index=False)
         df_all = pd.concat([df_all, df_mosaic])
         print('Added mosaic data')
     if shuffle:

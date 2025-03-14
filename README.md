@@ -12,7 +12,7 @@ Install dependencies if needed: pip install -r requirements.txt
 
 ### To reproduce the results published in the paper, run the code in the command line using following commands: ###
 
-Data preprocessing - split the NEL and NER datasets into 5 train and test fold and make it appropriate to feed into language model:<br/>
+Data preprocessing - split the NEL and NER datasets into 5 train and test folds and make them appropriate to feed into the language model:<br/>
 
 ```
 python preprocess.py
@@ -20,7 +20,7 @@ python preprocess.py
 
 The script creates two folders (by default 'train_sets_ner_nel' and 'test_sets_ner_nel') containing the train and test datasets for 5 folds. <br/>
 
-Train and test 5 language models (one for each fold) on five folds:<br/>
+Train and test 5 language models (one for each fold) on five folds. Please note that the code currently only supports training on a single GPU:<br/>
 
 ```
 python train_and_test.py
@@ -36,7 +36,7 @@ python apply.py
 
 The script by default downloads the trained FoodSEM model from the Huggingface library.<br/>
 
-Additionally, we offer script that we used for our baseline zero-shot and few-shot experiments:<br/>
+Additionally, we offer a script that we used for our baseline zero-shot and few-shot experiments:<br/>
 
 ```
 python test_incontext.py
