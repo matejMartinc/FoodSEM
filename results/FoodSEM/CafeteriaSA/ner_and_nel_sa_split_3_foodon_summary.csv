@@ -1,0 +1,1243 @@
+instance_id,original_prompt,true_answer,actual_predicted_answer,concept,true_entities,predicted_entities,macro_weighted_precision,macro_weighted_recall,macro_weighted_f1
+ , , , , , , ,0.762,0.584,0.645
+0,"Absolutely, the entities that pertain to food are provided below:  tea, coffee, chocolate, cocoa, cinnamon, grape, pomegranate, red wine, berries, olive oil","Indeed, the connection of the entities is:  tea - http://purl.obolibrary.org/obo/FOODON_03315081, coffee - http://purl.obolibrary.org/obo/FOODON_03301036;http://purl.obolibrary.org/obo/NCBITaxon_13443, chocolate - http://purl.obolibrary.org/obo/FOODON_03307240;http://purl.obolibrary.org/obo/NCBITaxon_3641, cocoa - http://purl.obolibrary.org/obo/NCBITaxon_3641;http://purl.obolibrary.org/obo/FOODON_03301072, cinnamon - http://purl.obolibrary.org/obo/FOODON_03301175;http://purl.obolibrary.org/obo/NCBITaxon_128608, grape - http://purl.obolibrary.org/obo/FOODON_00003417;http://purl.obolibrary.org/obo/FOODON_03301123, pomegranate - http://purl.obolibrary.org/obo/NCBITaxon_22663;http://purl.obolibrary.org/obo/FOODON_00003066, red wine - http://purl.obolibrary.org/obo/FOODON_03310272;http://purl.obolibrary.org/obo/PATO_0000322;http://purl.obolibrary.org/obo/NCBITaxon_8023.","Indeed, the entities are connected thusly: tea - http://purl.obolibrary.org/obo/FOODON_03315081, coffee - http://purl.obolibrary.org/obo/FOODON_03301036;http://purl.obolibrary.org/obo/NCBITaxon_13443, chocolate - http://purl.obolibrary.org/obo/FOODON_03307240;http://purl.obolibrary.org/obo/NCBITaxon_3641, cocoa - http://purl.obolibrary.org/obo/FOODON_03301072;http://purl.obolibrary.org/obo/NCBITaxon_3641, cinnamon - http://purl.obolibrary.org/obo/NCBITaxon_128608;http://purl.obolibrary.org/obo/FOODON_03301175, grape - http://purl.obolibrary.org/obo/FOODON_00003417;http://purl.obolibrary.org/obo/FOODON_03301123, red wine - http://purl.obolibrary.org/obo/FOODON_03310272;http://purl.obolibrary.org/obo/NCBITaxon_8023;http://purl.obolibrary.org/obo/PATO_0000322, olive oil - http://purl.obolibrary.org/obo/FOODON_03301826;http://purl.obolibrary.org/obo/FOODON_03317509;http://purl.obolibrary.org/obo/FOODON_03315145;http://purl.obolibrary.org/obo/FOODON_03310387.", , , ,0.875,0.875,0.875
+0_0, , , ,tea,http://purl.obolibrary.org/obo/FOODON_03315081,http://purl.obolibrary.org/obo/FOODON_03315081, , , 
+0_1, , , ,coffee,"http://purl.obolibrary.org/obo/FOODON_03301036
+http://purl.obolibrary.org/obo/NCBITaxon_13443","http://purl.obolibrary.org/obo/FOODON_03301036
+http://purl.obolibrary.org/obo/NCBITaxon_13443", , , 
+0_2, , , ,chocolate,"http://purl.obolibrary.org/obo/FOODON_03307240
+http://purl.obolibrary.org/obo/NCBITaxon_3641","http://purl.obolibrary.org/obo/FOODON_03307240
+http://purl.obolibrary.org/obo/NCBITaxon_3641", , , 
+0_3, , , ,cocoa,"http://purl.obolibrary.org/obo/FOODON_03301072
+http://purl.obolibrary.org/obo/NCBITaxon_3641","http://purl.obolibrary.org/obo/FOODON_03301072
+http://purl.obolibrary.org/obo/NCBITaxon_3641", , , 
+0_4, , , ,cinnamon,"http://purl.obolibrary.org/obo/FOODON_03301175
+http://purl.obolibrary.org/obo/NCBITaxon_128608","http://purl.obolibrary.org/obo/FOODON_03301175
+http://purl.obolibrary.org/obo/NCBITaxon_128608", , , 
+0_5, , , ,grape,"http://purl.obolibrary.org/obo/FOODON_00003417
+http://purl.obolibrary.org/obo/FOODON_03301123","http://purl.obolibrary.org/obo/FOODON_00003417
+http://purl.obolibrary.org/obo/FOODON_03301123", , , 
+0_6, , , ,pomegranate,"http://purl.obolibrary.org/obo/FOODON_00003066
+http://purl.obolibrary.org/obo/NCBITaxon_22663",, , , 
+0_7, , , ,red wine,"http://purl.obolibrary.org/obo/FOODON_03310272
+http://purl.obolibrary.org/obo/NCBITaxon_8023
+http://purl.obolibrary.org/obo/PATO_0000322","http://purl.obolibrary.org/obo/FOODON_03310272
+http://purl.obolibrary.org/obo/NCBITaxon_8023
+http://purl.obolibrary.org/obo/PATO_0000322", , , 
+1,"Of course, the entities associated with food are outlined below:  cocoa products, chocolate, cocoa","Certainly, the entities are associated in this manner:  cocoa - http://purl.obolibrary.org/obo/NCBITaxon_3641;http://purl.obolibrary.org/obo/FOODON_03301072, chocolate - http://purl.obolibrary.org/obo/FOODON_03307240;http://purl.obolibrary.org/obo/NCBITaxon_3641.","Of course, the entities are bonded in the following way: chocolate - http://purl.obolibrary.org/obo/FOODON_03307240;http://purl.obolibrary.org/obo/NCBITaxon_3641, cocoa - http://purl.obolibrary.org/obo/NCBITaxon_3641;http://purl.obolibrary.org/obo/FOODON_03301072.", , , ,1.000,1.000,1.000
+1_0, , , ,cocoa,"http://purl.obolibrary.org/obo/FOODON_03301072
+http://purl.obolibrary.org/obo/NCBITaxon_3641","http://purl.obolibrary.org/obo/FOODON_03301072
+http://purl.obolibrary.org/obo/NCBITaxon_3641", , , 
+1_1, , , ,chocolate,"http://purl.obolibrary.org/obo/FOODON_03307240
+http://purl.obolibrary.org/obo/NCBITaxon_3641","http://purl.obolibrary.org/obo/FOODON_03307240
+http://purl.obolibrary.org/obo/NCBITaxon_3641", , , 
+2,"Definitely, the entities relevant to food are as follows:  milk","Indeed, the entities are connected accordingly:  milk - http://purl.obolibrary.org/obo/UBERON_0001913.","Of course, the entities are bonded properly: milk - http://purl.obolibrary.org/obo/UBERON_0001913.", , , ,1.000,1.000,1.000
+2_0, , , ,milk,http://purl.obolibrary.org/obo/UBERON_0001913,http://purl.obolibrary.org/obo/UBERON_0001913, , , 
+3,"Of course, the entities associated with food are listed below:  grapes, wines, red wines, red wine, wine, dietary intake, consumption, red","Indeed, the entities are linked in the following manner:  red - http://purl.obolibrary.org/obo/PATO_0000322;http://purl.obolibrary.org/obo/NCBITaxon_8023, red wine - http://purl.obolibrary.org/obo/FOODON_03310272;http://purl.obolibrary.org/obo/PATO_0000322;http://purl.obolibrary.org/obo/NCBITaxon_8023.","Indeed, the entities are connected in this manner: grapes - http://purl.obolibrary.org/obo/FOODON_00003417;http://purl.obolibrary.org/obo/FOODON_03301123, red - http://purl.obolibrary.org/obo/PATO_0000322;http://purl.obolibrary.org/obo/NCBITaxon_8023, wine - http://purl.obolibrary.org/obo/FOODON_03301705, phenolic - http://purl.obolibrary.org/obo/CHEBI_60004;http://purl.obolibrary.org/obo/CHEBI_33290, wine dietary intake - http://purl.obolibrary.org/obo/FOODON_03304648;http://purl.obolibrary.org/obo/FOODON_03301123;http://purl.obolibrary.org/obo/NCBITaxon_8023, wine origin - http://purl.obolibrary.org/obo/FOODON_03301036;http://purl.obolibrary.org/obo/FOODON_03301047;http://purl.obolibrary.org/obo/FOODON_03301103;http://purl.obolibrary.org/obo/FOODON_03315552, wine consumption - http://purl.obolibrary.org/obo/FOODON_03301813;http://purl.obolibrary.org/obo/FOODON_03301123;http://purl.obolibrary.org/obo/NCBITaxon_8023.", , , ,0.800,0.400,0.533
+3_0, , , ,red,"http://purl.obolibrary.org/obo/NCBITaxon_8023
+http://purl.obolibrary.org/obo/PATO_0000322","http://purl.obolibrary.org/obo/NCBITaxon_8023
+http://purl.obolibrary.org/obo/PATO_0000322", , , 
+3_1, , , ,red wine,"http://purl.obolibrary.org/obo/FOODON_03310272
+http://purl.obolibrary.org/obo/NCBITaxon_8023
+http://purl.obolibrary.org/obo/PATO_0000322",, , , 
+4,"Indeed, the entities that relate to food are:  coffee, beverages, cream, sugar, black coffee, espresso, espresso coffee, bold coffee roast, bold coffee, coffee sample without cream","Absolutely, the linking of the entities is:  coffee - http://purl.obolibrary.org/obo/FOODON_03301036;http://purl.obolibrary.org/obo/NCBITaxon_13443, sugar - http://purl.obolibrary.org/obo/FOODON_03420108, black - http://purl.obolibrary.org/obo/PATO_0000317;http://purl.obolibrary.org/obo/FOODON_03301036;http://purl.obolibrary.org/obo/NCBITaxon_13443.","Definitely, the entities are linked correspondingly: coffee - http://purl.obolibrary.org/obo/FOODON_03301036;http://purl.obolibrary.org/obo/NCBITaxon_13443, cream - http://purl.obolibrary.org/obo/FOODON_03310744, sugar - http://purl.obolibrary.org/obo/FOODON_03420108, black - http://purl.obolibrary.org/obo/PATO_0000317.", , , ,1.000,0.667,0.778
+4_0, , , ,coffee,"http://purl.obolibrary.org/obo/FOODON_03301036
+http://purl.obolibrary.org/obo/NCBITaxon_13443","http://purl.obolibrary.org/obo/FOODON_03301036
+http://purl.obolibrary.org/obo/NCBITaxon_13443", , , 
+4_1, , , ,sugar,http://purl.obolibrary.org/obo/FOODON_03420108,http://purl.obolibrary.org/obo/FOODON_03420108, , , 
+4_2, , , ,black,"http://purl.obolibrary.org/obo/FOODON_03301036
+http://purl.obolibrary.org/obo/NCBITaxon_13443
+http://purl.obolibrary.org/obo/PATO_0000317",http://purl.obolibrary.org/obo/PATO_0000317, , , 
+5,"Absolutely, the entities associated with food are detailed below:  beverages, animal milk, dairy milk, bovine milk, nuts, cereals, seeds, legumes, plant-based milk beverages","Certainly, the entities are connected:  animal - http://purl.obolibrary.org/obo/FOODON_00002452;http://purl.obolibrary.org/obo/FOODON_03411297;http://purl.obolibrary.org/obo/FOODON_00003004;http://purl.obolibrary.org/obo/UBERON_0001913, dairy - http://purl.obolibrary.org/obo/ENVO_00003862;http://purl.obolibrary.org/obo/UBERON_0001913, bovine - http://purl.obolibrary.org/obo/FOODON_03414374;http://purl.obolibrary.org/obo/UBERON_0001913, nuts - http://purl.obolibrary.org/obo/FOODON_03306632.","Indeed, the entities are connected in the following way: plant - http://purl.obolibrary.org/obo/FOODON_00003816;http://purl.obolibrary.org/obo/PO_0009010;http://purl.obolibrary.org/obo/FOODON_03315552, animal - http://purl.obolibrary.org/obo/FOODON_00002452;http://purl.obolibrary.org/obo/FOODON_03411297;http://purl.obolibrary.org/obo/FOODON_00003004, plant - http://purl.obolibrary.org/obo/FOODON_03420155;http://purl.obolibrary.org/obo/NCBITaxon_4071, nuts - http://purl.obolibrary.org/obo/FOODON_03306632, legumes - http://purl.obolibrary.org/obo/FOODON_00001264.", , , ,0.444,0.444,0.444
+5_0, , , ,animal,"http://purl.obolibrary.org/obo/FOODON_00002452
+http://purl.obolibrary.org/obo/FOODON_00003004
+http://purl.obolibrary.org/obo/FOODON_03411297
+http://purl.obolibrary.org/obo/UBERON_0001913","http://purl.obolibrary.org/obo/FOODON_00002452
+http://purl.obolibrary.org/obo/FOODON_00003004
+http://purl.obolibrary.org/obo/FOODON_03411297", , , 
+5_1, , , ,dairy,"http://purl.obolibrary.org/obo/ENVO_00003862
+http://purl.obolibrary.org/obo/UBERON_0001913",, , , 
+5_2, , , ,bovine,"http://purl.obolibrary.org/obo/FOODON_03414374
+http://purl.obolibrary.org/obo/UBERON_0001913",, , , 
+5_3, , , ,nuts,http://purl.obolibrary.org/obo/FOODON_03306632,http://purl.obolibrary.org/obo/FOODON_03306632, , , 
+6,"Yes, the entities related to food are detailed below:  peas, split yellow pea, flour, wheat flour, bread, bread with untreated pea flour, yellow pea, white pan bread, flours, breads","Of course, the entities are bonded thusly:  yellow - http://purl.obolibrary.org/obo/PATO_0000324;http://purl.obolibrary.org/obo/FOODON_03301300, flour - http://purl.obolibrary.org/obo/FOODON_03301116, wheat flour - http://purl.obolibrary.org/obo/FOODON_03301116;http://purl.obolibrary.org/obo/FOODON_03301116;http://purl.obolibrary.org/obo/NCBITaxon_4565;http://purl.obolibrary.org/obo/FOODON_03315184, pea flour - http://purl.obolibrary.org/obo/FOODON_03306693;http://purl.obolibrary.org/obo/FOODON_03301300;http://purl.obolibrary.org/obo/FOODON_03301116.","Of course, the entities are bonded accordingly: peas - http://purl.obolibrary.org/obo/FOODON_03311628;http://purl.obolibrary.org/obo/NCBITaxon_3847, pea - http://purl.obolibrary.org/obo/NCBITaxon_3888;http://purl.obolibrary.org/obo/FOODON_00002753, wheat - http://purl.obolibrary.org/obo/NCBITaxon_4565;http://purl.obolibrary.org/obo/FOODON_03315184;http://purl.obolibrary.org/obo/FOODON_03301116.", , , ,0.000,0.000,0.000
+6_0, , , ,yellow,"http://purl.obolibrary.org/obo/FOODON_03301300
+http://purl.obolibrary.org/obo/PATO_0000324",, , , 
+6_1, , , ,flour,http://purl.obolibrary.org/obo/FOODON_03301116,, , , 
+6_2, , , ,wheat flour,"http://purl.obolibrary.org/obo/FOODON_03301116
+http://purl.obolibrary.org/obo/FOODON_03301116
+http://purl.obolibrary.org/obo/FOODON_03315184
+http://purl.obolibrary.org/obo/NCBITaxon_4565",, , , 
+6_3, , , ,pea flour,"http://purl.obolibrary.org/obo/FOODON_03301116
+http://purl.obolibrary.org/obo/FOODON_03301300
+http://purl.obolibrary.org/obo/FOODON_03306693",, , , 
+7,"Absolutely, the entities associated with food are provided below:  water, dairy food, cheese sauce, cottage cheese, milk-based soup, cottage cheeses, lower sodium cottage cheeses, higher sodium cottage cheeses, milk-based soups","Certainly, the entities are associated properly:  water - http://purl.obolibrary.org/obo/CHEBI_15377;http://purl.obolibrary.org/obo/FOODON_00002340, dairy - http://purl.obolibrary.org/obo/ENVO_00003862;http://purl.obolibrary.org/obo/CHEBI_33290, cheese sauce - http://purl.obolibrary.org/obo/FOODON_03304042;http://purl.obolibrary.org/obo/FOODON_00001013;http://purl.obolibrary.org/obo/FOODON_03311146, cottage cheese - http://purl.obolibrary.org/obo/FOODON_03301605;http://purl.obolibrary.org/obo/FOODON_00001013, milk - http://purl.obolibrary.org/obo/UBERON_0001913, sodium - http://purl.obolibrary.org/obo/CHEBI_26708.","Of course, the entities are bonded in this fashion: water - http://purl.obolibrary.org/obo/CHEBI_15377;http://purl.obolibrary.org/obo/FOODON_00002340, cheese sauce - http://purl.obolibrary.org/obo/FOODON_03304042;http://purl.obolibrary.org/obo/FOODON_00001013;http://purl.obolibrary.org/obo/FOODON_03311146, cottage cheese - http://purl.obolibrary.org/obo/FOODON_03301605;http://purl.obolibrary.org/obo/FOODON_00001013, milk - http://purl.obolibrary.org/obo/UBERON_0001913, cottage - http://purl.obolibrary.org/obo/FOODON_03301614;http://purl.obolibrary.org/obo/FOODON_03301008.", , , ,0.727,0.727,0.727
+7_0, , , ,water,"http://purl.obolibrary.org/obo/CHEBI_15377
+http://purl.obolibrary.org/obo/FOODON_00002340","http://purl.obolibrary.org/obo/CHEBI_15377
+http://purl.obolibrary.org/obo/FOODON_00002340", , , 
+7_1, , , ,dairy,"http://purl.obolibrary.org/obo/CHEBI_33290
+http://purl.obolibrary.org/obo/ENVO_00003862",, , , 
+7_2, , , ,cheese sauce,"http://purl.obolibrary.org/obo/FOODON_00001013
+http://purl.obolibrary.org/obo/FOODON_03304042
+http://purl.obolibrary.org/obo/FOODON_03311146","http://purl.obolibrary.org/obo/FOODON_00001013
+http://purl.obolibrary.org/obo/FOODON_03304042
+http://purl.obolibrary.org/obo/FOODON_03311146", , , 
+7_3, , , ,cottage cheese,"http://purl.obolibrary.org/obo/FOODON_00001013
+http://purl.obolibrary.org/obo/FOODON_03301605","http://purl.obolibrary.org/obo/FOODON_00001013
+http://purl.obolibrary.org/obo/FOODON_03301605", , , 
+7_4, , , ,milk,http://purl.obolibrary.org/obo/UBERON_0001913,http://purl.obolibrary.org/obo/UBERON_0001913, , , 
+7_5, , , ,sodium,http://purl.obolibrary.org/obo/CHEBI_26708,, , , 
+8,"Certainly, the entities connected with food are as follows:  wheat, barley, rye, oats","Of course, the entities are tied together as:  wheat - http://purl.obolibrary.org/obo/NCBITaxon_4565;http://purl.obolibrary.org/obo/FOODON_03315184, barley - http://purl.obolibrary.org/obo/NCBITaxon_4513;http://purl.obolibrary.org/obo/FOODON_00003108, rye - http://purl.obolibrary.org/obo/FOODON_00003734;http://purl.obolibrary.org/obo/NCBITaxon_4550, oats - http://purl.obolibrary.org/obo/FOODON_03315188;http://purl.obolibrary.org/obo/FOODON_00003429.","Absolutely, the entities are related in this way: gluten - http://purl.obolibrary.org/obo/FOODON_03420177, wheat - http://purl.obolibrary.org/obo/NCBITaxon_4565;http://purl.obolibrary.org/obo/FOODON_03315184, barley - http://purl.obolibrary.org/obo/NCBITaxon_4513;http://purl.obolibrary.org/obo/FOODON_00003108, oats - http://purl.obolibrary.org/obo/FOODON_03315188;http://purl.obolibrary.org/obo/FOODON_00003429, cereal - http://purl.obolibrary.org/obo/FOODON_03303225.", , , ,0.750,0.750,0.750
+8_0, , , ,wheat,"http://purl.obolibrary.org/obo/FOODON_03315184
+http://purl.obolibrary.org/obo/NCBITaxon_4565","http://purl.obolibrary.org/obo/FOODON_03315184
+http://purl.obolibrary.org/obo/NCBITaxon_4565", , , 
+8_1, , , ,barley,"http://purl.obolibrary.org/obo/FOODON_00003108
+http://purl.obolibrary.org/obo/NCBITaxon_4513","http://purl.obolibrary.org/obo/FOODON_00003108
+http://purl.obolibrary.org/obo/NCBITaxon_4513", , , 
+8_2, , , ,rye,"http://purl.obolibrary.org/obo/FOODON_00003734
+http://purl.obolibrary.org/obo/NCBITaxon_4550",, , , 
+8_3, , , ,oats,"http://purl.obolibrary.org/obo/FOODON_00003429
+http://purl.obolibrary.org/obo/FOODON_03315188","http://purl.obolibrary.org/obo/FOODON_00003429
+http://purl.obolibrary.org/obo/FOODON_03315188", , , 
+9,"Sure thing, the entities linked to food are outlined below:  coffee, beverages, tea, soft drinks, energy drinks, chocolate, consumption, intake","Absolutely, the entities are related as such:  coffee - http://purl.obolibrary.org/obo/FOODON_03301036;http://purl.obolibrary.org/obo/NCBITaxon_13443, tea - http://purl.obolibrary.org/obo/FOODON_03315081, soft - http://purl.obolibrary.org/obo/PATO_0000387, chocolate - http://purl.obolibrary.org/obo/FOODON_03307240;http://purl.obolibrary.org/obo/NCBITaxon_3641.","Indeed, the entities are connected in the following way: coffee - http://purl.obolibrary.org/obo/FOODON_03301036;http://purl.obolibrary.org/obo/NCBITaxon_13443, chocolate - http://purl.obolibrary.org/obo/FOODON_03307240;http://purl.obolibrary.org/obo/NCBITaxon_3641.", , , ,0.667,0.667,0.667
+9_0, , , ,coffee,"http://purl.obolibrary.org/obo/FOODON_03301036
+http://purl.obolibrary.org/obo/NCBITaxon_13443","http://purl.obolibrary.org/obo/FOODON_03301036
+http://purl.obolibrary.org/obo/NCBITaxon_13443", , , 
+9_1, , , ,tea,http://purl.obolibrary.org/obo/FOODON_03315081,, , , 
+9_2, , , ,soft,http://purl.obolibrary.org/obo/PATO_0000387,, , , 
+9_3, , , ,chocolate,"http://purl.obolibrary.org/obo/FOODON_03307240
+http://purl.obolibrary.org/obo/NCBITaxon_3641","http://purl.obolibrary.org/obo/FOODON_03307240
+http://purl.obolibrary.org/obo/NCBITaxon_3641", , , 
+10,"Absolutely, the entities that pertain to food are detailed below:  apple, carrot, potato, fruit, apple peel, hazelnut","Absolutely, the entities are related appropriately:  apple - http://purl.obolibrary.org/obo/FOODON_00002473;http://purl.obolibrary.org/obo/NCBITaxon_3750, carrot - http://purl.obolibrary.org/obo/NCBITaxon_4039;http://purl.obolibrary.org/obo/FOODON_00003408, potato - http://purl.obolibrary.org/obo/FOODON_03315354;http://purl.obolibrary.org/obo/NCBITaxon_4113;http://purl.obolibrary.org/obo/FOODON_03301449, fruit - http://purl.obolibrary.org/obo/PO_0009001, apple peel - http://purl.obolibrary.org/obo/FOODON_03311637;http://purl.obolibrary.org/obo/FOODON_00002473;http://purl.obolibrary.org/obo/NCBITaxon_3750, hazelnut - http://purl.obolibrary.org/obo/FOODON_00002933.","Absolutely, the entities are related accordingly: apple - http://purl.obolibrary.org/obo/FOODON_00002473;http://purl.obolibrary.org/obo/NCBITaxon_3750, carrot - http://purl.obolibrary.org/obo/NCBITaxon_4039;http://purl.obolibrary.org/obo/FOODON_00003408, potato - http://purl.obolibrary.org/obo/FOODON_03315354;http://purl.obolibrary.org/obo/NCBITaxon_4113;http://purl.obolibrary.org/obo/FOODON_03301449, hazelnut - http://purl.obolibrary.org/obo/FOODON_00002933, birch - http://purl.obolibrary.org/obo/NCBITaxon_3746, raw carrot - http://purl.obolibrary.org/obo/FOODON_00003423;http://purl.obolibrary.org/obo/NCBITaxon_4039.", , , ,0.833,0.667,0.722
+10_0, , , ,apple,"http://purl.obolibrary.org/obo/FOODON_00002473
+http://purl.obolibrary.org/obo/NCBITaxon_3750","http://purl.obolibrary.org/obo/FOODON_00002473
+http://purl.obolibrary.org/obo/NCBITaxon_3750", , , 
+10_1, , , ,carrot,"http://purl.obolibrary.org/obo/FOODON_00003408
+http://purl.obolibrary.org/obo/NCBITaxon_4039","http://purl.obolibrary.org/obo/FOODON_00003408
+http://purl.obolibrary.org/obo/NCBITaxon_4039", , , 
+10_2, , , ,potato,"http://purl.obolibrary.org/obo/FOODON_03301449
+http://purl.obolibrary.org/obo/FOODON_03315354
+http://purl.obolibrary.org/obo/NCBITaxon_4113","http://purl.obolibrary.org/obo/FOODON_03301449
+http://purl.obolibrary.org/obo/FOODON_03315354
+http://purl.obolibrary.org/obo/NCBITaxon_4113", , , 
+10_3, , , ,fruit,http://purl.obolibrary.org/obo/PO_0009001,, , , 
+10_4, , , ,apple peel,"http://purl.obolibrary.org/obo/FOODON_00002473
+http://purl.obolibrary.org/obo/FOODON_03311637
+http://purl.obolibrary.org/obo/NCBITaxon_3750",, , , 
+10_5, , , ,hazelnut,http://purl.obolibrary.org/obo/FOODON_00002933,http://purl.obolibrary.org/obo/FOODON_00002933, , , 
+11,"Definitely, the entities concerning food are delineated below:  coffea arabica beans, olive oil, coconut oil","Absolutely, the entities are connected in this way:  coffea arabica - http://purl.obolibrary.org/obo/NCBITaxon_13443, olive oil - http://purl.obolibrary.org/obo/FOODON_03301826;http://purl.obolibrary.org/obo/FOODON_03315145;http://purl.obolibrary.org/obo/FOODON_03317509;http://purl.obolibrary.org/obo/FOODON_03310387.","Indeed, the entities are connected in this manner: coffee - http://purl.obolibrary.org/obo/FOODON_03301036;http://purl.obolibrary.org/obo/NCBITaxon_13443, coffee non-saponifiable matter - http://purl.obolibrary.org/obo/FOODON_03306793;http://purl.obolibrary.org/obo/FOODON_03301036;http://purl.obolibrary.org/obo/NCBITaxon_13443, diterpene alcohols - http://purl.obolibrary.org/obo/CHEBI_60004;http://purl.obolibrary.org/obo/FOODON_03311146, arabica - http://purl.obolibrary.org/obo/NCBITaxon_13443;http://purl.obolibrary.org/obo/FOODON_03301008, laboratory - http://purl.obolibrary.org/obo/CHEBI_60004;http://purl.obolibrary.org/obo/NCIT_C45305, diet - http://purl.obolibrary.org/obo/FOODON_00002600, gelatine - http://purl.obolibrary.org/obo/CHEBI_5291, olive oil - http://purl.obolibrary.org/obo/FOODON_03301826;http://purl.obolibrary.org/obo/FOODON_03317509;http://purl.obolibrary.org/obo/FOODON_03315145;http://purl.obolibrary.org/obo/FOODON_03310387, coconut oil - http://purl.obolibrary.org/obo/FOODON_03310046;http://purl.obolibrary.org/obo/FOODON_03303085;http://purl.obolibrary.org/obo/FOODON_00003449;http://purl.obolibrary.org/obo/FOODON_03310387, vehicle - http://purl.obolibrary.org/obo/FOODON_00003696;http://purl.obolibrary.org/obo/FOODON_03315552, coffee - http://purl.obolibrary.org/obo/FOODON_03301036;http://purl.obolibrary.org/obo/NCBITaxon_13443.", , , ,0.800,0.800,0.800
+11_0, , , ,coffea arabica,http://purl.obolibrary.org/obo/NCBITaxon_13443,, , , 
+11_1, , , ,olive oil,"http://purl.obolibrary.org/obo/FOODON_03301826
+http://purl.obolibrary.org/obo/FOODON_03310387
+http://purl.obolibrary.org/obo/FOODON_03315145
+http://purl.obolibrary.org/obo/FOODON_03317509","http://purl.obolibrary.org/obo/FOODON_03301826
+http://purl.obolibrary.org/obo/FOODON_03310387
+http://purl.obolibrary.org/obo/FOODON_03315145
+http://purl.obolibrary.org/obo/FOODON_03317509", , , 
+12,"Indeed, the entities concerning food are detailed below:  olive oil, wine, red wine, virgin olive oil","Indeed, the entities are linked in the following manner:  olive oil - http://purl.obolibrary.org/obo/FOODON_03301826;http://purl.obolibrary.org/obo/FOODON_03315145;http://purl.obolibrary.org/obo/FOODON_03317509;http://purl.obolibrary.org/obo/FOODON_03310387, red wine - http://purl.obolibrary.org/obo/FOODON_03310272;http://purl.obolibrary.org/obo/PATO_0000322;http://purl.obolibrary.org/obo/NCBITaxon_8023.","Absolutely, the entities are related in this manner: olive oil - http://purl.obolibrary.org/obo/FOODON_03301826;http://purl.obolibrary.org/obo/FOODON_03317509;http://purl.obolibrary.org/obo/FOODON_03315145;http://purl.obolibrary.org/obo/FOODON_03310387, wine - http://purl.obolibrary.org/obo/FOODON_03301125, red wine - http://purl.obolibrary.org/obo/FOODON_03310272;http://purl.obolibrary.org/obo/NCBITaxon_8023;http://purl.obolibrary.org/obo/PATO_0000322;http://purl.obolibrary.org/obo/FOODON_03301228;http://purl.obolibrary.org/obo/FOODON_03301705, virgin olive oil - http://purl.obolibrary.org/obo/FOODON_03306633;http://purl.obolibrary.org/obo/FOODON_03301826;http://purl.obolibrary.org/obo/FOODON_03315145;http://purl.obolibrary.org/obo/FOODON_03317509;http://purl.obolibrary.org/obo/FOODON_03310387.", , , ,1.000,1.000,1.000
+12_0, , , ,olive oil,"http://purl.obolibrary.org/obo/FOODON_03301826
+http://purl.obolibrary.org/obo/FOODON_03310387
+http://purl.obolibrary.org/obo/FOODON_03315145
+http://purl.obolibrary.org/obo/FOODON_03317509","http://purl.obolibrary.org/obo/FOODON_03301826
+http://purl.obolibrary.org/obo/FOODON_03310387
+http://purl.obolibrary.org/obo/FOODON_03315145
+http://purl.obolibrary.org/obo/FOODON_03317509", , , 
+12_1, , , ,red wine,"http://purl.obolibrary.org/obo/FOODON_03310272
+http://purl.obolibrary.org/obo/NCBITaxon_8023
+http://purl.obolibrary.org/obo/PATO_0000322","http://purl.obolibrary.org/obo/FOODON_03301228
+http://purl.obolibrary.org/obo/FOODON_03301705
+http://purl.obolibrary.org/obo/FOODON_03310272
+http://purl.obolibrary.org/obo/NCBITaxon_8023
+http://purl.obolibrary.org/obo/PATO_0000322", , , 
+13,"Of course, here are the entities related to food:  cocoa, chocolate, drink","Definitely, the entities are linked in this fashion:  cocoa - http://purl.obolibrary.org/obo/NCBITaxon_3641;http://purl.obolibrary.org/obo/FOODON_03301072, chocolate - http://purl.obolibrary.org/obo/FOODON_03307240;http://purl.obolibrary.org/obo/NCBITaxon_3641.","Definitely, the entities are linked in the following way: cocoa - http://purl.obolibrary.org/obo/NCBITaxon_3641;http://purl.obolibrary.org/obo/FOODON_03301072, chocolate - http://purl.obolibrary.org/obo/FOODON_03307240;http://purl.obolibrary.org/obo/NCBITaxon_3641.", , , ,1.000,1.000,1.000
+13_0, , , ,cocoa,"http://purl.obolibrary.org/obo/FOODON_03301072
+http://purl.obolibrary.org/obo/NCBITaxon_3641","http://purl.obolibrary.org/obo/FOODON_03301072
+http://purl.obolibrary.org/obo/NCBITaxon_3641", , , 
+13_1, , , ,chocolate,"http://purl.obolibrary.org/obo/FOODON_03307240
+http://purl.obolibrary.org/obo/NCBITaxon_3641","http://purl.obolibrary.org/obo/FOODON_03307240
+http://purl.obolibrary.org/obo/NCBITaxon_3641", , , 
+14,"Of course, the entities regarding food are delineated below:  corn oil, milk fat, chicken fat, beef tallow, lard","Absolutely, the entities are related accordingly:  corn oil - http://purl.obolibrary.org/obo/FOODON_03301474;http://purl.obolibrary.org/obo/NCBITaxon_381124;http://purl.obolibrary.org/obo/FOODON_03310387, milk fat - http://purl.obolibrary.org/obo/FOODON_00002681;http://purl.obolibrary.org/obo/FOODON_03303837;http://purl.obolibrary.org/obo/UBERON_0001913;http://purl.obolibrary.org/obo/FOODON_00003265;http://purl.obolibrary.org/obo/UBERON_0001013, chicken fat - http://purl.obolibrary.org/obo/FOODON_03305091;http://purl.obolibrary.org/obo/NCBITaxon_9031;http://purl.obolibrary.org/obo/FOODON_03411457;http://purl.obolibrary.org/obo/FOODON_00003265;http://purl.obolibrary.org/obo/UBERON_0001013, tallow - http://purl.obolibrary.org/obo/FOODON_03315521, lard - http://purl.obolibrary.org/obo/FOODON_03302051.","Absolutely, the entities are related in this manner: corn oil - http://purl.obolibrary.org/obo/FOODON_03301474;http://purl.obolibrary.org/obo/NCBITaxon_381124;http://purl.obolibrary.org/obo/FOODON_03310387, cholesterol - http://purl.obolibrary.org/obo/CHEBI_16113, milk fat - http://purl.obolibrary.org/obo/FOODON_00001287;http://purl.obolibrary.org/obo/UBERON_0001913, chicken fat - http://purl.obolibrary.org/obo/FOODON_03305263;http://purl.obolibrary.org/obo/NCBITaxon_9031;http://purl.obolibrary.org/obo/FOODON_03411457, beef tallow - http://purl.obolibrary.org/obo/FOODON_03310046;http://purl.obolibrary.org/obo/FOODON_03311146.", , , ,0.400,0.400,0.400
+14_0, , , ,corn oil,"http://purl.obolibrary.org/obo/FOODON_03301474
+http://purl.obolibrary.org/obo/FOODON_03310387
+http://purl.obolibrary.org/obo/NCBITaxon_381124","http://purl.obolibrary.org/obo/FOODON_03301474
+http://purl.obolibrary.org/obo/FOODON_03310387
+http://purl.obolibrary.org/obo/NCBITaxon_381124", , , 
+14_1, , , ,milk fat,"http://purl.obolibrary.org/obo/FOODON_00002681
+http://purl.obolibrary.org/obo/FOODON_00003265
+http://purl.obolibrary.org/obo/FOODON_03303837
+http://purl.obolibrary.org/obo/UBERON_0001013
+http://purl.obolibrary.org/obo/UBERON_0001913","http://purl.obolibrary.org/obo/FOODON_00001287
+http://purl.obolibrary.org/obo/UBERON_0001913", , , 
+14_2, , , ,chicken fat,"http://purl.obolibrary.org/obo/FOODON_00003265
+http://purl.obolibrary.org/obo/FOODON_03305091
+http://purl.obolibrary.org/obo/FOODON_03411457
+http://purl.obolibrary.org/obo/NCBITaxon_9031
+http://purl.obolibrary.org/obo/UBERON_0001013","http://purl.obolibrary.org/obo/FOODON_03305263
+http://purl.obolibrary.org/obo/FOODON_03411457
+http://purl.obolibrary.org/obo/NCBITaxon_9031", , , 
+14_3, , , ,tallow,http://purl.obolibrary.org/obo/FOODON_03315521,, , , 
+14_4, , , ,lard,http://purl.obolibrary.org/obo/FOODON_03302051,, , , 
+15,"Certainly, the entities connected with food are detailed below:  alcohol, consumption, wine, intake, plant foods, cereals, olive oil, red, meat","Definitely, the entities are linked in this fashion:  alcohol - http://purl.obolibrary.org/obo/CHEBI_30879, olive oil - http://purl.obolibrary.org/obo/FOODON_03301826;http://purl.obolibrary.org/obo/FOODON_03315145;http://purl.obolibrary.org/obo/FOODON_03317509;http://purl.obolibrary.org/obo/FOODON_03310387.","Certainly, the entities are associated as such: alcohol - http://purl.obolibrary.org/obo/CHEBI_30879, wine - http://purl.obolibrary.org/obo/FOODON_03301705, plant - http://purl.obolibrary.org/obo/FOODON_00003816;http://purl.obolibrary.org/obo/NCBITaxon_4006;http://purl.obolibrary.org/obo/FOODON_03301719;http://purl.obolibrary.org/obo/CHEBI_60004;http://purl.obolibrary.org/obo/NCIT_C45305, olive oil - http://purl.obolibrary.org/obo/FOODON_03301826;http://purl.obolibrary.org/obo/FOODON_03317509;http://purl.obolibrary.org/obo/FOODON_03315145;http://purl.obolibrary.org/obo/FOODON_03310387, red - http://purl.obolibrary.org/obo/PATO_0000322;http://purl.obolibrary.org/obo/NCBITaxon_8023.", , , ,1.000,1.000,1.000
+15_0, , , ,alcohol,http://purl.obolibrary.org/obo/CHEBI_30879,http://purl.obolibrary.org/obo/CHEBI_30879, , , 
+15_1, , , ,olive oil,"http://purl.obolibrary.org/obo/FOODON_03301826
+http://purl.obolibrary.org/obo/FOODON_03310387
+http://purl.obolibrary.org/obo/FOODON_03315145
+http://purl.obolibrary.org/obo/FOODON_03317509","http://purl.obolibrary.org/obo/FOODON_03301826
+http://purl.obolibrary.org/obo/FOODON_03310387
+http://purl.obolibrary.org/obo/FOODON_03315145
+http://purl.obolibrary.org/obo/FOODON_03317509", , , 
+16,"Sure thing, the entities regarding food are delineated below:  dairy, consumption, yogurt, intake, dairy products, fermented dairy products","Of course, the entities are bonded accordingly:  dairy - http://purl.obolibrary.org/obo/ENVO_00003862.","Indeed, the entities are connected in the following way: dairy - http://purl.obolibrary.org/obo/ENVO_00003862, yogurt - http://purl.obolibrary.org/obo/FOODON_00001008, dairy - http://purl.obolibrary.org/obo/ENVO_00003862, yogurt - http://purl.obolibrary.org/obo/FOODON_00001008.", , , ,1.000,1.000,1.000
+16_0, , , ,dairy,http://purl.obolibrary.org/obo/ENVO_00003862,http://purl.obolibrary.org/obo/ENVO_00003862, , , 
+17,"Of course, the entities regarding food are provided as follows:  tea, beverage, salt tea, cereal paste","Absolutely, the entities are related appropriately:  tea - http://purl.obolibrary.org/obo/FOODON_03315081, beverage - http://purl.obolibrary.org/obo/FOODON_00003202, salt - http://purl.obolibrary.org/obo/CHEBI_24866;http://purl.obolibrary.org/obo/CHEBI_26710;http://purl.obolibrary.org/obo/FOODON_03315081.","Definitely, the entities are linked in this manner: salt - http://purl.obolibrary.org/obo/CHEBI_24866;http://purl.obolibrary.org/obo/CHEBI_26710, tea - http://purl.obolibrary.org/obo/FOODON_03315081, bicarbonate - http://purl.obolibrary.org/obo/CHEBI_5291.", , , ,0.800,0.600,0.667
+17_0, , , ,tea,http://purl.obolibrary.org/obo/FOODON_03315081,http://purl.obolibrary.org/obo/FOODON_03315081, , , 
+17_1, , , ,beverage,http://purl.obolibrary.org/obo/FOODON_00003202,, , , 
+17_2, , , ,salt,"http://purl.obolibrary.org/obo/CHEBI_24866
+http://purl.obolibrary.org/obo/CHEBI_26710
+http://purl.obolibrary.org/obo/FOODON_03315081","http://purl.obolibrary.org/obo/CHEBI_24866
+http://purl.obolibrary.org/obo/CHEBI_26710", , , 
+18,"Yes, the entities related to food are as follows:  fruit, olives, olive oil","Of course, the entities are bonded accordingly:  fruit - http://purl.obolibrary.org/obo/PO_0009001.","Indeed, the entities are connected in the following way: olive fruit - http://purl.obolibrary.org/obo/FOODON_03315062;http://purl.obolibrary.org/obo/FOODON_03315145;http://purl.obolibrary.org/obo/FOODON_03301723;http://purl.obolibrary.org/obo/NCBITaxon_4113, olive oil - http://purl.obolibrary.org/obo/FOODON_03301826;http://purl.obolibrary.org/obo/FOODON_03317509;http://purl.obolibrary.org/obo/FOODON_03315145;http://purl.obolibrary.org/obo/NCBITaxon_4113.", , , ,0.000,0.000,0.000
+18_0, , , ,fruit,http://purl.obolibrary.org/obo/PO_0009001,, , , 
+19,"Certainly, the entities connected to food are delineated below:  legumes, nuts, meat, dairy produce, cereal products, fats, oils, tea, coffee, sugar-containing beverages, vegetables, fruits, fish, alcoholic beverages, salt","Absolutely, the entities are related in this manner:  nuts - http://purl.obolibrary.org/obo/FOODON_03306632, dairy - http://purl.obolibrary.org/obo/ENVO_00003862, tea - http://purl.obolibrary.org/obo/FOODON_03315081, coffee - http://purl.obolibrary.org/obo/FOODON_03301036;http://purl.obolibrary.org/obo/NCBITaxon_13443, sugar - http://purl.obolibrary.org/obo/FOODON_03420108, fruits - http://purl.obolibrary.org/obo/FOODON_03304644, fish - http://purl.obolibrary.org/obo/NCBITaxon_7898;http://purl.obolibrary.org/obo/FOODON_03411222;http://purl.obolibrary.org/obo/NCBITaxon_7777.","Indeed, the entities are connected in the following way: plant - http://purl.obolibrary.org/obo/FOODON_00003816;http://purl.obolibrary.org/obo/PO_0009001, animal - http://purl.obolibrary.org/obo/FOODON_00002452;http://purl.obolibrary.org/obo/FOODON_03411297;http://purl.obolibrary.org/obo/FOODON_00003004;http://purl.obolibrary.org/obo/NCBITaxon_9913, legumes - http://purl.obolibrary.org/obo/FOODON_00001264;http://purl.obolibrary.org/obo/FOODON_00001264;http://purl.obolibrary.org/obo/FOODON_03301303, nuts - http://purl.obolibrary.org/obo/FOODON_03306632, meat - http://purl.obolibrary.org/obo/FOODON_03411457, tea - http://purl.obolibrary.org/obo/FOODON_03315081, coffee - http://purl.obolibrary.org/obo/FOODON_03301036;http://purl.obolibrary.org/obo/NCBITaxon_13443, sugar - http://purl.obolibrary.org/obo/FOODON_03420108, fruits - http://purl.obolibrary.org/obo/FOODON_03304644, fish - http://purl.obolibrary.org/obo/NCBITaxon_7898;http://purl.obolibrary.org/obo/FOODON_03411222;http://purl.obolibrary.org/obo/NCBITaxon_7777.", , , ,0.900,0.900,0.900
+19_0, , , ,nuts,http://purl.obolibrary.org/obo/FOODON_03306632,http://purl.obolibrary.org/obo/FOODON_03306632, , , 
+19_1, , , ,dairy,http://purl.obolibrary.org/obo/ENVO_00003862,, , , 
+19_2, , , ,tea,http://purl.obolibrary.org/obo/FOODON_03315081,http://purl.obolibrary.org/obo/FOODON_03315081, , , 
+19_3, , , ,coffee,"http://purl.obolibrary.org/obo/FOODON_03301036
+http://purl.obolibrary.org/obo/NCBITaxon_13443","http://purl.obolibrary.org/obo/FOODON_03301036
+http://purl.obolibrary.org/obo/NCBITaxon_13443", , , 
+19_4, , , ,sugar,http://purl.obolibrary.org/obo/FOODON_03420108,http://purl.obolibrary.org/obo/FOODON_03420108, , , 
+19_5, , , ,fruits,http://purl.obolibrary.org/obo/FOODON_03304644,http://purl.obolibrary.org/obo/FOODON_03304644, , , 
+19_6, , , ,fish,"http://purl.obolibrary.org/obo/FOODON_03411222
+http://purl.obolibrary.org/obo/NCBITaxon_7777
+http://purl.obolibrary.org/obo/NCBITaxon_7898","http://purl.obolibrary.org/obo/FOODON_03411222
+http://purl.obolibrary.org/obo/NCBITaxon_7777
+http://purl.obolibrary.org/obo/NCBITaxon_7898", , , 
+20,"Certainly, the entities connected with food are as follows:  herbs, spices, black pepper, capsicums, cumin, cinnamon, nutmeg, ginger, turmeric, saffron, coriander, cloves, dill, mint, thyme, sesame seed, mustard seed, curry powder","Of course, the entities are bonded in this manner:  black - http://purl.obolibrary.org/obo/PATO_0000317;http://purl.obolibrary.org/obo/FOODON_00003520;http://purl.obolibrary.org/obo/FOODON_00003013;http://purl.obolibrary.org/obo/FOODON_00001649;http://purl.obolibrary.org/obo/FOODON_03309928, cumin - http://purl.obolibrary.org/obo/FOODON_00003024;http://purl.obolibrary.org/obo/FOODON_03311872;http://purl.obolibrary.org/obo/FOODON_00003396;http://purl.obolibrary.org/obo/NCBITaxon_52462, cinnamon - http://purl.obolibrary.org/obo/FOODON_03301175;http://purl.obolibrary.org/obo/NCBITaxon_128608, nutmeg - http://purl.obolibrary.org/obo/NCBITaxon_51089;http://purl.obolibrary.org/obo/FOODON_03301528, ginger - http://purl.obolibrary.org/obo/FOODON_00002718;http://purl.obolibrary.org/obo/FOODON_00003717;http://purl.obolibrary.org/obo/FOODON_00001901;http://purl.obolibrary.org/obo/NCBITaxon_94328, turmeric - http://purl.obolibrary.org/obo/NCBITaxon_136217;http://purl.obolibrary.org/obo/FOODON_00003753, saffron - http://purl.obolibrary.org/obo/FOODON_00003441;http://purl.obolibrary.org/obo/FOODON_00003043, cloves - http://purl.obolibrary.org/obo/FOODON_00001745, dill - http://purl.obolibrary.org/obo/FOODON_00001811;http://purl.obolibrary.org/obo/NCBITaxon_40922, mint - http://purl.obolibrary.org/obo/FOODON_00002432, thyme - http://purl.obolibrary.org/obo/FOODON_00002312;http://purl.obolibrary.org/obo/NCBITaxon_49992, sesame seed - http://purl.obolibrary.org/obo/FOODON_03310306;http://purl.obolibrary.org/obo/FOODON_03310306;http://purl.obolibrary.org/obo/PO_0009010;http://purl.obolibrary.org/obo/FOODON_03420155, seed - http://purl.obolibrary.org/obo/PO_0009010;http://purl.obolibrary.org/obo/FOODON_03420155.","Absolutely, the entities are related in this fashion: black - http://purl.obolibrary.org/obo/PATO_0000317, cumin - http://purl.obolibrary.org/obo/FOODON_00003024;http://purl.obolibrary.org/obo/FOODON_03311872;http://purl.obolibrary.org/obo/FOODON_00003396;http://purl.obolibrary.org/obo/NCBITaxon_52462, cinnamon - http://purl.obolibrary.org/obo/NCBITaxon_128608;http://purl.obolibrary.org/obo/FOODON_03301175, nutmeg - http://purl.obolibrary.org/obo/FOODON_03301528;http://purl.obolibrary.org/obo/NCBITaxon_51089, ginger - http://purl.obolibrary.org/obo/NCBITaxon_94328;http://purl.obolibrary.org/obo/FOODON_00001901;http://purl.obolibrary.org/obo/FOODON_00002718;http://purl.obolibrary.org/obo/FOODON_00003717, turmeric - http://purl.obolibrary.org/obo/NCBITaxon_136217;http://purl.obolibrary.org/obo/FOODON_00003753, saffron - http://purl.obolibrary.org/obo/FOODON_00003044;http://purl.obolibrary.org/obo/FOODON_00003441;http://purl.obolibrary.org/obo/NCBITaxon_3641, coriander - http://purl.obolibrary.org/obo/FOODON_00003022;http://purl.obolibrary.org/obo/FOODON_00003324;http://purl.obolibrary.org/obo/NCBITaxon_4231, dill - http://purl.obolibrary.org/obo/FOODON_00001811;http://purl.obolibrary.org/obo/NCBITaxon_40922, mint - http://purl.obolibrary.org/obo/FOODON_00002432, thyme - http://purl.obolibrary.org/obo/NCBITaxon_49992;http://purl.obolibrary.org/obo/FOODON_00002312, sesame - http://purl.obolibrary.org/obo/FOODON_03310306, mustard - http://purl.obolibrary.org/obo/FOODON_00003024;http://purl.obolibrary.org/obo/FOODON_03310350, curry powder - http://purl.obolibrary.org/obo/FOODON_03301842;http://purl.obolibrary.org/obo/FOODON_00002976.", , , ,0.656,0.656,0.656
+20_0, , , ,black,"http://purl.obolibrary.org/obo/FOODON_00001649
+http://purl.obolibrary.org/obo/FOODON_00003013
+http://purl.obolibrary.org/obo/FOODON_00003520
+http://purl.obolibrary.org/obo/FOODON_03309928
+http://purl.obolibrary.org/obo/PATO_0000317",http://purl.obolibrary.org/obo/PATO_0000317, , , 
+20_1, , , ,cumin,"http://purl.obolibrary.org/obo/FOODON_00003024
+http://purl.obolibrary.org/obo/FOODON_00003396
+http://purl.obolibrary.org/obo/FOODON_03311872
+http://purl.obolibrary.org/obo/NCBITaxon_52462","http://purl.obolibrary.org/obo/FOODON_00003024
+http://purl.obolibrary.org/obo/FOODON_00003396
+http://purl.obolibrary.org/obo/FOODON_03311872
+http://purl.obolibrary.org/obo/NCBITaxon_52462", , , 
+20_2, , , ,cinnamon,"http://purl.obolibrary.org/obo/FOODON_03301175
+http://purl.obolibrary.org/obo/NCBITaxon_128608","http://purl.obolibrary.org/obo/FOODON_03301175
+http://purl.obolibrary.org/obo/NCBITaxon_128608", , , 
+20_3, , , ,nutmeg,"http://purl.obolibrary.org/obo/FOODON_03301528
+http://purl.obolibrary.org/obo/NCBITaxon_51089","http://purl.obolibrary.org/obo/FOODON_03301528
+http://purl.obolibrary.org/obo/NCBITaxon_51089", , , 
+20_4, , , ,ginger,"http://purl.obolibrary.org/obo/FOODON_00001901
+http://purl.obolibrary.org/obo/FOODON_00002718
+http://purl.obolibrary.org/obo/FOODON_00003717
+http://purl.obolibrary.org/obo/NCBITaxon_94328","http://purl.obolibrary.org/obo/FOODON_00001901
+http://purl.obolibrary.org/obo/FOODON_00002718
+http://purl.obolibrary.org/obo/FOODON_00003717
+http://purl.obolibrary.org/obo/NCBITaxon_94328", , , 
+20_5, , , ,turmeric,"http://purl.obolibrary.org/obo/FOODON_00003753
+http://purl.obolibrary.org/obo/NCBITaxon_136217","http://purl.obolibrary.org/obo/FOODON_00003753
+http://purl.obolibrary.org/obo/NCBITaxon_136217", , , 
+20_6, , , ,saffron,"http://purl.obolibrary.org/obo/FOODON_00003043
+http://purl.obolibrary.org/obo/FOODON_00003441","http://purl.obolibrary.org/obo/FOODON_00003044
+http://purl.obolibrary.org/obo/FOODON_00003441
+http://purl.obolibrary.org/obo/NCBITaxon_3641", , , 
+20_7, , , ,cloves,http://purl.obolibrary.org/obo/FOODON_00001745,, , , 
+20_8, , , ,dill,"http://purl.obolibrary.org/obo/FOODON_00001811
+http://purl.obolibrary.org/obo/NCBITaxon_40922","http://purl.obolibrary.org/obo/FOODON_00001811
+http://purl.obolibrary.org/obo/NCBITaxon_40922", , , 
+20_9, , , ,mint,http://purl.obolibrary.org/obo/FOODON_00002432,http://purl.obolibrary.org/obo/FOODON_00002432, , , 
+20_10, , , ,thyme,"http://purl.obolibrary.org/obo/FOODON_00002312
+http://purl.obolibrary.org/obo/NCBITaxon_49992","http://purl.obolibrary.org/obo/FOODON_00002312
+http://purl.obolibrary.org/obo/NCBITaxon_49992", , , 
+20_11, , , ,sesame seed,"http://purl.obolibrary.org/obo/FOODON_03310306
+http://purl.obolibrary.org/obo/FOODON_03310306
+http://purl.obolibrary.org/obo/FOODON_03420155
+http://purl.obolibrary.org/obo/PO_0009010",, , , 
+20_12, , , ,seed,"http://purl.obolibrary.org/obo/FOODON_03420155
+http://purl.obolibrary.org/obo/PO_0009010",, , , 
+21,"Certainly, the entities connected with food are detailed below:  reduced fat and reduced saturated fat foods, herbs, spices, spice, french toast, sausage, chicken, vegetables, pasta, lower fat foods","Of course, the entities are bonded in this fashion:  fat - http://purl.obolibrary.org/obo/FOODON_00003265;http://purl.obolibrary.org/obo/FOODON_00003265;http://purl.obolibrary.org/obo/UBERON_0001013;http://purl.obolibrary.org/obo/UBERON_0001013, spice - http://purl.obolibrary.org/obo/FOODON_03303380, french toast - http://purl.obolibrary.org/obo/FOODON_03302695;http://purl.obolibrary.org/obo/HANCESTRO_0363;http://purl.obolibrary.org/obo/FOODON_03306255, sausage - http://purl.obolibrary.org/obo/FOODON_03315904, chicken - http://purl.obolibrary.org/obo/NCBITaxon_9031;http://purl.obolibrary.org/obo/FOODON_03411457, pasta - http://purl.obolibrary.org/obo/FOODON_03306347.","Definitely, the entities are linked as such: fat - http://purl.obolibrary.org/obo/FOODON_00003265;http://purl.obolibrary.org/obo/UBERON_0001013, herbs - http://purl.obolibrary.org/obo/FOODON_00003042;http://purl.obolibrary.org/obo/FOODON_00002732;http://purl.obolibrary.org/obo/FOODON_03301189, high-fat - http://purl.obolibrary.org/obo/FOODON_00003265;http://purl.obolibrary.org/obo/UBERON_0001013, pasta - http://purl.obolibrary.org/obo/FOODON_03306347, roasted - http://purl.obolibrary.org/obo/FOODON_00002744;http://purl.obolibrary.org/obo/NCBITaxon_9031;http://purl.obolibrary.org/obo/FOODON_03411457.", , , ,0.300,0.300,0.300
+21_0, , , ,fat,"http://purl.obolibrary.org/obo/FOODON_00003265
+http://purl.obolibrary.org/obo/FOODON_00003265
+http://purl.obolibrary.org/obo/UBERON_0001013
+http://purl.obolibrary.org/obo/UBERON_0001013","http://purl.obolibrary.org/obo/FOODON_00003265
+http://purl.obolibrary.org/obo/UBERON_0001013", , , 
+21_1, , , ,spice,http://purl.obolibrary.org/obo/FOODON_03303380,, , , 
+21_2, , , ,french toast,"http://purl.obolibrary.org/obo/FOODON_03302695
+http://purl.obolibrary.org/obo/FOODON_03306255
+http://purl.obolibrary.org/obo/HANCESTRO_0363",, , , 
+21_3, , , ,sausage,http://purl.obolibrary.org/obo/FOODON_03315904,, , , 
+21_4, , , ,chicken,"http://purl.obolibrary.org/obo/FOODON_03411457
+http://purl.obolibrary.org/obo/NCBITaxon_9031",, , , 
+21_5, , , ,pasta,http://purl.obolibrary.org/obo/FOODON_03306347,http://purl.obolibrary.org/obo/FOODON_03306347, , , 
+22,"Sure thing, the entities regarding food are delineated below:  fruits, vegetables, cereals, legumes, chocolate, beverages, tea, coffee, wine","Of course, the entities are interlocked as:  fruits - http://purl.obolibrary.org/obo/FOODON_03304644, chocolate - http://purl.obolibrary.org/obo/FOODON_03307240;http://purl.obolibrary.org/obo/NCBITaxon_3641, tea - http://purl.obolibrary.org/obo/FOODON_03315081, coffee - http://purl.obolibrary.org/obo/FOODON_03301036;http://purl.obolibrary.org/obo/NCBITaxon_13443.","Certainly, the entities are associated in this fashion: fruits - http://purl.obolibrary.org/obo/FOODON_03304644, chocolate - http://purl.obolibrary.org/obo/FOODON_03307240;http://purl.obolibrary.org/obo/NCBITaxon_3641, tea - http://purl.obolibrary.org/obo/FOODON_03315081.", , , ,0.667,0.667,0.667
+22_0, , , ,fruits,http://purl.obolibrary.org/obo/FOODON_03304644,http://purl.obolibrary.org/obo/FOODON_03304644, , , 
+22_1, , , ,chocolate,"http://purl.obolibrary.org/obo/FOODON_03307240
+http://purl.obolibrary.org/obo/NCBITaxon_3641","http://purl.obolibrary.org/obo/FOODON_03307240
+http://purl.obolibrary.org/obo/NCBITaxon_3641", , , 
+22_2, , , ,tea,http://purl.obolibrary.org/obo/FOODON_03315081,http://purl.obolibrary.org/obo/FOODON_03315081, , , 
+22_3, , , ,coffee,"http://purl.obolibrary.org/obo/FOODON_03301036
+http://purl.obolibrary.org/obo/NCBITaxon_13443",, , , 
+23,"Yes, the entities related to food are outlined below:  fruits, vegetables, dark green, deep yellow fruits/vegetables, oils, vegetable, consumption, dark green vegetables, red meat, dairy foods, fruit","Absolutely, the entities are interlinked as:  fruits - http://purl.obolibrary.org/obo/FOODON_03304644, dark green - http://purl.obolibrary.org/obo/PATO_0001249;http://purl.obolibrary.org/obo/PATO_0000320;http://purl.obolibrary.org/obo/PATO_0000324;http://purl.obolibrary.org/obo/FOODON_03304644, vegetable - http://purl.obolibrary.org/obo/FOODON_00003816, red - http://purl.obolibrary.org/obo/PATO_0000322;http://purl.obolibrary.org/obo/NCBITaxon_8023, dairy - http://purl.obolibrary.org/obo/ENVO_00003862.","Of course, the entities are bonded accordingly: fruits - http://purl.obolibrary.org/obo/FOODON_03304644, vegetable - http://purl.obolibrary.org/obo/FOODON_00003816, consumption - http://purl.obolibrary.org/obo/FOODON_00003262;http://purl.obolibrary.org/obo/NCIT_C45305, fruit - http://purl.obolibrary.org/obo/PO_0009001.", , , ,0.333,0.222,0.259
+23_0, , , ,fruits,http://purl.obolibrary.org/obo/FOODON_03304644,http://purl.obolibrary.org/obo/FOODON_03304644, , , 
+23_1, , , ,dark green,"http://purl.obolibrary.org/obo/FOODON_03304644
+http://purl.obolibrary.org/obo/PATO_0000320
+http://purl.obolibrary.org/obo/PATO_0000324
+http://purl.obolibrary.org/obo/PATO_0001249",, , , 
+23_2, , , ,vegetable,http://purl.obolibrary.org/obo/FOODON_00003816,http://purl.obolibrary.org/obo/FOODON_00003816, , , 
+23_3, , , ,red,"http://purl.obolibrary.org/obo/NCBITaxon_8023
+http://purl.obolibrary.org/obo/PATO_0000322",, , , 
+23_4, , , ,dairy,http://purl.obolibrary.org/obo/ENVO_00003862,, , , 
+24,"Yes, the entities related to food are as follows:  dairy products, milk, low-fat milk, whole milk","Definitely, the entities are united as:  dairy - http://purl.obolibrary.org/obo/ENVO_00003862, milk - http://purl.obolibrary.org/obo/UBERON_0001913, fat - http://purl.obolibrary.org/obo/FOODON_00003265;http://purl.obolibrary.org/obo/UBERON_0001013;http://purl.obolibrary.org/obo/UBERON_0001913.","Absolutely, the entities are related appropriately: dairy - http://purl.obolibrary.org/obo/ENVO_00003862, milk - http://purl.obolibrary.org/obo/UBERON_0001913, whole milk - http://purl.obolibrary.org/obo/FOODON_03302604;http://purl.obolibrary.org/obo/UBERON_0001913, low fat - http://purl.obolibrary.org/obo/FOODON_00002674, lactose - http://purl.obolibrary.org/obo/CHEBI_17716.", , , ,0.600,0.400,0.467
+24_0, , , ,dairy,http://purl.obolibrary.org/obo/ENVO_00003862,http://purl.obolibrary.org/obo/ENVO_00003862, , , 
+24_1, , , ,milk,http://purl.obolibrary.org/obo/UBERON_0001913,http://purl.obolibrary.org/obo/UBERON_0001913, , , 
+24_2, , , ,fat,"http://purl.obolibrary.org/obo/FOODON_00003265
+http://purl.obolibrary.org/obo/UBERON_0001013
+http://purl.obolibrary.org/obo/UBERON_0001913",, , , 
+25,"Certainly, the entities connected to food are detailed below:  cereal, wheat, rice, corn, barley","Absolutely, the entities are connected in this way:  wheat - http://purl.obolibrary.org/obo/NCBITaxon_4565;http://purl.obolibrary.org/obo/FOODON_03315184, rice - http://purl.obolibrary.org/obo/NCBITaxon_4530;http://purl.obolibrary.org/obo/FOODON_03301641, corn - http://purl.obolibrary.org/obo/NCBITaxon_381124, barley - http://purl.obolibrary.org/obo/NCBITaxon_4513;http://purl.obolibrary.org/obo/FOODON_00003108.","Certainly, the entities are associated accordingly: cereal - http://purl.obolibrary.org/obo/FOODON_03303225, wheat - http://purl.obolibrary.org/obo/NCBITaxon_4565;http://purl.obolibrary.org/obo/FOODON_03315184, rice - http://purl.obolibrary.org/obo/NCBITaxon_4530;http://purl.obolibrary.org/obo/FOODON_03301641, corn - http://purl.obolibrary.org/obo/NCBITaxon_381124, protein - http://purl.obolibrary.org/obo/CHEBI_36080;http://purl.obolibrary.org/obo/FOODON_00002976.", , , ,0.714,0.714,0.714
+25_0, , , ,wheat,"http://purl.obolibrary.org/obo/FOODON_03315184
+http://purl.obolibrary.org/obo/NCBITaxon_4565","http://purl.obolibrary.org/obo/FOODON_03315184
+http://purl.obolibrary.org/obo/NCBITaxon_4565", , , 
+25_1, , , ,rice,"http://purl.obolibrary.org/obo/FOODON_03301641
+http://purl.obolibrary.org/obo/NCBITaxon_4530","http://purl.obolibrary.org/obo/FOODON_03301641
+http://purl.obolibrary.org/obo/NCBITaxon_4530", , , 
+25_2, , , ,corn,http://purl.obolibrary.org/obo/NCBITaxon_381124,http://purl.obolibrary.org/obo/NCBITaxon_381124, , , 
+25_3, , , ,barley,"http://purl.obolibrary.org/obo/FOODON_00003108
+http://purl.obolibrary.org/obo/NCBITaxon_4513",, , , 
+26,"Definitely, the entities relevant to food are as follows:  milk, yogurt, cottage cheese, low fat milk, milks","Of course, the entities are bonded suitably:  milk - http://purl.obolibrary.org/obo/UBERON_0001913, cottage cheese - http://purl.obolibrary.org/obo/FOODON_03301605;http://purl.obolibrary.org/obo/FOODON_00001013.","Of course, the entities are bonded thusly: lactose - http://purl.obolibrary.org/obo/CHEBI_17716;http://purl.obolibrary.org/obo/CHEBI_60004;http://purl.obolibrary.org/obo/NCIT_C45305, milk - http://purl.obolibrary.org/obo/UBERON_0001913, dairy - http://purl.obolibrary.org/obo/ENVO_00003862, yogurt - http://purl.obolibrary.org/obo/FOODON_03309462, cottage cheese - http://purl.obolibrary.org/obo/FOODON_03301605;http://purl.obolibrary.org/obo/FOODON_00001013.", , , ,1.000,1.000,1.000
+26_0, , , ,milk,http://purl.obolibrary.org/obo/UBERON_0001913,http://purl.obolibrary.org/obo/UBERON_0001913, , , 
+26_1, , , ,cottage cheese,"http://purl.obolibrary.org/obo/FOODON_00001013
+http://purl.obolibrary.org/obo/FOODON_03301605","http://purl.obolibrary.org/obo/FOODON_00001013
+http://purl.obolibrary.org/obo/FOODON_03301605", , , 
+27,"Yes, the entities pertaining to food are delineated below:  peanut, cow's milk, wheat, soybean, cashew, shrimp, sesame seed, mustard, lupine, egg, hazelnut, fish, celery, tree nuts","Of course, the entities are bonded accordingly:  peanut - http://purl.obolibrary.org/obo/FOODON_00003206;http://purl.obolibrary.org/obo/NCBITaxon_3818, cow - http://purl.obolibrary.org/obo/NCBITaxon_9913;http://purl.obolibrary.org/obo/UBERON_0001913, wheat - http://purl.obolibrary.org/obo/NCBITaxon_4565;http://purl.obolibrary.org/obo/FOODON_03315184, cashew - http://purl.obolibrary.org/obo/FOODON_03301357;http://purl.obolibrary.org/obo/NCBITaxon_171929, shrimp - http://purl.obolibrary.org/obo/NCBITaxon_161923;http://purl.obolibrary.org/obo/NCBITaxon_589641;http://purl.obolibrary.org/obo/NCBITaxon_445213;http://purl.obolibrary.org/obo/NCBITaxon_29019;http://purl.obolibrary.org/obo/NCBITaxon_98082;http://purl.obolibrary.org/obo/NCBITaxon_133894;http://purl.obolibrary.org/obo/NCBITaxon_1809766;http://purl.obolibrary.org/obo/NCBITaxon_2005230;http://purl.obolibrary.org/obo/NCBITaxon_263425;http://purl.obolibrary.org/obo/NCBITaxon_32278;http://purl.obolibrary.org/obo/FOODON_03411237, sesame seed - http://purl.obolibrary.org/obo/FOODON_03310306;http://purl.obolibrary.org/obo/FOODON_03310306;http://purl.obolibrary.org/obo/PO_0009010;http://purl.obolibrary.org/obo/FOODON_03420155, lupine - http://purl.obolibrary.org/obo/FOODON_03302080, hazelnut - http://purl.obolibrary.org/obo/FOODON_00002933, fish - http://purl.obolibrary.org/obo/NCBITaxon_7898;http://purl.obolibrary.org/obo/FOODON_03411222;http://purl.obolibrary.org/obo/NCBITaxon_7777, celery - http://purl.obolibrary.org/obo/FOODON_03301727;http://purl.obolibrary.org/obo/NCBITaxon_117781, nuts - http://purl.obolibrary.org/obo/FOODON_03306632.","Certainly, the entities are associated in this manner: peanut - http://purl.obolibrary.org/obo/FOODON_00003206;http://purl.obolibrary.org/obo/NCBITaxon_3818, cow - http://purl.obolibrary.org/obo/NCBITaxon_9913, wheat - http://purl.obolibrary.org/obo/NCBITaxon_4565;http://purl.obolibrary.org/obo/FOODON_03315184, soybean - http://purl.obolibrary.org/obo/FOODON_00003443;http://purl.obolibrary.org/obo/NCBITaxon_3847, shrimp - http://purl.obolibrary.org/obo/NCBITaxon_589641;http://purl.obolibrary.org/obo/NCBITaxon_2005230;http://purl.obolibrary.org/obo/NCBITaxon_133894;http://purl.obolibrary.org/obo/NCBITaxon_263425;http://purl.obolibrary.org/obo/NCBITaxon_1809766;http://purl.obolibrary.org/obo/NCBITaxon_445213;http://purl.obolibrary.org/obo/NCBITaxon_98082;http://purl.obolibrary.org/obo/NCBITaxon_32278;http://purl.obolibrary.org/obo/NCBITaxon_161923;http://purl.obolibrary.org/obo/NCBITaxon_29019;http://purl.obolibrary.org/obo/FOODON_03411237, sesame seed - http://purl.obolibrary.org/obo/FOODON_03310306;http://purl.obolibrary.org/obo/FOODON_03310306;http://purl.obolibrary.org/obo/FOODON_00003520;http://purl.obolibrary.org/obo/FOODON_03316468;http://purl.obolibrary.org/obo/FOODON_00001998;http://purl.obolibrary.org/obo/FOODON_00003449, mustard - http://purl.obolibrary.org/obo/FOODON_00002976.", , , ,0.567,0.567,0.567
+27_0, , , ,peanut,"http://purl.obolibrary.org/obo/FOODON_00003206
+http://purl.obolibrary.org/obo/NCBITaxon_3818","http://purl.obolibrary.org/obo/FOODON_00003206
+http://purl.obolibrary.org/obo/NCBITaxon_3818", , , 
+27_1, , , ,cow,"http://purl.obolibrary.org/obo/NCBITaxon_9913
+http://purl.obolibrary.org/obo/UBERON_0001913",http://purl.obolibrary.org/obo/NCBITaxon_9913, , , 
+27_2, , , ,wheat,"http://purl.obolibrary.org/obo/FOODON_03315184
+http://purl.obolibrary.org/obo/NCBITaxon_4565","http://purl.obolibrary.org/obo/FOODON_03315184
+http://purl.obolibrary.org/obo/NCBITaxon_4565", , , 
+27_3, , , ,cashew,"http://purl.obolibrary.org/obo/FOODON_03301357
+http://purl.obolibrary.org/obo/NCBITaxon_171929",, , , 
+27_4, , , ,shrimp,"http://purl.obolibrary.org/obo/FOODON_03411237
+http://purl.obolibrary.org/obo/NCBITaxon_133894
+http://purl.obolibrary.org/obo/NCBITaxon_161923
+http://purl.obolibrary.org/obo/NCBITaxon_1809766
+http://purl.obolibrary.org/obo/NCBITaxon_2005230
+http://purl.obolibrary.org/obo/NCBITaxon_263425
+http://purl.obolibrary.org/obo/NCBITaxon_29019
+http://purl.obolibrary.org/obo/NCBITaxon_32278
+http://purl.obolibrary.org/obo/NCBITaxon_445213
+http://purl.obolibrary.org/obo/NCBITaxon_589641
+http://purl.obolibrary.org/obo/NCBITaxon_98082","http://purl.obolibrary.org/obo/FOODON_03411237
+http://purl.obolibrary.org/obo/NCBITaxon_133894
+http://purl.obolibrary.org/obo/NCBITaxon_161923
+http://purl.obolibrary.org/obo/NCBITaxon_1809766
+http://purl.obolibrary.org/obo/NCBITaxon_2005230
+http://purl.obolibrary.org/obo/NCBITaxon_263425
+http://purl.obolibrary.org/obo/NCBITaxon_29019
+http://purl.obolibrary.org/obo/NCBITaxon_32278
+http://purl.obolibrary.org/obo/NCBITaxon_445213
+http://purl.obolibrary.org/obo/NCBITaxon_589641
+http://purl.obolibrary.org/obo/NCBITaxon_98082", , , 
+27_5, , , ,sesame seed,"http://purl.obolibrary.org/obo/FOODON_03310306
+http://purl.obolibrary.org/obo/FOODON_03310306
+http://purl.obolibrary.org/obo/FOODON_03420155
+http://purl.obolibrary.org/obo/PO_0009010","http://purl.obolibrary.org/obo/FOODON_00001998
+http://purl.obolibrary.org/obo/FOODON_00003449
+http://purl.obolibrary.org/obo/FOODON_00003520
+http://purl.obolibrary.org/obo/FOODON_03310306
+http://purl.obolibrary.org/obo/FOODON_03310306
+http://purl.obolibrary.org/obo/FOODON_03316468", , , 
+27_6, , , ,lupine,http://purl.obolibrary.org/obo/FOODON_03302080,, , , 
+27_7, , , ,hazelnut,http://purl.obolibrary.org/obo/FOODON_00002933,, , , 
+27_8, , , ,fish,"http://purl.obolibrary.org/obo/FOODON_03411222
+http://purl.obolibrary.org/obo/NCBITaxon_7777
+http://purl.obolibrary.org/obo/NCBITaxon_7898",, , , 
+27_9, , , ,celery,"http://purl.obolibrary.org/obo/FOODON_03301727
+http://purl.obolibrary.org/obo/NCBITaxon_117781",, , , 
+27_10, , , ,nuts,http://purl.obolibrary.org/obo/FOODON_03306632,, , , 
+28,"Yes, the entities linked to food are listed below:  dairy, meat, cereal grains, fruits, vegetables, milk","Of course, the entities are coupled as:  dairy - http://purl.obolibrary.org/obo/ENVO_00003862, fruits - http://purl.obolibrary.org/obo/FOODON_03304644.","Of course, the entities are bonded accordingly: dairy - http://purl.obolibrary.org/obo/ENVO_00003862, meat - http://purl.obolibrary.org/obo/FOODON_03411457, cereal - http://purl.obolibrary.org/obo/FOODON_03301641, fruits - http://purl.obolibrary.org/obo/FOODON_03304644, vegetable - http://purl.obolibrary.org/obo/FOODON_00003816;http://purl.obolibrary.org/obo/CHEBI_60004;http://purl.obolibrary.org/obo/NCIT_C45305.", , , ,1.000,1.000,1.000
+28_0, , , ,dairy,http://purl.obolibrary.org/obo/ENVO_00003862,http://purl.obolibrary.org/obo/ENVO_00003862, , , 
+28_1, , , ,fruits,http://purl.obolibrary.org/obo/FOODON_03304644,http://purl.obolibrary.org/obo/FOODON_03304644, , , 
+29,"Absolutely, the entities associated with food are delineated below:  meat, intake, bacon, pork, chicken, beef, chicken meat","Certainly, the entities are associated in this manner:  pork - http://purl.obolibrary.org/obo/FOODON_00001038, chicken - http://purl.obolibrary.org/obo/NCBITaxon_9031;http://purl.obolibrary.org/obo/FOODON_03411457.","Of course, the entities are bonded in the following way: bacon - http://purl.obolibrary.org/obo/FOODON_00003044, pork - http://purl.obolibrary.org/obo/FOODON_00001038, chicken - http://purl.obolibrary.org/obo/NCBITaxon_9031;http://purl.obolibrary.org/obo/FOODON_03411457, beef - http://purl.obolibrary.org/obo/FOODON_00002713, meat - http://purl.obolibrary.org/obo/FOODON_03420108, casein - http://purl.obolibrary.org/obo/CHEBI_60004;http://purl.obolibrary.org/obo/FOODON_00001013.", , , ,1.000,1.000,1.000
+29_0, , , ,pork,http://purl.obolibrary.org/obo/FOODON_00001038,http://purl.obolibrary.org/obo/FOODON_00001038, , , 
+29_1, , , ,chicken,"http://purl.obolibrary.org/obo/FOODON_03411457
+http://purl.obolibrary.org/obo/NCBITaxon_9031","http://purl.obolibrary.org/obo/FOODON_03411457
+http://purl.obolibrary.org/obo/NCBITaxon_9031", , , 
+30,"Definitely, the entities concerning food are delineated below:  nut, consumption, peanut, peanut butter","Indeed, the entities are connected accordingly:  nut - http://purl.obolibrary.org/obo/FOODON_03303171, peanut - http://purl.obolibrary.org/obo/FOODON_00003206;http://purl.obolibrary.org/obo/NCBITaxon_3818, peanut butter - http://purl.obolibrary.org/obo/FOODON_03306867;http://purl.obolibrary.org/obo/FOODON_00003206;http://purl.obolibrary.org/obo/NCBITaxon_3818;http://purl.obolibrary.org/obo/FOODON_03310351.","Of course, the entities are bonded in the following way: nut - http://purl.obolibrary.org/obo/FOODON_03303171, peanut butter - http://purl.obolibrary.org/obo/FOODON_03306867;http://purl.obolibrary.org/obo/FOODON_00003206;http://purl.obolibrary.org/obo/NCBITaxon_3818;http://purl.obolibrary.org/obo/FOODON_03310351.", , , ,1.000,0.714,0.810
+30_0, , , ,nut,http://purl.obolibrary.org/obo/FOODON_03303171,http://purl.obolibrary.org/obo/FOODON_03303171, , , 
+30_1, , , ,peanut,"http://purl.obolibrary.org/obo/FOODON_00003206
+http://purl.obolibrary.org/obo/NCBITaxon_3818",, , , 
+30_2, , , ,peanut butter,"http://purl.obolibrary.org/obo/FOODON_00003206
+http://purl.obolibrary.org/obo/FOODON_03306867
+http://purl.obolibrary.org/obo/FOODON_03310351
+http://purl.obolibrary.org/obo/NCBITaxon_3818","http://purl.obolibrary.org/obo/FOODON_00003206
+http://purl.obolibrary.org/obo/FOODON_03306867
+http://purl.obolibrary.org/obo/FOODON_03310351
+http://purl.obolibrary.org/obo/NCBITaxon_3818", , , 
+31,"Of course, the entities regarding food are provided as follows:  almonds, bread, parboiled rice, instant mashed potatoes, butter, cheese, nuts","Indeed, the entities are connected accordingly:  rice - http://purl.obolibrary.org/obo/NCBITaxon_4530;http://purl.obolibrary.org/obo/FOODON_03301641, potatoes - http://purl.obolibrary.org/obo/NCBITaxon_4113, butter - http://purl.obolibrary.org/obo/FOODON_03310351, cheese - http://purl.obolibrary.org/obo/FOODON_00001013.","Absolutely, the entities are related in this way: bread - http://purl.obolibrary.org/obo/FOODON_03315180, almonds - http://purl.obolibrary.org/obo/NCBITaxon_3755;http://purl.obolibrary.org/obo/FOODON_00003523;http://purl.obolibrary.org/obo/FOODON_03301355, rice - http://purl.obolibrary.org/obo/NCBITaxon_4530;http://purl.obolibrary.org/obo/FOODON_03301641, instant mashed potatoes - http://purl.obolibrary.org/obo/FOODON_03307343;http://purl.obolibrary.org/obo/NCBITaxon_4113, butter - http://purl.obolibrary.org/obo/FOODON_03310351, cheese - http://purl.obolibrary.org/obo/FOODON_00001013, almond meal - http://purl.obolibrary.org/obo/FOODON_03307644;http://purl.obolibrary.org/obo/NCBITaxon_3755;http://purl.obolibrary.org/obo/FOODON_00003523;http://purl.obolibrary.org/obo/FOODON_03301355, control - http://purl.obolibrary.org/obo/FOODON_00002696, potato - http://purl.obolibrary.org/obo/FOODON_03301449;http://purl.obolibrary.org/obo/NCBITaxon_4113;http://purl.obolibrary.org/obo/FOODON_03315354.", , , ,0.800,0.800,0.800
+31_0, , , ,rice,"http://purl.obolibrary.org/obo/FOODON_03301641
+http://purl.obolibrary.org/obo/NCBITaxon_4530","http://purl.obolibrary.org/obo/FOODON_03301641
+http://purl.obolibrary.org/obo/NCBITaxon_4530", , , 
+31_1, , , ,potatoes,http://purl.obolibrary.org/obo/NCBITaxon_4113,, , , 
+31_2, , , ,butter,http://purl.obolibrary.org/obo/FOODON_03310351,http://purl.obolibrary.org/obo/FOODON_03310351, , , 
+31_3, , , ,cheese,http://purl.obolibrary.org/obo/FOODON_00001013,http://purl.obolibrary.org/obo/FOODON_00001013, , , 
+32,"Definitely, the entities concerning food are delineated below:  vegetables, green tea, spinach, parsley, green onion, chive, sweet pepper, carrot, garlic, spinacia oleracea","Of course, the entities are bonded in this manner:  green tea - http://purl.obolibrary.org/obo/FOODON_03304639;http://purl.obolibrary.org/obo/PATO_0000320;http://purl.obolibrary.org/obo/FOODON_03315081, spinach - http://purl.obolibrary.org/obo/FOODON_00003496;http://purl.obolibrary.org/obo/NCBITaxon_3562;http://purl.obolibrary.org/obo/FOODON_03301716, parsley - http://purl.obolibrary.org/obo/NCBITaxon_4043;http://purl.obolibrary.org/obo/FOODON_00002942, green - http://purl.obolibrary.org/obo/PATO_0000320;http://purl.obolibrary.org/obo/NCBITaxon_4679;http://purl.obolibrary.org/obo/FOODON_03301704, chive - http://purl.obolibrary.org/obo/NCBITaxon_74900;http://purl.obolibrary.org/obo/FOODON_03311167, sweet pepper - http://purl.obolibrary.org/obo/FOODON_00003550;http://purl.obolibrary.org/obo/FOODON_00003546;http://purl.obolibrary.org/obo/FOODON_00003547;http://purl.obolibrary.org/obo/FOODON_00003520;http://purl.obolibrary.org/obo/FOODON_00003013;http://purl.obolibrary.org/obo/FOODON_00001649;http://purl.obolibrary.org/obo/FOODON_03309928, carrot - http://purl.obolibrary.org/obo/NCBITaxon_4039;http://purl.obolibrary.org/obo/FOODON_00003408, garlic - http://purl.obolibrary.org/obo/FOODON_03305208;http://purl.obolibrary.org/obo/FOODON_00003582;http://purl.obolibrary.org/obo/NCBITaxon_4682, spinacia oleracea - http://purl.obolibrary.org/obo/NCBITaxon_3562.","Of course, the entities are bonded in this fashion: green tea - http://purl.obolibrary.org/obo/FOODON_03304639;http://purl.obolibrary.org/obo/PATO_0000320;http://purl.obolibrary.org/obo/FOODON_03315081;http://purl.obolibrary.org/obo/FOODON_00002976, spinach - http://purl.obolibrary.org/obo/NCBITaxon_3562;http://purl.obolibrary.org/obo/FOODON_00003496;http://purl.obolibrary.org/obo/FOODON_03301716, parsley - http://purl.obolibrary.org/obo/FOODON_00002942;http://purl.obolibrary.org/obo/NCBITaxon_4043, green onion - http://purl.obolibrary.org/obo/FOODON_00003697;http://purl.obolibrary.org/obo/PATO_0000320;http://purl.obolibrary.org/obo/FOODON_03301704;http://purl.obolibrary.org/obo/NCBITaxon_4679, carrot - http://purl.obolibrary.org/obo/NCBITaxon_4039;http://purl.obolibrary.org/obo/FOODON_00003408, garlic - http://purl.obolibrary.org/obo/FOODON_03305208;http://purl.obolibrary.org/obo/FOODON_00003582;http://purl.obolibrary.org/obo/NCBITaxon_4682.", , , ,0.577,0.500,0.526
+32_0, , , ,green tea,"http://purl.obolibrary.org/obo/FOODON_03304639
+http://purl.obolibrary.org/obo/FOODON_03315081
+http://purl.obolibrary.org/obo/PATO_0000320","http://purl.obolibrary.org/obo/FOODON_00002976
+http://purl.obolibrary.org/obo/FOODON_03304639
+http://purl.obolibrary.org/obo/FOODON_03315081
+http://purl.obolibrary.org/obo/PATO_0000320", , , 
+32_1, , , ,spinach,"http://purl.obolibrary.org/obo/FOODON_00003496
+http://purl.obolibrary.org/obo/FOODON_03301716
+http://purl.obolibrary.org/obo/NCBITaxon_3562","http://purl.obolibrary.org/obo/FOODON_00003496
+http://purl.obolibrary.org/obo/FOODON_03301716
+http://purl.obolibrary.org/obo/NCBITaxon_3562", , , 
+32_2, , , ,parsley,"http://purl.obolibrary.org/obo/FOODON_00002942
+http://purl.obolibrary.org/obo/NCBITaxon_4043","http://purl.obolibrary.org/obo/FOODON_00002942
+http://purl.obolibrary.org/obo/NCBITaxon_4043", , , 
+32_3, , , ,green,"http://purl.obolibrary.org/obo/FOODON_03301704
+http://purl.obolibrary.org/obo/NCBITaxon_4679
+http://purl.obolibrary.org/obo/PATO_0000320",, , , 
+32_4, , , ,chive,"http://purl.obolibrary.org/obo/FOODON_03311167
+http://purl.obolibrary.org/obo/NCBITaxon_74900",, , , 
+32_5, , , ,sweet pepper,"http://purl.obolibrary.org/obo/FOODON_00001649
+http://purl.obolibrary.org/obo/FOODON_00003013
+http://purl.obolibrary.org/obo/FOODON_00003520
+http://purl.obolibrary.org/obo/FOODON_00003546
+http://purl.obolibrary.org/obo/FOODON_00003547
+http://purl.obolibrary.org/obo/FOODON_00003550
+http://purl.obolibrary.org/obo/FOODON_03309928",, , , 
+32_6, , , ,carrot,"http://purl.obolibrary.org/obo/FOODON_00003408
+http://purl.obolibrary.org/obo/NCBITaxon_4039","http://purl.obolibrary.org/obo/FOODON_00003408
+http://purl.obolibrary.org/obo/NCBITaxon_4039", , , 
+32_7, , , ,garlic,"http://purl.obolibrary.org/obo/FOODON_00003582
+http://purl.obolibrary.org/obo/FOODON_03305208
+http://purl.obolibrary.org/obo/NCBITaxon_4682","http://purl.obolibrary.org/obo/FOODON_00003582
+http://purl.obolibrary.org/obo/FOODON_03305208
+http://purl.obolibrary.org/obo/NCBITaxon_4682", , , 
+32_8, , , ,spinacia oleracea,http://purl.obolibrary.org/obo/NCBITaxon_3562,, , , 
+33,"Indeed, the entities that relate to food are delineated below:  cereal foods, cereal grains, bread, pastries, pasta, whole grain wheat, triticum durum, triticum sativum, triticum aestivum, whole grain products, t. aestivum, wheat flakes, flour, whole grain products of t. durum, couscous, bulgur, wheat bran, whole grain, grain cereals, cereals, cereal products, whole grain wheat and wheat products","Of course, the entities are bonded as such:  pasta - http://purl.obolibrary.org/obo/FOODON_03306347, whole grain - http://purl.obolibrary.org/obo/FOODON_00003950;http://purl.obolibrary.org/obo/NCBITaxon_4565;http://purl.obolibrary.org/obo/FOODON_03315184, triticum - http://purl.obolibrary.org/obo/NCBITaxon_4564, triticum aestivum - http://purl.obolibrary.org/obo/NCBITaxon_4565;http://purl.obolibrary.org/obo/NCBITaxon_4564, wheat - http://purl.obolibrary.org/obo/NCBITaxon_4565;http://purl.obolibrary.org/obo/FOODON_03315184, flour - http://purl.obolibrary.org/obo/FOODON_03301116, couscous - http://purl.obolibrary.org/obo/FOODON_03303207, bulgur - http://purl.obolibrary.org/obo/FOODON_00003143, wheat bran - http://purl.obolibrary.org/obo/FOODON_03304608;http://purl.obolibrary.org/obo/NCBITaxon_4565;http://purl.obolibrary.org/obo/FOODON_03315184.","Certainly, the entities are associated in the following way: cereal - http://purl.obolibrary.org/obo/FOODON_03303225, wheat - http://purl.obolibrary.org/obo/NCBITaxon_4565;http://purl.obolibrary.org/obo/FOODON_03315184, whole grain - http://purl.obolibrary.org/obo/FOODON_00003950;http://purl.obolibrary.org/obo/FOODON_03301116, wheat flakes - http://purl.obolibrary.org/obo/FOODON_03302500;http://purl.obolibrary.org/obo/FOODON_03315184;http://purl.obolibrary.org/obo/NCBITaxon_4565;http://purl.obolibrary.org/obo/FOODON_03301116, wheat bran - http://purl.obolibrary.org/obo/FOODON_03304608;http://purl.obolibrary.org/obo/NCBITaxon_4565;http://purl.obolibrary.org/obo/FOODON_03315184, whole grain - http://purl.obolibrary.org/obo/FOODON_00003950;http://purl.obolibrary.org/obo/FOODON_03301116, wheat products - http://purl.obolibrary.org/obo/FOODON_03301116;http://purl.obolibrary.org/obo/NCBITaxon_4565;http://purl.obolibrary.org/obo/FOODON_03315184, cereals - http://purl.obolibrary.org/obo/FOODON_03303280.", , , ,0.600,0.400,0.471
+33_0, , , ,pasta,http://purl.obolibrary.org/obo/FOODON_03306347,, , , 
+33_1, , , ,whole grain,"http://purl.obolibrary.org/obo/FOODON_00003950
+http://purl.obolibrary.org/obo/FOODON_03315184
+http://purl.obolibrary.org/obo/NCBITaxon_4565","http://purl.obolibrary.org/obo/FOODON_00003950
+http://purl.obolibrary.org/obo/FOODON_03301116", , , 
+33_2, , , ,triticum,http://purl.obolibrary.org/obo/NCBITaxon_4564,, , , 
+33_3, , , ,triticum aestivum,"http://purl.obolibrary.org/obo/NCBITaxon_4564
+http://purl.obolibrary.org/obo/NCBITaxon_4565",, , , 
+33_4, , , ,wheat,"http://purl.obolibrary.org/obo/FOODON_03315184
+http://purl.obolibrary.org/obo/NCBITaxon_4565","http://purl.obolibrary.org/obo/FOODON_03315184
+http://purl.obolibrary.org/obo/NCBITaxon_4565", , , 
+33_5, , , ,flour,http://purl.obolibrary.org/obo/FOODON_03301116,, , , 
+33_6, , , ,couscous,http://purl.obolibrary.org/obo/FOODON_03303207,, , , 
+33_7, , , ,bulgur,http://purl.obolibrary.org/obo/FOODON_00003143,, , , 
+33_8, , , ,wheat bran,"http://purl.obolibrary.org/obo/FOODON_03304608
+http://purl.obolibrary.org/obo/FOODON_03315184
+http://purl.obolibrary.org/obo/NCBITaxon_4565","http://purl.obolibrary.org/obo/FOODON_03304608
+http://purl.obolibrary.org/obo/FOODON_03315184
+http://purl.obolibrary.org/obo/NCBITaxon_4565", , , 
+34,"Indeed, the entities that relate to food are delineated below:  fruits, vegetables, broccoli, calcot, green onion, green cabbage, purple cabbage, black cabbage, cauliflower, cabbage","Of course, the entities are bonded appropriately:  fruits - http://purl.obolibrary.org/obo/FOODON_03304644, broccoli - http://purl.obolibrary.org/obo/FOODON_03301713;http://purl.obolibrary.org/obo/FOODON_00003405;http://purl.obolibrary.org/obo/NCBITaxon_36774, green - http://purl.obolibrary.org/obo/PATO_0000320;http://purl.obolibrary.org/obo/NCBITaxon_4679;http://purl.obolibrary.org/obo/FOODON_03301704, green cabbage - http://purl.obolibrary.org/obo/FOODON_03310228;http://purl.obolibrary.org/obo/PATO_0000320;http://purl.obolibrary.org/obo/FOODON_03301326;http://purl.obolibrary.org/obo/FOODON_00003406;http://purl.obolibrary.org/obo/NCBITaxon_3716, purple - http://purl.obolibrary.org/obo/PATO_0000951;http://purl.obolibrary.org/obo/FOODON_03301326;http://purl.obolibrary.org/obo/FOODON_00003406;http://purl.obolibrary.org/obo/NCBITaxon_3716, black cabbage - http://purl.obolibrary.org/obo/FOODON_00003173;http://purl.obolibrary.org/obo/PATO_0000317;http://purl.obolibrary.org/obo/FOODON_03301326;http://purl.obolibrary.org/obo/FOODON_00003406;http://purl.obolibrary.org/obo/NCBITaxon_3716, cauliflower - http://purl.obolibrary.org/obo/NCBITaxon_3715;http://purl.obolibrary.org/obo/FOODON_03302732;http://purl.obolibrary.org/obo/FOODON_00003410, cabbage - http://purl.obolibrary.org/obo/FOODON_03301326;http://purl.obolibrary.org/obo/FOODON_00003406;http://purl.obolibrary.org/obo/NCBITaxon_3716.","Absolutely, the entities are related properly: fruits - http://purl.obolibrary.org/obo/FOODON_03304644, broccoli - http://purl.obolibrary.org/obo/FOODON_03301713;http://purl.obolibrary.org/obo/NCBITaxon_36774;http://purl.obolibrary.org/obo/FOODON_00003405, onion - http://purl.obolibrary.org/obo/FOODON_03301704;http://purl.obolibrary.org/obo/NCBITaxon_4679, green - http://purl.obolibrary.org/obo/PATO_0000320, cabbage - http://purl.obolibrary.org/obo/FOODON_03301326;http://purl.obolibrary.org/obo/FOODON_00003406;http://purl.obolibrary.org/obo/NCBITaxon_3716, cabbage - http://purl.obolibrary.org/obo/FOODON_03301326;http://purl.obolibrary.org/obo/FOODON_00003406;http://purl.obolibrary.org/obo/NCBITaxon_3716.", , , ,0.667,0.296,0.375
+34_0, , , ,fruits,http://purl.obolibrary.org/obo/FOODON_03304644,http://purl.obolibrary.org/obo/FOODON_03304644, , , 
+34_1, , , ,broccoli,"http://purl.obolibrary.org/obo/FOODON_00003405
+http://purl.obolibrary.org/obo/FOODON_03301713
+http://purl.obolibrary.org/obo/NCBITaxon_36774","http://purl.obolibrary.org/obo/FOODON_00003405
+http://purl.obolibrary.org/obo/FOODON_03301713
+http://purl.obolibrary.org/obo/NCBITaxon_36774", , , 
+34_2, , , ,green,"http://purl.obolibrary.org/obo/FOODON_03301704
+http://purl.obolibrary.org/obo/NCBITaxon_4679
+http://purl.obolibrary.org/obo/PATO_0000320",http://purl.obolibrary.org/obo/PATO_0000320, , , 
+34_3, , , ,green cabbage,"http://purl.obolibrary.org/obo/FOODON_00003406
+http://purl.obolibrary.org/obo/FOODON_03301326
+http://purl.obolibrary.org/obo/FOODON_03310228
+http://purl.obolibrary.org/obo/NCBITaxon_3716
+http://purl.obolibrary.org/obo/PATO_0000320",, , , 
+34_4, , , ,purple,"http://purl.obolibrary.org/obo/FOODON_00003406
+http://purl.obolibrary.org/obo/FOODON_03301326
+http://purl.obolibrary.org/obo/NCBITaxon_3716
+http://purl.obolibrary.org/obo/PATO_0000951",, , , 
+34_5, , , ,black cabbage,"http://purl.obolibrary.org/obo/FOODON_00003173
+http://purl.obolibrary.org/obo/FOODON_00003406
+http://purl.obolibrary.org/obo/FOODON_03301326
+http://purl.obolibrary.org/obo/NCBITaxon_3716
+http://purl.obolibrary.org/obo/PATO_0000317",, , , 
+34_6, , , ,cauliflower,"http://purl.obolibrary.org/obo/FOODON_00003410
+http://purl.obolibrary.org/obo/FOODON_03302732
+http://purl.obolibrary.org/obo/NCBITaxon_3715",, , , 
+34_7, , , ,cabbage,"http://purl.obolibrary.org/obo/FOODON_00003406
+http://purl.obolibrary.org/obo/FOODON_03301326
+http://purl.obolibrary.org/obo/NCBITaxon_3716","http://purl.obolibrary.org/obo/FOODON_00003406
+http://purl.obolibrary.org/obo/FOODON_03301326
+http://purl.obolibrary.org/obo/NCBITaxon_3716", , , 
+35,"Definitely, the entities concerning food are detailed below:  vegetables, fruits, pulses, nuts, fish, meat, cereals, olive oil, wine","Certainly, the entities are associated accordingly:  fruits - http://purl.obolibrary.org/obo/FOODON_03304644, nuts - http://purl.obolibrary.org/obo/FOODON_03306632, fish - http://purl.obolibrary.org/obo/NCBITaxon_7898;http://purl.obolibrary.org/obo/FOODON_03411222;http://purl.obolibrary.org/obo/NCBITaxon_7777.","Of course, the entities are bonded in this fashion: fruits - http://purl.obolibrary.org/obo/FOODON_03304644, nuts - http://purl.obolibrary.org/obo/FOODON_03306632, fish - http://purl.obolibrary.org/obo/NCBITaxon_7898;http://purl.obolibrary.org/obo/FOODON_03411222;http://purl.obolibrary.org/obo/NCBITaxon_7777, olive oil - http://purl.obolibrary.org/obo/FOODON_03301826;http://purl.obolibrary.org/obo/FOODON_03317509;http://purl.obolibrary.org/obo/FOODON_03315145;http://purl.obolibrary.org/obo/FOODON_03310387.", , , ,1.000,1.000,1.000
+35_0, , , ,fruits,http://purl.obolibrary.org/obo/FOODON_03304644,http://purl.obolibrary.org/obo/FOODON_03304644, , , 
+35_1, , , ,nuts,http://purl.obolibrary.org/obo/FOODON_03306632,http://purl.obolibrary.org/obo/FOODON_03306632, , , 
+35_2, , , ,fish,"http://purl.obolibrary.org/obo/FOODON_03411222
+http://purl.obolibrary.org/obo/NCBITaxon_7777
+http://purl.obolibrary.org/obo/NCBITaxon_7898","http://purl.obolibrary.org/obo/FOODON_03411222
+http://purl.obolibrary.org/obo/NCBITaxon_7777
+http://purl.obolibrary.org/obo/NCBITaxon_7898", , , 
+36,"Definitely, the entities concerning food are:  mashed potatoes, potatoes, mashed potato, high-fat food, rapeseed oil, high-protein food, chicken breast, salad, fat","Indeed, the entities are connected as such:  potatoes - http://purl.obolibrary.org/obo/NCBITaxon_4113, mashed potato - http://purl.obolibrary.org/obo/FOODON_03302333;http://purl.obolibrary.org/obo/FOODON_03315354;http://purl.obolibrary.org/obo/NCBITaxon_4113;http://purl.obolibrary.org/obo/FOODON_03301449, fat - http://purl.obolibrary.org/obo/FOODON_00003265;http://purl.obolibrary.org/obo/UBERON_0001013;http://purl.obolibrary.org/obo/CHEBI_33290, rapeseed oil - http://purl.obolibrary.org/obo/FOODON_03310482;http://purl.obolibrary.org/obo/FOODON_00003407;http://purl.obolibrary.org/obo/FOODON_03310387, protein - http://purl.obolibrary.org/obo/CHEBI_36080;http://purl.obolibrary.org/obo/CHEBI_33290, chicken breast - http://purl.obolibrary.org/obo/FOODON_00002703;http://purl.obolibrary.org/obo/FOODON_03303012;http://purl.obolibrary.org/obo/NCBITaxon_9031;http://purl.obolibrary.org/obo/FOODON_03411457, salad - http://purl.obolibrary.org/obo/FOODON_03316042.","Indeed, the entities are connected thusly: potatoes - http://purl.obolibrary.org/obo/NCBITaxon_4113, rapeseed oil - http://purl.obolibrary.org/obo/FOODON_03302578;http://purl.obolibrary.org/obo/FOODON_03310387, chicken breast - http://purl.obolibrary.org/obo/FOODON_00002703;http://purl.obolibrary.org/obo/FOODON_03303012;http://purl.obolibrary.org/obo/NCBITaxon_9031;http://purl.obolibrary.org/obo/FOODON_03411457, salad - http://purl.obolibrary.org/obo/FOODON_03316042, mashed potato - http://purl.obolibrary.org/obo/FOODON_03302333;http://purl.obolibrary.org/obo/FOODON_03301449;http://purl.obolibrary.org/obo/NCBITaxon_4113;http://purl.obolibrary.org/obo/FOODON_03315354, potato - http://purl.obolibrary.org/obo/FOODON_03301449;http://purl.obolibrary.org/obo/NCBITaxon_4113;http://purl.obolibrary.org/obo/FOODON_03315354.", , , ,0.611,0.611,0.611
+36_0, , , ,potatoes,http://purl.obolibrary.org/obo/NCBITaxon_4113,http://purl.obolibrary.org/obo/NCBITaxon_4113, , , 
+36_1, , , ,mashed potato,"http://purl.obolibrary.org/obo/FOODON_03301449
+http://purl.obolibrary.org/obo/FOODON_03302333
+http://purl.obolibrary.org/obo/FOODON_03315354
+http://purl.obolibrary.org/obo/NCBITaxon_4113","http://purl.obolibrary.org/obo/FOODON_03301449
+http://purl.obolibrary.org/obo/FOODON_03302333
+http://purl.obolibrary.org/obo/FOODON_03315354
+http://purl.obolibrary.org/obo/NCBITaxon_4113", , , 
+36_2, , , ,fat,"http://purl.obolibrary.org/obo/CHEBI_33290
+http://purl.obolibrary.org/obo/FOODON_00003265
+http://purl.obolibrary.org/obo/UBERON_0001013",, , , 
+36_3, , , ,rapeseed oil,"http://purl.obolibrary.org/obo/FOODON_00003407
+http://purl.obolibrary.org/obo/FOODON_03310387
+http://purl.obolibrary.org/obo/FOODON_03310482","http://purl.obolibrary.org/obo/FOODON_03302578
+http://purl.obolibrary.org/obo/FOODON_03310387", , , 
+36_4, , , ,protein,"http://purl.obolibrary.org/obo/CHEBI_33290
+http://purl.obolibrary.org/obo/CHEBI_36080",, , , 
+36_5, , , ,chicken breast,"http://purl.obolibrary.org/obo/FOODON_00002703
+http://purl.obolibrary.org/obo/FOODON_03303012
+http://purl.obolibrary.org/obo/FOODON_03411457
+http://purl.obolibrary.org/obo/NCBITaxon_9031","http://purl.obolibrary.org/obo/FOODON_00002703
+http://purl.obolibrary.org/obo/FOODON_03303012
+http://purl.obolibrary.org/obo/FOODON_03411457
+http://purl.obolibrary.org/obo/NCBITaxon_9031", , , 
+36_6, , , ,salad,http://purl.obolibrary.org/obo/FOODON_03316042,http://purl.obolibrary.org/obo/FOODON_03316042, , , 
+37,"Absolutely, the entities that pertain to food are detailed below:  water, consumption, almond, nut, nuts, almonds","Certainly, the entities are connected:  water - http://purl.obolibrary.org/obo/CHEBI_15377;http://purl.obolibrary.org/obo/FOODON_00002340, almond - http://purl.obolibrary.org/obo/FOODON_00003523;http://purl.obolibrary.org/obo/FOODON_03301355;http://purl.obolibrary.org/obo/NCBITaxon_3755, nut - http://purl.obolibrary.org/obo/FOODON_03303171.","Indeed, the entities are connected as such: nut - http://purl.obolibrary.org/obo/FOODON_03303171, nuts - http://purl.obolibrary.org/obo/FOODON_03306632.", , , ,0.167,0.167,0.167
+37_0, , , ,water,"http://purl.obolibrary.org/obo/CHEBI_15377
+http://purl.obolibrary.org/obo/FOODON_00002340",, , , 
+37_1, , , ,almond,"http://purl.obolibrary.org/obo/FOODON_00003523
+http://purl.obolibrary.org/obo/FOODON_03301355
+http://purl.obolibrary.org/obo/NCBITaxon_3755",, , , 
+37_2, , , ,nut,http://purl.obolibrary.org/obo/FOODON_03303171,http://purl.obolibrary.org/obo/FOODON_03303171, , , 
+38,"Of course, the entities associated with food are listed below:  rice, yukihikari, white rice powder, common rice, brewery rice, waxy rice","Definitely, the entities are interrelated as:  rice - http://purl.obolibrary.org/obo/NCBITaxon_4530;http://purl.obolibrary.org/obo/FOODON_03301641, white rice - http://purl.obolibrary.org/obo/FOODON_00003787;http://purl.obolibrary.org/obo/HANCESTRO_0005;http://purl.obolibrary.org/obo/PATO_0000323;http://purl.obolibrary.org/obo/FOODON_03309871;http://purl.obolibrary.org/obo/NCBITaxon_4530;http://purl.obolibrary.org/obo/FOODON_03301641;http://purl.obolibrary.org/obo/FOODON_00002976, brewery - http://purl.obolibrary.org/obo/ENVO_00003885;http://purl.obolibrary.org/obo/NCBITaxon_4530;http://purl.obolibrary.org/obo/FOODON_03301641.","Certainly, the entities are associated in this manner: rice - http://purl.obolibrary.org/obo/NCBITaxon_4530;http://purl.obolibrary.org/obo/FOODON_03301641, white - http://purl.obolibrary.org/obo/HANCESTRO_0005;http://purl.obolibrary.org/obo/PATO_0000323.", , , ,0.500,0.167,0.250
+38_0, , , ,rice,"http://purl.obolibrary.org/obo/FOODON_03301641
+http://purl.obolibrary.org/obo/NCBITaxon_4530","http://purl.obolibrary.org/obo/FOODON_03301641
+http://purl.obolibrary.org/obo/NCBITaxon_4530", , , 
+38_1, , , ,white rice,"http://purl.obolibrary.org/obo/FOODON_00002976
+http://purl.obolibrary.org/obo/FOODON_00003787
+http://purl.obolibrary.org/obo/FOODON_03301641
+http://purl.obolibrary.org/obo/FOODON_03309871
+http://purl.obolibrary.org/obo/HANCESTRO_0005
+http://purl.obolibrary.org/obo/NCBITaxon_4530
+http://purl.obolibrary.org/obo/PATO_0000323",, , , 
+38_2, , , ,brewery,"http://purl.obolibrary.org/obo/ENVO_00003885
+http://purl.obolibrary.org/obo/FOODON_03301641
+http://purl.obolibrary.org/obo/NCBITaxon_4530",, , , 
+39,"Certainly, the entities connected to food are outlined below:  rice, fish, egg white, soya beancurd, chicken","Absolutely, the entities are related in this way:  rice - http://purl.obolibrary.org/obo/NCBITaxon_4530;http://purl.obolibrary.org/obo/FOODON_03301641, fish - http://purl.obolibrary.org/obo/NCBITaxon_7898;http://purl.obolibrary.org/obo/FOODON_03411222;http://purl.obolibrary.org/obo/NCBITaxon_7777, egg white - http://purl.obolibrary.org/obo/FOODON_03304840;http://purl.obolibrary.org/obo/UBERON_0008944;http://purl.obolibrary.org/obo/HANCESTRO_0005;http://purl.obolibrary.org/obo/PATO_0000323, chicken - http://purl.obolibrary.org/obo/NCBITaxon_9031;http://purl.obolibrary.org/obo/FOODON_03411457.","Absolutely, the entities are related accordingly: rice - http://purl.obolibrary.org/obo/NCBITaxon_4530;http://purl.obolibrary.org/obo/FOODON_03301641, fish - http://purl.obolibrary.org/obo/NCBITaxon_7898;http://purl.obolibrary.org/obo/FOODON_03411222;http://purl.obolibrary.org/obo/NCBITaxon_7777, egg white - http://purl.obolibrary.org/obo/FOODON_03304840;http://purl.obolibrary.org/obo/UBERON_0008944;http://purl.obolibrary.org/obo/HANCESTRO_0005;http://purl.obolibrary.org/obo/PATO_0000323, chicken - http://purl.obolibrary.org/obo/NCBITaxon_9031;http://purl.obolibrary.org/obo/FOODON_03411457.", , , ,1.000,1.000,1.000
+39_0, , , ,rice,"http://purl.obolibrary.org/obo/FOODON_03301641
+http://purl.obolibrary.org/obo/NCBITaxon_4530","http://purl.obolibrary.org/obo/FOODON_03301641
+http://purl.obolibrary.org/obo/NCBITaxon_4530", , , 
+39_1, , , ,fish,"http://purl.obolibrary.org/obo/FOODON_03411222
+http://purl.obolibrary.org/obo/NCBITaxon_7777
+http://purl.obolibrary.org/obo/NCBITaxon_7898","http://purl.obolibrary.org/obo/FOODON_03411222
+http://purl.obolibrary.org/obo/NCBITaxon_7777
+http://purl.obolibrary.org/obo/NCBITaxon_7898", , , 
+39_2, , , ,egg white,"http://purl.obolibrary.org/obo/FOODON_03304840
+http://purl.obolibrary.org/obo/HANCESTRO_0005
+http://purl.obolibrary.org/obo/PATO_0000323
+http://purl.obolibrary.org/obo/UBERON_0008944","http://purl.obolibrary.org/obo/FOODON_03304840
+http://purl.obolibrary.org/obo/HANCESTRO_0005
+http://purl.obolibrary.org/obo/PATO_0000323
+http://purl.obolibrary.org/obo/UBERON_0008944", , , 
+39_3, , , ,chicken,"http://purl.obolibrary.org/obo/FOODON_03411457
+http://purl.obolibrary.org/obo/NCBITaxon_9031","http://purl.obolibrary.org/obo/FOODON_03411457
+http://purl.obolibrary.org/obo/NCBITaxon_9031", , , 
+40,"Of course, the entities regarding food are detailed below:  wine, liquor, beer, alcohol, intake, red wine, white wine","Of course, the entities are tied in this way:  alcohol - http://purl.obolibrary.org/obo/CHEBI_30879, red wine - http://purl.obolibrary.org/obo/FOODON_03310272;http://purl.obolibrary.org/obo/PATO_0000322;http://purl.obolibrary.org/obo/NCBITaxon_8023.","Certainly, the entities are associated accordingly: alcohol - http://purl.obolibrary.org/obo/CHEBI_30879, wine - http://purl.obolibrary.org/obo/FOODON_03301705, red wine - http://purl.obolibrary.org/obo/FOODON_03310272;http://purl.obolibrary.org/obo/NCBITaxon_8023;http://purl.obolibrary.org/obo/PATO_0000322;http://purl.obolibrary.org/obo/FOODON_03301705, white wine - http://purl.obolibrary.org/obo/FOODON_03310273;http://purl.obolibrary.org/obo/HANCESTRO_0005;http://purl.obolibrary.org/obo/PATO_0000323;http://purl.obolibrary.org/obo/FOODON_03301228;http://purl.obolibrary.org/obo/FOODON_03301705.", , , ,1.000,1.000,1.000
+40_0, , , ,alcohol,http://purl.obolibrary.org/obo/CHEBI_30879,http://purl.obolibrary.org/obo/CHEBI_30879, , , 
+40_1, , , ,red wine,"http://purl.obolibrary.org/obo/FOODON_03310272
+http://purl.obolibrary.org/obo/NCBITaxon_8023
+http://purl.obolibrary.org/obo/PATO_0000322","http://purl.obolibrary.org/obo/FOODON_03301705
+http://purl.obolibrary.org/obo/FOODON_03310272
+http://purl.obolibrary.org/obo/NCBITaxon_8023
+http://purl.obolibrary.org/obo/PATO_0000322", , , 
+41,"Certainly, the entities connected with food are outlined as follows:  milk","Indeed, the entities are linked in the following manner:  milk - http://purl.obolibrary.org/obo/UBERON_0001913.","Indeed, the entities are connected in the following way: milk - http://purl.obolibrary.org/obo/UBERON_0001913.", , , ,1.000,1.000,1.000
+41_0, , , ,milk,http://purl.obolibrary.org/obo/UBERON_0001913,http://purl.obolibrary.org/obo/UBERON_0001913, , , 
+42,"Indeed, the entities concerning food are delineated below:  alcohol, beverages, beverage, intake, alcoholic beverages, beer, wine, liquor, coffee and cola, tea, coffee","Of course, the entities are bonded suitably:  alcohol - http://purl.obolibrary.org/obo/CHEBI_30879, beverage - http://purl.obolibrary.org/obo/FOODON_00003202, coffee - http://purl.obolibrary.org/obo/FOODON_03301036;http://purl.obolibrary.org/obo/NCBITaxon_13443, tea - http://purl.obolibrary.org/obo/FOODON_03315081.","Of course, the entities are bonded appropriately: alcohol - http://purl.obolibrary.org/obo/CHEBI_30879, beer - http://purl.obolibrary.org/obo/FOODON_03301045, wine - http://purl.obolibrary.org/obo/FOODON_03301123, liquor - http://purl.obolibrary.org/obo/FOODON_03301008, coffee - http://purl.obolibrary.org/obo/FOODON_03301036;http://purl.obolibrary.org/obo/NCBITaxon_13443.", , , ,0.600,0.600,0.600
+42_0, , , ,alcohol,http://purl.obolibrary.org/obo/CHEBI_30879,http://purl.obolibrary.org/obo/CHEBI_30879, , , 
+42_1, , , ,beverage,http://purl.obolibrary.org/obo/FOODON_00003202,, , , 
+42_2, , , ,coffee,"http://purl.obolibrary.org/obo/FOODON_03301036
+http://purl.obolibrary.org/obo/NCBITaxon_13443","http://purl.obolibrary.org/obo/FOODON_03301036
+http://purl.obolibrary.org/obo/NCBITaxon_13443", , , 
+42_3, , , ,tea,http://purl.obolibrary.org/obo/FOODON_03315081,, , , 
+43,"Sure thing, here are the entities connected to food:  alcohol, consumption, red wine, use, white wine, liquor, beer, alcoholic beverages","Certainly, the entities are correlated as:  alcohol - http://purl.obolibrary.org/obo/CHEBI_30879, red wine - http://purl.obolibrary.org/obo/FOODON_03310272;http://purl.obolibrary.org/obo/PATO_0000322;http://purl.obolibrary.org/obo/NCBITaxon_8023, white wine - http://purl.obolibrary.org/obo/FOODON_03310273;http://purl.obolibrary.org/obo/HANCESTRO_0005;http://purl.obolibrary.org/obo/PATO_0000323.","Certainly, the entities are associated accordingly: alcohol - http://purl.obolibrary.org/obo/CHEBI_30879, white wine - http://purl.obolibrary.org/obo/FOODON_03310273;http://purl.obolibrary.org/obo/HANCESTRO_0005;http://purl.obolibrary.org/obo/PATO_0000323, liquor - http://purl.obolibrary.org/obo/FOODON_03301008.", , , ,0.571,0.571,0.571
+43_0, , , ,alcohol,http://purl.obolibrary.org/obo/CHEBI_30879,http://purl.obolibrary.org/obo/CHEBI_30879, , , 
+43_1, , , ,red wine,"http://purl.obolibrary.org/obo/FOODON_03310272
+http://purl.obolibrary.org/obo/NCBITaxon_8023
+http://purl.obolibrary.org/obo/PATO_0000322",, , , 
+43_2, , , ,white wine,"http://purl.obolibrary.org/obo/FOODON_03310273
+http://purl.obolibrary.org/obo/HANCESTRO_0005
+http://purl.obolibrary.org/obo/PATO_0000323","http://purl.obolibrary.org/obo/FOODON_03310273
+http://purl.obolibrary.org/obo/HANCESTRO_0005
+http://purl.obolibrary.org/obo/PATO_0000323", , , 
+44,"Definitely, the entities relevant to food are detailed below:  canned vegetable, tomato, consumption, tomatoes, tomato products","Indeed, the entities are connected suitably:  vegetable - http://purl.obolibrary.org/obo/FOODON_00003816, tomato - http://purl.obolibrary.org/obo/FOODON_03301453;http://purl.obolibrary.org/obo/FOODON_03309927;http://purl.obolibrary.org/obo/NCBITaxon_4081.","Certainly, the entities are associated correspondingly: tomato - http://purl.obolibrary.org/obo/FOODON_03309927;http://purl.obolibrary.org/obo/FOODON_03301453;http://purl.obolibrary.org/obo/NCBITaxon_4081.", , , ,0.750,0.750,0.750
+44_0, , , ,vegetable,http://purl.obolibrary.org/obo/FOODON_00003816,, , , 
+44_1, , , ,tomato,"http://purl.obolibrary.org/obo/FOODON_03301453
+http://purl.obolibrary.org/obo/FOODON_03309927
+http://purl.obolibrary.org/obo/NCBITaxon_4081","http://purl.obolibrary.org/obo/FOODON_03301453
+http://purl.obolibrary.org/obo/FOODON_03309927
+http://purl.obolibrary.org/obo/NCBITaxon_4081", , , 
+45,"Definitely, the entities relevant to food are delineated below:  cereal grains, wheat, rice, maize, gluten-free foods, flour, corn, cassava, soybean, pseudocereals, amaranth, quinoa, buckwheat, gluten-free products, grains","Indeed, the entities are interwoven as:  wheat - http://purl.obolibrary.org/obo/NCBITaxon_4565;http://purl.obolibrary.org/obo/FOODON_03315184, rice - http://purl.obolibrary.org/obo/NCBITaxon_4530;http://purl.obolibrary.org/obo/FOODON_03301641, maize - http://purl.obolibrary.org/obo/NCBITaxon_4577;http://purl.obolibrary.org/obo/NCBITaxon_381124, gluten - http://purl.obolibrary.org/obo/FOODON_03420177, flour - http://purl.obolibrary.org/obo/FOODON_03301116, corn - http://purl.obolibrary.org/obo/NCBITaxon_381124, cassava - http://purl.obolibrary.org/obo/FOODON_00003409;http://purl.obolibrary.org/obo/NCBITaxon_3983;http://purl.obolibrary.org/obo/FOODON_03302304, amaranth - http://purl.obolibrary.org/obo/CHEBI_34533;http://purl.obolibrary.org/obo/NCBITaxon_3567, quinoa - http://purl.obolibrary.org/obo/NCBITaxon_63459;http://purl.obolibrary.org/obo/FOODON_03310193.","Certainly, the entities are associated correspondingly: wheat - http://purl.obolibrary.org/obo/NCBITaxon_4565;http://purl.obolibrary.org/obo/FOODON_03315184, rice - http://purl.obolibrary.org/obo/NCBITaxon_4530;http://purl.obolibrary.org/obo/FOODON_03301641, maize - http://purl.obolibrary.org/obo/NCBITaxon_4577;http://purl.obolibrary.org/obo/NCBITaxon_381124, gluten-free - http://purl.obolibrary.org/obo/FOODON_00003816;http://purl.obolibrary.org/obo/FOODON_03301116, cassava - http://purl.obolibrary.org/obo/NCBITaxon_3983, soybean - http://purl.obolibrary.org/obo/NCBITaxon_3847;http://purl.obolibrary.org/obo/FOODON_00003420;http://purl.obolibrary.org/obo/FOODON_03301303, quinoa - http://purl.obolibrary.org/obo/FOODON_03310193;http://purl.obolibrary.org/obo/NCBITaxon_63459, buckwheat - http://purl.obolibrary.org/obo/NCBITaxon_4565;http://purl.obolibrary.org/obo/FOODON_03301116, lactic acid - http://purl.obolibrary.org/obo/CHEBI_26032;http://purl.obolibrary.org/obo/NCBITaxon_6004;http://purl.obolibrary.org/obo/FOODON_03411345;http://purl.obolibrary.org/obo/FOODON_00003265;http://purl.obolibrary.org/obo/FOODON_03420108.", , , ,0.625,0.562,0.583
+45_0, , , ,wheat,"http://purl.obolibrary.org/obo/FOODON_03315184
+http://purl.obolibrary.org/obo/NCBITaxon_4565","http://purl.obolibrary.org/obo/FOODON_03315184
+http://purl.obolibrary.org/obo/NCBITaxon_4565", , , 
+45_1, , , ,rice,"http://purl.obolibrary.org/obo/FOODON_03301641
+http://purl.obolibrary.org/obo/NCBITaxon_4530","http://purl.obolibrary.org/obo/FOODON_03301641
+http://purl.obolibrary.org/obo/NCBITaxon_4530", , , 
+45_2, , , ,maize,"http://purl.obolibrary.org/obo/NCBITaxon_381124
+http://purl.obolibrary.org/obo/NCBITaxon_4577","http://purl.obolibrary.org/obo/NCBITaxon_381124
+http://purl.obolibrary.org/obo/NCBITaxon_4577", , , 
+45_3, , , ,gluten,http://purl.obolibrary.org/obo/FOODON_03420177,, , , 
+45_4, , , ,flour,http://purl.obolibrary.org/obo/FOODON_03301116,, , , 
+45_5, , , ,corn,http://purl.obolibrary.org/obo/NCBITaxon_381124,, , , 
+45_6, , , ,cassava,"http://purl.obolibrary.org/obo/FOODON_00003409
+http://purl.obolibrary.org/obo/FOODON_03302304
+http://purl.obolibrary.org/obo/NCBITaxon_3983",http://purl.obolibrary.org/obo/NCBITaxon_3983, , , 
+45_7, , , ,amaranth,"http://purl.obolibrary.org/obo/CHEBI_34533
+http://purl.obolibrary.org/obo/NCBITaxon_3567",, , , 
+45_8, , , ,quinoa,"http://purl.obolibrary.org/obo/FOODON_03310193
+http://purl.obolibrary.org/obo/NCBITaxon_63459","http://purl.obolibrary.org/obo/FOODON_03310193
+http://purl.obolibrary.org/obo/NCBITaxon_63459", , , 
+46,"Indeed, the entities concerning food are detailed below:  discretionary foods, drinks, sugar-sweetened beverages, confectionery, sweet biscuits, discretionary food, fruit, popcorn, ssbs, coffee, tea, milk, consumption","Of course, the entities are bonded appropriately:  sugar - http://purl.obolibrary.org/obo/FOODON_03420108, food - http://purl.obolibrary.org/obo/CHEBI_33290, fruit - http://purl.obolibrary.org/obo/PO_0009001, coffee - http://purl.obolibrary.org/obo/FOODON_03301036;http://purl.obolibrary.org/obo/NCBITaxon_13443, tea - http://purl.obolibrary.org/obo/FOODON_03315081, milk - http://purl.obolibrary.org/obo/UBERON_0001913.","Absolutely, the entities are related in this way: sugar - http://purl.obolibrary.org/obo/FOODON_03420108, sweet - http://purl.obolibrary.org/obo/FOODON_03307543;http://purl.obolibrary.org/obo/FOODON_03310351, fruit - http://purl.obolibrary.org/obo/PO_0009001, coffee - http://purl.obolibrary.org/obo/FOODON_03301036;http://purl.obolibrary.org/obo/NCBITaxon_13443, tea - http://purl.obolibrary.org/obo/FOODON_03315081, milk - http://purl.obolibrary.org/obo/UBERON_0001913.", , , ,0.857,0.857,0.857
+46_0, , , ,sugar,http://purl.obolibrary.org/obo/FOODON_03420108,http://purl.obolibrary.org/obo/FOODON_03420108, , , 
+46_1, , , ,food,http://purl.obolibrary.org/obo/CHEBI_33290,, , , 
+46_2, , , ,fruit,http://purl.obolibrary.org/obo/PO_0009001,http://purl.obolibrary.org/obo/PO_0009001, , , 
+46_3, , , ,coffee,"http://purl.obolibrary.org/obo/FOODON_03301036
+http://purl.obolibrary.org/obo/NCBITaxon_13443","http://purl.obolibrary.org/obo/FOODON_03301036
+http://purl.obolibrary.org/obo/NCBITaxon_13443", , , 
+46_4, , , ,tea,http://purl.obolibrary.org/obo/FOODON_03315081,http://purl.obolibrary.org/obo/FOODON_03315081, , , 
+46_5, , , ,milk,http://purl.obolibrary.org/obo/UBERON_0001913,http://purl.obolibrary.org/obo/UBERON_0001913, , , 
+47,"Yes, the entities pertaining to food are outlined below:  beans, lentils, rice, spaghetti, potato, bread","Absolutely, the entities are related accordingly:  rice - http://purl.obolibrary.org/obo/NCBITaxon_4530;http://purl.obolibrary.org/obo/FOODON_03301641, spaghetti - http://purl.obolibrary.org/obo/FOODON_03301005.","Definitely, the entities are linked as such: meal - http://purl.obolibrary.org/obo/NCIT_C80248;http://purl.obolibrary.org/obo/FOODON_03316468;http://purl.obolibrary.org/obo/ONS_0000085, glucose - http://purl.obolibrary.org/obo/CHEBI_17716, rice - http://purl.obolibrary.org/obo/NCBITaxon_4530;http://purl.obolibrary.org/obo/FOODON_03301641, potato - http://purl.obolibrary.org/obo/FOODON_03301449;http://purl.obolibrary.org/obo/NCBITaxon_4113;http://purl.obolibrary.org/obo/FOODON_03315354.", , , ,0.667,0.667,0.667
+47_0, , , ,rice,"http://purl.obolibrary.org/obo/FOODON_03301641
+http://purl.obolibrary.org/obo/NCBITaxon_4530","http://purl.obolibrary.org/obo/FOODON_03301641
+http://purl.obolibrary.org/obo/NCBITaxon_4530", , , 
+47_1, , , ,spaghetti,http://purl.obolibrary.org/obo/FOODON_03301005,, , , 
+48,"Definitely, the entities relevant to food are detailed below:  stew, yam, cassava by-product, garri, fufu, lafun, vegetables, grains, sorghum, millet, palm oil based soup, tomatoes, okra, meat","Of course, the entities are bonded thusly:  stew - http://purl.obolibrary.org/obo/FOODON_00002276;http://purl.obolibrary.org/obo/FOODON_00003140, yam - http://purl.obolibrary.org/obo/FOODON_00003448;http://purl.obolibrary.org/obo/FOODON_03307043, cassava - http://purl.obolibrary.org/obo/FOODON_00003409;http://purl.obolibrary.org/obo/NCBITaxon_3983;http://purl.obolibrary.org/obo/FOODON_03302304, sorghum - http://purl.obolibrary.org/obo/FOODON_03309978;http://purl.obolibrary.org/obo/NCBITaxon_4557, millet - http://purl.obolibrary.org/obo/FOODON_03309702, palm oil - http://purl.obolibrary.org/obo/FOODON_03310232;http://purl.obolibrary.org/obo/FOODON_03310387.","Of course, the entities are bonded in this manner: yam - http://purl.obolibrary.org/obo/NCBITaxon_3983, cassava - http://purl.obolibrary.org/obo/NCBITaxon_3983;http://purl.obolibrary.org/obo/FOODON_03301008, fufu - http://purl.obolibrary.org/obo/FOODON_03303235, lafun - http://purl.obolibrary.org/obo/FOODON_03303308, palm oil - http://purl.obolibrary.org/obo/FOODON_03310046;http://purl.obolibrary.org/obo/FOODON_03303042;http://purl.obolibrary.org/obo/FOODON_00003449, tomatoes - http://purl.obolibrary.org/obo/NCBITaxon_4081, okra - http://purl.obolibrary.org/obo/FOODON_03301593;http://purl.obolibrary.org/obo/NCBITaxon_4081.", , , ,0.042,0.083,0.056
+48_0, , , ,stew,"http://purl.obolibrary.org/obo/FOODON_00002276
+http://purl.obolibrary.org/obo/FOODON_00003140",, , , 
+48_1, , , ,yam,"http://purl.obolibrary.org/obo/FOODON_00003448
+http://purl.obolibrary.org/obo/FOODON_03307043",http://purl.obolibrary.org/obo/NCBITaxon_3983, , , 
+48_2, , , ,cassava,"http://purl.obolibrary.org/obo/FOODON_00003409
+http://purl.obolibrary.org/obo/FOODON_03302304
+http://purl.obolibrary.org/obo/NCBITaxon_3983","http://purl.obolibrary.org/obo/FOODON_03301008
+http://purl.obolibrary.org/obo/NCBITaxon_3983", , , 
+48_3, , , ,sorghum,"http://purl.obolibrary.org/obo/FOODON_03309978
+http://purl.obolibrary.org/obo/NCBITaxon_4557",, , , 
+48_4, , , ,millet,http://purl.obolibrary.org/obo/FOODON_03309702,, , , 
+48_5, , , ,palm oil,"http://purl.obolibrary.org/obo/FOODON_03310232
+http://purl.obolibrary.org/obo/FOODON_03310387","http://purl.obolibrary.org/obo/FOODON_00003449
+http://purl.obolibrary.org/obo/FOODON_03303042
+http://purl.obolibrary.org/obo/FOODON_03310046", , , 
+49,"Certainly, the entities connected to food are delineated below:  peanuts, peanut, unrefined peanut oil, unrefined olive oil, oils, oil, olive oil, peanut oil, peanut butter, peanut flour, oil from peanuts","Definitely, the entities are linked accordingly:  peanut - http://purl.obolibrary.org/obo/FOODON_00003206;http://purl.obolibrary.org/obo/NCBITaxon_3818, peanut oil - http://purl.obolibrary.org/obo/FOODON_03309857;http://purl.obolibrary.org/obo/FOODON_00003206;http://purl.obolibrary.org/obo/NCBITaxon_3818;http://purl.obolibrary.org/obo/FOODON_03310387, olive oil - http://purl.obolibrary.org/obo/FOODON_03301826;http://purl.obolibrary.org/obo/FOODON_03315145;http://purl.obolibrary.org/obo/FOODON_03317509;http://purl.obolibrary.org/obo/FOODON_03310387, oil - http://purl.obolibrary.org/obo/FOODON_03310387, peanut butter - http://purl.obolibrary.org/obo/FOODON_03306867;http://purl.obolibrary.org/obo/FOODON_00003206;http://purl.obolibrary.org/obo/NCBITaxon_3818;http://purl.obolibrary.org/obo/FOODON_03310351.","Of course, the entities are bonded correspondingly: peanut - http://purl.obolibrary.org/obo/FOODON_00003206;http://purl.obolibrary.org/obo/NCBITaxon_3818, peanut oil - http://purl.obolibrary.org/obo/FOODON_03309857;http://purl.obolibrary.org/obo/FOODON_00003206;http://purl.obolibrary.org/obo/NCBITaxon_3818;http://purl.obolibrary.org/obo/FOODON_03310387, olive oil - http://purl.obolibrary.org/obo/FOODON_03301826;http://purl.obolibrary.org/obo/FOODON_03317509;http://purl.obolibrary.org/obo/FOODON_03315145;http://purl.obolibrary.org/obo/FOODON_03310387, butter - http://purl.obolibrary.org/obo/FOODON_03310351, flour - http://purl.obolibrary.org/obo/FOODON_03301116.", , , ,0.867,0.667,0.747
+49_0, , , ,peanut,"http://purl.obolibrary.org/obo/FOODON_00003206
+http://purl.obolibrary.org/obo/NCBITaxon_3818","http://purl.obolibrary.org/obo/FOODON_00003206
+http://purl.obolibrary.org/obo/NCBITaxon_3818", , , 
+49_1, , , ,peanut oil,"http://purl.obolibrary.org/obo/FOODON_00003206
+http://purl.obolibrary.org/obo/FOODON_03309857
+http://purl.obolibrary.org/obo/FOODON_03310387
+http://purl.obolibrary.org/obo/NCBITaxon_3818","http://purl.obolibrary.org/obo/FOODON_00003206
+http://purl.obolibrary.org/obo/FOODON_03309857
+http://purl.obolibrary.org/obo/FOODON_03310387
+http://purl.obolibrary.org/obo/NCBITaxon_3818", , , 
+49_2, , , ,olive oil,"http://purl.obolibrary.org/obo/FOODON_03301826
+http://purl.obolibrary.org/obo/FOODON_03310387
+http://purl.obolibrary.org/obo/FOODON_03315145
+http://purl.obolibrary.org/obo/FOODON_03317509","http://purl.obolibrary.org/obo/FOODON_03301826
+http://purl.obolibrary.org/obo/FOODON_03310387
+http://purl.obolibrary.org/obo/FOODON_03315145
+http://purl.obolibrary.org/obo/FOODON_03317509", , , 
+49_3, , , ,oil,http://purl.obolibrary.org/obo/FOODON_03310387,, , , 
+49_4, , , ,peanut butter,"http://purl.obolibrary.org/obo/FOODON_00003206
+http://purl.obolibrary.org/obo/FOODON_03306867
+http://purl.obolibrary.org/obo/FOODON_03310351
+http://purl.obolibrary.org/obo/NCBITaxon_3818",, , , 
+50,"Certainly, the entities connected to food are outlined below:  beans, lentils, tea, onions, apples, string beans, broccoli, green pepper, blueberries","Definitely, the entities are joined as:  tea - http://purl.obolibrary.org/obo/FOODON_03315081, broccoli - http://purl.obolibrary.org/obo/FOODON_03301713;http://purl.obolibrary.org/obo/FOODON_00003405;http://purl.obolibrary.org/obo/NCBITaxon_36774.","Indeed, the entities are connected thusly: tea - http://purl.obolibrary.org/obo/FOODON_03315081, onions - http://purl.obolibrary.org/obo/FOODON_03301704;http://purl.obolibrary.org/obo/NCBITaxon_4679, apples - http://purl.obolibrary.org/obo/NCBITaxon_3750;http://purl.obolibrary.org/obo/FOODON_00002473, string - http://purl.obolibrary.org/obo/FOODON_03301072, broccoli - http://purl.obolibrary.org/obo/FOODON_03301713;http://purl.obolibrary.org/obo/NCBITaxon_36774;http://purl.obolibrary.org/obo/FOODON_00003405, green - http://purl.obolibrary.org/obo/PATO_0000320, pepper - http://purl.obolibrary.org/obo/FOODON_00003520;http://purl.obolibrary.org/obo/FOODON_03309928;http://purl.obolibrary.org/obo/FOODON_00003013;http://purl.obolibrary.org/obo/FOODON_00001649, blueberries - http://purl.obolibrary.org/obo/FOODON_00003541;http://purl.obolibrary.org/obo/FOODON_03302045, beans - http://purl.obolibrary.org/obo/FOODON_00002753.", , , ,1.000,1.000,1.000
+50_0, , , ,tea,http://purl.obolibrary.org/obo/FOODON_03315081,http://purl.obolibrary.org/obo/FOODON_03315081, , , 
+50_1, , , ,broccoli,"http://purl.obolibrary.org/obo/FOODON_00003405
+http://purl.obolibrary.org/obo/FOODON_03301713
+http://purl.obolibrary.org/obo/NCBITaxon_36774","http://purl.obolibrary.org/obo/FOODON_00003405
+http://purl.obolibrary.org/obo/FOODON_03301713
+http://purl.obolibrary.org/obo/NCBITaxon_36774", , , 
+51,"Certainly, the entities connected to food are delineated below:  momordica balsamina l., wild vegetable, cabbage, lettuce, spinach, m. balsamina, exotic vegetables","Indeed, the entities are connected in this fashion:  momordica - http://purl.obolibrary.org/obo/NCBITaxon_3671, vegetable - http://purl.obolibrary.org/obo/FOODON_00003816, cabbage - http://purl.obolibrary.org/obo/FOODON_03301326;http://purl.obolibrary.org/obo/FOODON_00003406;http://purl.obolibrary.org/obo/NCBITaxon_3716, lettuce - http://purl.obolibrary.org/obo/FOODON_00003423;http://purl.obolibrary.org/obo/FOODON_00001998;http://purl.obolibrary.org/obo/FOODON_00003507, spinach - http://purl.obolibrary.org/obo/FOODON_00003496;http://purl.obolibrary.org/obo/NCBITaxon_3562;http://purl.obolibrary.org/obo/FOODON_03301716.","Certainly, the entities are associated in the following way: cabbage - http://purl.obolibrary.org/obo/FOODON_03301326;http://purl.obolibrary.org/obo/FOODON_00003406;http://purl.obolibrary.org/obo/NCBITaxon_3716, lettuce - http://purl.obolibrary.org/obo/FOODON_00003507;http://purl.obolibrary.org/obo/FOODON_00001998;http://purl.obolibrary.org/obo/FOODON_00003423, spinach - http://purl.obolibrary.org/obo/NCBITaxon_3562;http://purl.obolibrary.org/obo/FOODON_00003496;http://purl.obolibrary.org/obo/FOODON_03301716, cereal - http://purl.obolibrary.org/obo/FOODON_03303206.", , , ,0.818,0.818,0.818
+51_0, , , ,momordica,http://purl.obolibrary.org/obo/NCBITaxon_3671,, , , 
+51_1, , , ,vegetable,http://purl.obolibrary.org/obo/FOODON_00003816,, , , 
+51_2, , , ,cabbage,"http://purl.obolibrary.org/obo/FOODON_00003406
+http://purl.obolibrary.org/obo/FOODON_03301326
+http://purl.obolibrary.org/obo/NCBITaxon_3716","http://purl.obolibrary.org/obo/FOODON_00003406
+http://purl.obolibrary.org/obo/FOODON_03301326
+http://purl.obolibrary.org/obo/NCBITaxon_3716", , , 
+51_3, , , ,lettuce,"http://purl.obolibrary.org/obo/FOODON_00001998
+http://purl.obolibrary.org/obo/FOODON_00003423
+http://purl.obolibrary.org/obo/FOODON_00003507","http://purl.obolibrary.org/obo/FOODON_00001998
+http://purl.obolibrary.org/obo/FOODON_00003423
+http://purl.obolibrary.org/obo/FOODON_00003507", , , 
+51_4, , , ,spinach,"http://purl.obolibrary.org/obo/FOODON_00003496
+http://purl.obolibrary.org/obo/FOODON_03301716
+http://purl.obolibrary.org/obo/NCBITaxon_3562","http://purl.obolibrary.org/obo/FOODON_00003496
+http://purl.obolibrary.org/obo/FOODON_03301716
+http://purl.obolibrary.org/obo/NCBITaxon_3562", , , 
+52,"Of course, here are the entities related to food:  plant foods, fruit, vegetables, breads, cereals, potatoes, beans, nuts, seeds, olive oil, dairy products, cheese, yogurt, fish, poultry, eggs, red meat, wine","Definitely, the entities are linked thusly:  fruit - http://purl.obolibrary.org/obo/PO_0009001, potatoes - http://purl.obolibrary.org/obo/NCBITaxon_4113, nuts - http://purl.obolibrary.org/obo/FOODON_03306632, olive oil - http://purl.obolibrary.org/obo/FOODON_03301826;http://purl.obolibrary.org/obo/FOODON_03315145;http://purl.obolibrary.org/obo/FOODON_03317509;http://purl.obolibrary.org/obo/FOODON_03310387, dairy - http://purl.obolibrary.org/obo/ENVO_00003862, cheese - http://purl.obolibrary.org/obo/FOODON_00001013, fish - http://purl.obolibrary.org/obo/NCBITaxon_7898;http://purl.obolibrary.org/obo/FOODON_03411222;http://purl.obolibrary.org/obo/NCBITaxon_7777.","Certainly, the entities are associated in the following way: fruit - http://purl.obolibrary.org/obo/PO_0009001, breads - http://purl.obolibrary.org/obo/FOODON_03315146, potatoes - http://purl.obolibrary.org/obo/NCBITaxon_4113, nuts - http://purl.obolibrary.org/obo/FOODON_03306632, fresh fruit - http://purl.obolibrary.org/obo/FOODON_03315552;http://purl.obolibrary.org/obo/PO_0009001, olive oil - http://purl.obolibrary.org/obo/FOODON_03301826;http://purl.obolibrary.org/obo/FOODON_03317509;http://purl.obolibrary.org/obo/FOODON_03315145;http://purl.obolibrary.org/obo/FOODON_03310387, red - http://purl.obolibrary.org/obo/PATO_0000322;http://purl.obolibrary.org/obo/NCBITaxon_8023, wine - http://purl.obolibrary.org/obo/FOODON_03301705.", , , ,0.583,0.583,0.583
+52_0, , , ,fruit,http://purl.obolibrary.org/obo/PO_0009001,http://purl.obolibrary.org/obo/PO_0009001, , , 
+52_1, , , ,potatoes,http://purl.obolibrary.org/obo/NCBITaxon_4113,http://purl.obolibrary.org/obo/NCBITaxon_4113, , , 
+52_2, , , ,nuts,http://purl.obolibrary.org/obo/FOODON_03306632,http://purl.obolibrary.org/obo/FOODON_03306632, , , 
+52_3, , , ,olive oil,"http://purl.obolibrary.org/obo/FOODON_03301826
+http://purl.obolibrary.org/obo/FOODON_03310387
+http://purl.obolibrary.org/obo/FOODON_03315145
+http://purl.obolibrary.org/obo/FOODON_03317509","http://purl.obolibrary.org/obo/FOODON_03301826
+http://purl.obolibrary.org/obo/FOODON_03310387
+http://purl.obolibrary.org/obo/FOODON_03315145
+http://purl.obolibrary.org/obo/FOODON_03317509", , , 
+52_4, , , ,dairy,http://purl.obolibrary.org/obo/ENVO_00003862,, , , 
+52_5, , , ,cheese,http://purl.obolibrary.org/obo/FOODON_00001013,, , , 
+52_6, , , ,fish,"http://purl.obolibrary.org/obo/FOODON_03411222
+http://purl.obolibrary.org/obo/NCBITaxon_7777
+http://purl.obolibrary.org/obo/NCBITaxon_7898",, , , 
+53,"Yes, the entities pertaining to food are outlined below:  milk","Definitely, the entities are linked correspondingly:  milk - http://purl.obolibrary.org/obo/UBERON_0001913.","Absolutely, the entities are related accordingly: milk - http://purl.obolibrary.org/obo/UBERON_0001913.", , , ,1.000,1.000,1.000
+53_0, , , ,milk,http://purl.obolibrary.org/obo/UBERON_0001913,http://purl.obolibrary.org/obo/UBERON_0001913, , , 
+54,"Sure thing, the entities regarding food are delineated below:  olive oil, meat, wine, intake, milk, cheese, fruits, vegetables, nuts, cereals, sourdough bread, pasta, olives, fish","Absolutely, the entities are associated as:  olive oil - http://purl.obolibrary.org/obo/FOODON_03301826;http://purl.obolibrary.org/obo/FOODON_03315145;http://purl.obolibrary.org/obo/FOODON_03317509;http://purl.obolibrary.org/obo/FOODON_03310387, milk - http://purl.obolibrary.org/obo/UBERON_0001913, cheese - http://purl.obolibrary.org/obo/FOODON_00001013, fruits - http://purl.obolibrary.org/obo/FOODON_03304644, nuts - http://purl.obolibrary.org/obo/FOODON_03306632, sourdough bread - http://purl.obolibrary.org/obo/FOODON_03302481;http://purl.obolibrary.org/obo/FOODON_03302481, pasta - http://purl.obolibrary.org/obo/FOODON_03306347, fish - http://purl.obolibrary.org/obo/NCBITaxon_7898;http://purl.obolibrary.org/obo/FOODON_03411222;http://purl.obolibrary.org/obo/NCBITaxon_7777.","Certainly, the entities are associated in this fashion: olive oil - http://purl.obolibrary.org/obo/FOODON_03301826;http://purl.obolibrary.org/obo/FOODON_03317509;http://purl.obolibrary.org/obo/FOODON_03315145;http://purl.obolibrary.org/obo/FOODON_03310387, milk - http://purl.obolibrary.org/obo/UBERON_0001913, cheese - http://purl.obolibrary.org/obo/FOODON_00001013, fish - http://purl.obolibrary.org/obo/NCBITaxon_7898;http://purl.obolibrary.org/obo/FOODON_03411222;http://purl.obolibrary.org/obo/NCBITaxon_7777, meat - http://purl.obolibrary.org/obo/FOODON_03411297.", , , ,0.692,0.692,0.692
+54_0, , , ,olive oil,"http://purl.obolibrary.org/obo/FOODON_03301826
+http://purl.obolibrary.org/obo/FOODON_03310387
+http://purl.obolibrary.org/obo/FOODON_03315145
+http://purl.obolibrary.org/obo/FOODON_03317509","http://purl.obolibrary.org/obo/FOODON_03301826
+http://purl.obolibrary.org/obo/FOODON_03310387
+http://purl.obolibrary.org/obo/FOODON_03315145
+http://purl.obolibrary.org/obo/FOODON_03317509", , , 
+54_1, , , ,milk,http://purl.obolibrary.org/obo/UBERON_0001913,http://purl.obolibrary.org/obo/UBERON_0001913, , , 
+54_2, , , ,cheese,http://purl.obolibrary.org/obo/FOODON_00001013,http://purl.obolibrary.org/obo/FOODON_00001013, , , 
+54_3, , , ,fruits,http://purl.obolibrary.org/obo/FOODON_03304644,, , , 
+54_4, , , ,nuts,http://purl.obolibrary.org/obo/FOODON_03306632,, , , 
+54_5, , , ,sourdough bread,"http://purl.obolibrary.org/obo/FOODON_03302481
+http://purl.obolibrary.org/obo/FOODON_03302481",, , , 
+54_6, , , ,pasta,http://purl.obolibrary.org/obo/FOODON_03306347,, , , 
+54_7, , , ,fish,"http://purl.obolibrary.org/obo/FOODON_03411222
+http://purl.obolibrary.org/obo/NCBITaxon_7777
+http://purl.obolibrary.org/obo/NCBITaxon_7898","http://purl.obolibrary.org/obo/FOODON_03411222
+http://purl.obolibrary.org/obo/NCBITaxon_7777
+http://purl.obolibrary.org/obo/NCBITaxon_7898", , , 
+55,"Of course, here are the entities related to food:  whole grains, fruits, vegetables, fruit, berries, citrus fruit, green leafy, light yogurt, skim milk, wine, extra virgin olive oil, fish, white meat, legumes, eggs, seasoned cheeses, red or processed meats, salt, sugar","Absolutely, the entities are related correspondingly:  fruits - http://purl.obolibrary.org/obo/FOODON_03304644, fruit - http://purl.obolibrary.org/obo/PO_0009001, citrus fruit - http://purl.obolibrary.org/obo/FOODON_03301337;http://purl.obolibrary.org/obo/FOODON_00003324;http://purl.obolibrary.org/obo/NCBITaxon_2706;http://purl.obolibrary.org/obo/FOODON_00001151;http://purl.obolibrary.org/obo/PO_0009001, green - http://purl.obolibrary.org/obo/PATO_0000320, milk - http://purl.obolibrary.org/obo/UBERON_0001913, extra virgin olive oil - http://purl.obolibrary.org/obo/FOODON_00002808;http://purl.obolibrary.org/obo/FOODON_03306633;http://purl.obolibrary.org/obo/FOODON_03301826;http://purl.obolibrary.org/obo/FOODON_03315145;http://purl.obolibrary.org/obo/FOODON_03317509;http://purl.obolibrary.org/obo/FOODON_03310387, fish - http://purl.obolibrary.org/obo/NCBITaxon_7898;http://purl.obolibrary.org/obo/FOODON_03411222;http://purl.obolibrary.org/obo/NCBITaxon_7777, white - http://purl.obolibrary.org/obo/HANCESTRO_0005;http://purl.obolibrary.org/obo/PATO_0000323, seasoned - http://purl.obolibrary.org/obo/FOODON_00002733, red - http://purl.obolibrary.org/obo/PATO_0000322;http://purl.obolibrary.org/obo/NCBITaxon_8023, salt - http://purl.obolibrary.org/obo/CHEBI_24866;http://purl.obolibrary.org/obo/CHEBI_26710.","Certainly, the entities are correlated in this way: gluten free - http://purl.obolibrary.org/obo/FOODON_00002713;http://purl.obolibrary.org/obo/FOODON_03301116, fruits - http://purl.obolibrary.org/obo/FOODON_03304644, fruit - http://purl.obolibrary.org/obo/PO_0009001, berries - http://purl.obolibrary.org/obo/FOODON_00003477;http://purl.obolibrary.org/obo/FOODON_03306893, citrus fruit - http://purl.obolibrary.org/obo/FOODON_03301337;http://purl.obolibrary.org/obo/FOODON_00003324;http://purl.obolibrary.org/obo/FOODON_00001151;http://purl.obolibrary.org/obo/FOODON_03315106;http://purl.obolibrary.org/obo/NCBITaxon_2706;http://purl.obolibrary.org/obo/FOODON_00001152;http://purl.obolibrary.org/obo/FOODON_03315148, green - http://purl.obolibrary.org/obo/PATO_0000320, light - http://purl.obolibrary.org/obo/PATO_0000320;http://purl.obolibrary.org/obo/FOODON_03460147;http://purl.obolibrary.org/obo/FOODON_00001013, skim milk - http://purl.obolibrary.org/obo/FOODON_03303004;http://purl.obolibrary.org/obo/UBERON_0001913, wine - http://purl.obolibrary.org/obo/FOODON_03301705, olive oil - http://purl.obolibrary.org/obo/FOODON_03301826;http://purl.obolibrary.org/obo/FOODON_03317509;http://purl.obolibrary.org/obo/FOODON_03315145;http://purl.obolibrary.org/obo/FOODON_03310387, fish - http://purl.obolibrary.org/obo/NCBITaxon_7898;http://purl.obolibrary.org/obo/FOODON_03411222;http://purl.obolibrary.org/obo/NCBITaxon_7777, white meat - http://purl.obolibrary.org/obo/FOODON_00002703;http://purl.obolibrary.org/obo/PATO_0000322, legumes - http://purl.obolibrary.org/obo/FOODON_00001264, eggs - http://purl.obolibrary.org/obo/FOODON_03315772, seasoned - http://purl.obolibrary.org/obo/FOODON_00002733, red - http://purl.obolibrary.org/obo/NCBITaxon_8023;http://purl.obolibrary.org/obo/PATO_0000322;http://purl.obolibrary.org/obo/FOODON_03301704;http://purl.obolibrary.org/obo/NCBITaxon_8023;http://purl.obolibrary.org/obo/CHEBI_60004;http://purl.obolibrary.org/obo/NCIT_C45305.", , , ,0.560,0.520,0.533
+55_0, , , ,fruits,http://purl.obolibrary.org/obo/FOODON_03304644,http://purl.obolibrary.org/obo/FOODON_03304644, , , 
+55_1, , , ,fruit,http://purl.obolibrary.org/obo/PO_0009001,http://purl.obolibrary.org/obo/PO_0009001, , , 
+55_2, , , ,citrus fruit,"http://purl.obolibrary.org/obo/FOODON_00001151
+http://purl.obolibrary.org/obo/FOODON_00003324
+http://purl.obolibrary.org/obo/FOODON_03301337
+http://purl.obolibrary.org/obo/NCBITaxon_2706
+http://purl.obolibrary.org/obo/PO_0009001","http://purl.obolibrary.org/obo/FOODON_00001151
+http://purl.obolibrary.org/obo/FOODON_00001152
+http://purl.obolibrary.org/obo/FOODON_00003324
+http://purl.obolibrary.org/obo/FOODON_03301337
+http://purl.obolibrary.org/obo/FOODON_03315106
+http://purl.obolibrary.org/obo/FOODON_03315148
+http://purl.obolibrary.org/obo/NCBITaxon_2706", , , 
+55_3, , , ,green,http://purl.obolibrary.org/obo/PATO_0000320,http://purl.obolibrary.org/obo/PATO_0000320, , , 
+55_4, , , ,milk,http://purl.obolibrary.org/obo/UBERON_0001913,, , , 
+55_5, , , ,extra virgin olive oil,"http://purl.obolibrary.org/obo/FOODON_00002808
+http://purl.obolibrary.org/obo/FOODON_03301826
+http://purl.obolibrary.org/obo/FOODON_03306633
+http://purl.obolibrary.org/obo/FOODON_03310387
+http://purl.obolibrary.org/obo/FOODON_03315145
+http://purl.obolibrary.org/obo/FOODON_03317509",, , , 
+55_6, , , ,fish,"http://purl.obolibrary.org/obo/FOODON_03411222
+http://purl.obolibrary.org/obo/NCBITaxon_7777
+http://purl.obolibrary.org/obo/NCBITaxon_7898","http://purl.obolibrary.org/obo/FOODON_03411222
+http://purl.obolibrary.org/obo/NCBITaxon_7777
+http://purl.obolibrary.org/obo/NCBITaxon_7898", , , 
+55_7, , , ,white,"http://purl.obolibrary.org/obo/HANCESTRO_0005
+http://purl.obolibrary.org/obo/PATO_0000323",, , , 
+55_8, , , ,seasoned,http://purl.obolibrary.org/obo/FOODON_00002733,http://purl.obolibrary.org/obo/FOODON_00002733, , , 
+55_9, , , ,red,"http://purl.obolibrary.org/obo/NCBITaxon_8023
+http://purl.obolibrary.org/obo/PATO_0000322","http://purl.obolibrary.org/obo/CHEBI_60004
+http://purl.obolibrary.org/obo/FOODON_03301704
+http://purl.obolibrary.org/obo/NCBITaxon_8023
+http://purl.obolibrary.org/obo/NCBITaxon_8023
+http://purl.obolibrary.org/obo/NCIT_C45305
+http://purl.obolibrary.org/obo/PATO_0000322", , , 
+55_10, , , ,salt,"http://purl.obolibrary.org/obo/CHEBI_24866
+http://purl.obolibrary.org/obo/CHEBI_26710",, , , 
+56,"Absolutely, the entities associated with food are delineated below:  salt, green beans, pasta, butter, snacks, fruit pur<U+00E9>e, added sugar, added fat, fat, sugar, vegetables","Indeed, the entities are attached as:  salt - http://purl.obolibrary.org/obo/CHEBI_24866;http://purl.obolibrary.org/obo/CHEBI_26710, green - http://purl.obolibrary.org/obo/PATO_0000320, pasta - http://purl.obolibrary.org/obo/FOODON_03306347, butter - http://purl.obolibrary.org/obo/FOODON_03310351, fruit - http://purl.obolibrary.org/obo/PO_0009001, sugar - http://purl.obolibrary.org/obo/FOODON_03420108, fat - http://purl.obolibrary.org/obo/FOODON_00003265;http://purl.obolibrary.org/obo/UBERON_0001013.","Absolutely, the entities are related as such: food - http://purl.obolibrary.org/obo/CHEBI_33290, fat - http://purl.obolibrary.org/obo/FOODON_00003265;http://purl.obolibrary.org/obo/UBERON_0001013, sugar - http://purl.obolibrary.org/obo/FOODON_03420108, green - http://purl.obolibrary.org/obo/PATO_0000320;http://purl.obolibrary.org/obo/FOODON_00003520;http://purl.obolibrary.org/obo/FOODON_03309928;http://purl.obolibrary.org/obo/FOODON_00003013;http://purl.obolibrary.org/obo/FOODON_00001649, pasta - http://purl.obolibrary.org/obo/FOODON_03306347, butter - http://purl.obolibrary.org/obo/FOODON_03310351, fruit - http://purl.obolibrary.org/obo/PO_0009001;http://purl.obolibrary.org/obo/FOODON_00003816, sugar level - http://purl.obolibrary.org/obo/FOODON_03311146;http://purl.obolibrary.org/obo/FOODON_03420108, vegetables - http://purl.obolibrary.org/obo/FOODON_00003816;http://purl.obolibrary.org/obo/CHEBI_60004;http://purl.obolibrary.org/obo/NCIT_C45305.", , , ,0.778,0.778,0.778
+56_0, , , ,salt,"http://purl.obolibrary.org/obo/CHEBI_24866
+http://purl.obolibrary.org/obo/CHEBI_26710",, , , 
+56_1, , , ,green,http://purl.obolibrary.org/obo/PATO_0000320,"http://purl.obolibrary.org/obo/FOODON_00001649
+http://purl.obolibrary.org/obo/FOODON_00003013
+http://purl.obolibrary.org/obo/FOODON_00003520
+http://purl.obolibrary.org/obo/FOODON_03309928
+http://purl.obolibrary.org/obo/PATO_0000320", , , 
+56_2, , , ,pasta,http://purl.obolibrary.org/obo/FOODON_03306347,http://purl.obolibrary.org/obo/FOODON_03306347, , , 
+56_3, , , ,butter,http://purl.obolibrary.org/obo/FOODON_03310351,http://purl.obolibrary.org/obo/FOODON_03310351, , , 
+56_4, , , ,fruit,http://purl.obolibrary.org/obo/PO_0009001,"http://purl.obolibrary.org/obo/FOODON_00003816
+http://purl.obolibrary.org/obo/PO_0009001", , , 
+56_5, , , ,sugar,http://purl.obolibrary.org/obo/FOODON_03420108,http://purl.obolibrary.org/obo/FOODON_03420108, , , 
+56_6, , , ,fat,"http://purl.obolibrary.org/obo/FOODON_00003265
+http://purl.obolibrary.org/obo/UBERON_0001013","http://purl.obolibrary.org/obo/FOODON_00003265
+http://purl.obolibrary.org/obo/UBERON_0001013", , , 
+57,"Yes, the entities related to food are outlined below:  milk, egg, egg white, egg yolk","Indeed, the entities are connected in this manner:  milk - http://purl.obolibrary.org/obo/UBERON_0001913, egg white - http://purl.obolibrary.org/obo/FOODON_03304840;http://purl.obolibrary.org/obo/UBERON_0008944;http://purl.obolibrary.org/obo/HANCESTRO_0005;http://purl.obolibrary.org/obo/PATO_0000323, egg yolk - http://purl.obolibrary.org/obo/UBERON_0007378;http://purl.obolibrary.org/obo/FOODON_03315772.","Absolutely, the entities are related in this fashion: milk - http://purl.obolibrary.org/obo/UBERON_0001913, whole - http://purl.obolibrary.org/obo/PATO_0000386, fresh - http://purl.obolibrary.org/obo/FOODON_00002714;http://purl.obolibrary.org/obo/FOODON_03311552, egg yolk - http://purl.obolibrary.org/obo/UBERON_0007378;http://purl.obolibrary.org/obo/FOODON_03315772.", , , ,0.429,0.429,0.429
+57_0, , , ,milk,http://purl.obolibrary.org/obo/UBERON_0001913,http://purl.obolibrary.org/obo/UBERON_0001913, , , 
+57_1, , , ,egg white,"http://purl.obolibrary.org/obo/FOODON_03304840
+http://purl.obolibrary.org/obo/HANCESTRO_0005
+http://purl.obolibrary.org/obo/PATO_0000323
+http://purl.obolibrary.org/obo/UBERON_0008944",, , , 
+57_2, , , ,egg yolk,"http://purl.obolibrary.org/obo/FOODON_03315772
+http://purl.obolibrary.org/obo/UBERON_0007378","http://purl.obolibrary.org/obo/FOODON_03315772
+http://purl.obolibrary.org/obo/UBERON_0007378", , , 
+58,"Definitely, the entities concerning food are detailed below:  meat, fowl, seafood, fruits, vegetables, whole grains, nuts, soy products","Indeed, the entities are united in this way:  fruits - http://purl.obolibrary.org/obo/FOODON_03304644.","Indeed, the entities are connected in this manner: meat - http://purl.obolibrary.org/obo/FOODON_03460190, fowl - http://purl.obolibrary.org/obo/NCBITaxon_9031;http://purl.obolibrary.org/obo/FOODON_03411457, seafood - http://purl.obolibrary.org/obo/FOODON_03411222;http://purl.obolibrary.org/obo/NCBITaxon_7898;http://purl.obolibrary.org/obo/NCBITaxon_7777, fruits - http://purl.obolibrary.org/obo/FOODON_03304644, whole - http://purl.obolibrary.org/obo/PATO_0000386;http://purl.obolibrary.org/obo/FOODON_03430137;http://purl.obolibrary.org/obo/NCBITaxon_4081, nuts - http://purl.obolibrary.org/obo/FOODON_03306632, soy - http://purl.obolibrary.org/obo/FOODON_03310387;http://purl.obolibrary.org/obo/NCBITaxon_3847.", , , ,1.000,1.000,1.000
+58_0, , , ,fruits,http://purl.obolibrary.org/obo/FOODON_03304644,http://purl.obolibrary.org/obo/FOODON_03304644, , , 
+59,"Yes, the entities related to food are outlined below:  wine, white or red wine, red wine, white wine","Absolutely, the entities are related appropriately:  white - http://purl.obolibrary.org/obo/HANCESTRO_0005;http://purl.obolibrary.org/obo/PATO_0000323;http://purl.obolibrary.org/obo/FOODON_03310272;http://purl.obolibrary.org/obo/PATO_0000322;http://purl.obolibrary.org/obo/NCBITaxon_8023, red wine - http://purl.obolibrary.org/obo/FOODON_03310272;http://purl.obolibrary.org/obo/PATO_0000322;http://purl.obolibrary.org/obo/NCBITaxon_8023, white wine - http://purl.obolibrary.org/obo/FOODON_03310273;http://purl.obolibrary.org/obo/HANCESTRO_0005;http://purl.obolibrary.org/obo/PATO_0000323.","Absolutely, the entities are related accordingly: wine - http://purl.obolibrary.org/obo/FOODON_03301705, white wine - http://purl.obolibrary.org/obo/FOODON_03310273;http://purl.obolibrary.org/obo/HANCESTRO_0005;http://purl.obolibrary.org/obo/PATO_0000323, red wine - http://purl.obolibrary.org/obo/FOODON_03310272;http://purl.obolibrary.org/obo/NCBITaxon_8023;http://purl.obolibrary.org/obo/PATO_0000322.", , , ,1.000,0.545,0.697
+59_0, , , ,white,"http://purl.obolibrary.org/obo/FOODON_03310272
+http://purl.obolibrary.org/obo/HANCESTRO_0005
+http://purl.obolibrary.org/obo/NCBITaxon_8023
+http://purl.obolibrary.org/obo/PATO_0000322
+http://purl.obolibrary.org/obo/PATO_0000323",, , , 
+59_1, , , ,red wine,"http://purl.obolibrary.org/obo/FOODON_03310272
+http://purl.obolibrary.org/obo/NCBITaxon_8023
+http://purl.obolibrary.org/obo/PATO_0000322","http://purl.obolibrary.org/obo/FOODON_03310272
+http://purl.obolibrary.org/obo/NCBITaxon_8023
+http://purl.obolibrary.org/obo/PATO_0000322", , , 
+59_2, , , ,white wine,"http://purl.obolibrary.org/obo/FOODON_03310273
+http://purl.obolibrary.org/obo/HANCESTRO_0005
+http://purl.obolibrary.org/obo/PATO_0000323","http://purl.obolibrary.org/obo/FOODON_03310273
+http://purl.obolibrary.org/obo/HANCESTRO_0005
+http://purl.obolibrary.org/obo/PATO_0000323", , , 
+60,"Indeed, the entities concerning food are outlined below:  fish, consumption, milk, mineral water","Absolutely, the linking of the entities is:  fish - http://purl.obolibrary.org/obo/NCBITaxon_7898;http://purl.obolibrary.org/obo/FOODON_03411222;http://purl.obolibrary.org/obo/NCBITaxon_7777, milk - http://purl.obolibrary.org/obo/UBERON_0001913.","Absolutely, the entities are related as such: fish - http://purl.obolibrary.org/obo/NCBITaxon_7898;http://purl.obolibrary.org/obo/FOODON_03411222;http://purl.obolibrary.org/obo/NCBITaxon_7777, milk - http://purl.obolibrary.org/obo/UBERON_0001913.", , , ,1.000,1.000,1.000
+60_0, , , ,fish,"http://purl.obolibrary.org/obo/FOODON_03411222
+http://purl.obolibrary.org/obo/NCBITaxon_7777
+http://purl.obolibrary.org/obo/NCBITaxon_7898","http://purl.obolibrary.org/obo/FOODON_03411222
+http://purl.obolibrary.org/obo/NCBITaxon_7777
+http://purl.obolibrary.org/obo/NCBITaxon_7898", , , 
+60_1, , , ,milk,http://purl.obolibrary.org/obo/UBERON_0001913,http://purl.obolibrary.org/obo/UBERON_0001913, , , 
+61,"Definitely, the entities relevant to food are detailed below:  spice, ginger","Indeed, the entities are connected as such:  spice - http://purl.obolibrary.org/obo/FOODON_03303380, ginger - http://purl.obolibrary.org/obo/FOODON_00002718;http://purl.obolibrary.org/obo/FOODON_00003717;http://purl.obolibrary.org/obo/FOODON_00001901;http://purl.obolibrary.org/obo/NCBITaxon_94328.","Of course, the entities are bonded in this fashion: ginger - http://purl.obolibrary.org/obo/NCBITaxon_94328;http://purl.obolibrary.org/obo/FOODON_00001901;http://purl.obolibrary.org/obo/FOODON_00002718;http://purl.obolibrary.org/obo/FOODON_00003717, spice - http://purl.obolibrary.org/obo/FOODON_03303380.", , , ,1.000,1.000,1.000
+61_0, , , ,spice,http://purl.obolibrary.org/obo/FOODON_03303380,http://purl.obolibrary.org/obo/FOODON_03303380, , , 
+61_1, , , ,ginger,"http://purl.obolibrary.org/obo/FOODON_00001901
+http://purl.obolibrary.org/obo/FOODON_00002718
+http://purl.obolibrary.org/obo/FOODON_00003717
+http://purl.obolibrary.org/obo/NCBITaxon_94328","http://purl.obolibrary.org/obo/FOODON_00001901
+http://purl.obolibrary.org/obo/FOODON_00002718
+http://purl.obolibrary.org/obo/FOODON_00003717
+http://purl.obolibrary.org/obo/NCBITaxon_94328", , , 
+62,"Sure thing, the entities regarding food are outlined below:  cacao, chocolate, cacao beans, maize, tlacoxochitl, calliandra anomala, chocolate paste, cacao bark, oil, cacao butter","Certainly, the entities are bonded in this way:  cacao - http://purl.obolibrary.org/obo/NCBITaxon_3641, chocolate - http://purl.obolibrary.org/obo/FOODON_03307240;http://purl.obolibrary.org/obo/NCBITaxon_3641, maize - http://purl.obolibrary.org/obo/NCBITaxon_4577;http://purl.obolibrary.org/obo/NCBITaxon_381124, oil - http://purl.obolibrary.org/obo/FOODON_03310387.","Indeed, the entities are connected in this manner: chocolate - http://purl.obolibrary.org/obo/FOODON_03307240;http://purl.obolibrary.org/obo/NCBITaxon_3641, cacao - http://purl.obolibrary.org/obo/NCBITaxon_3641, maize - http://purl.obolibrary.org/obo/NCBITaxon_4577;http://purl.obolibrary.org/obo/NCBITaxon_381124, flowers - http://purl.obolibrary.org/obo/FOODON_03411328;http://purl.obolibrary.org/obo/NCBITaxon_4006, bark - http://purl.obolibrary.org/obo/PO_0009005.", , , ,0.833,0.833,0.833
+62_0, , , ,cacao,http://purl.obolibrary.org/obo/NCBITaxon_3641,http://purl.obolibrary.org/obo/NCBITaxon_3641, , , 
+62_1, , , ,chocolate,"http://purl.obolibrary.org/obo/FOODON_03307240
+http://purl.obolibrary.org/obo/NCBITaxon_3641","http://purl.obolibrary.org/obo/FOODON_03307240
+http://purl.obolibrary.org/obo/NCBITaxon_3641", , , 
+62_2, , , ,maize,"http://purl.obolibrary.org/obo/NCBITaxon_381124
+http://purl.obolibrary.org/obo/NCBITaxon_4577","http://purl.obolibrary.org/obo/NCBITaxon_381124
+http://purl.obolibrary.org/obo/NCBITaxon_4577", , , 
+62_3, , , ,oil,http://purl.obolibrary.org/obo/FOODON_03310387,, , , 
+63,"Definitely, the entities concerning food are outlined as follows:  camel milk, bovine milk","Certainly, the entities are associated suitably:  camel - http://purl.obolibrary.org/obo/NCBITaxon_9837;http://purl.obolibrary.org/obo/NCBITaxon_9838;http://purl.obolibrary.org/obo/FOODON_03412103;http://purl.obolibrary.org/obo/UBERON_0001913, bovine - http://purl.obolibrary.org/obo/FOODON_03414374;http://purl.obolibrary.org/obo/UBERON_0001913.","Definitely, the entities are linked accordingly: milk - http://purl.obolibrary.org/obo/UBERON_0001913.", , , ,0.000,0.000,0.000
+63_0, , , ,camel,"http://purl.obolibrary.org/obo/FOODON_03412103
+http://purl.obolibrary.org/obo/NCBITaxon_9837
+http://purl.obolibrary.org/obo/NCBITaxon_9838
+http://purl.obolibrary.org/obo/UBERON_0001913",, , , 
+63_1, , , ,bovine,"http://purl.obolibrary.org/obo/FOODON_03414374
+http://purl.obolibrary.org/obo/UBERON_0001913",, , , 
+64,"Indeed, the entities that relate to food are delineated below:  milk, soup, grain, meat, potato, baked dessert, oil, sugar","Absolutely, the entities have been linked as follows:  milk - http://purl.obolibrary.org/obo/UBERON_0001913, potato - http://purl.obolibrary.org/obo/FOODON_03315354;http://purl.obolibrary.org/obo/NCBITaxon_4113;http://purl.obolibrary.org/obo/FOODON_03301449, baked - http://purl.obolibrary.org/obo/FOODON_00002456;http://purl.obolibrary.org/obo/FOODON_03303220, oil - http://purl.obolibrary.org/obo/FOODON_03310387.","Definitely, the entities are linked accordingly: milk - http://purl.obolibrary.org/obo/UBERON_0001913, soup - http://purl.obolibrary.org/obo/FOODON_03311146, potato - http://purl.obolibrary.org/obo/FOODON_03301449;http://purl.obolibrary.org/obo/NCBITaxon_4113;http://purl.obolibrary.org/obo/FOODON_03315354, oil - http://purl.obolibrary.org/obo/FOODON_03310387, sugar - http://purl.obolibrary.org/obo/FOODON_03420108.", , , ,0.714,0.714,0.714
+64_0, , , ,milk,http://purl.obolibrary.org/obo/UBERON_0001913,http://purl.obolibrary.org/obo/UBERON_0001913, , , 
+64_1, , , ,potato,"http://purl.obolibrary.org/obo/FOODON_03301449
+http://purl.obolibrary.org/obo/FOODON_03315354
+http://purl.obolibrary.org/obo/NCBITaxon_4113","http://purl.obolibrary.org/obo/FOODON_03301449
+http://purl.obolibrary.org/obo/FOODON_03315354
+http://purl.obolibrary.org/obo/NCBITaxon_4113", , , 
+64_2, , , ,baked,"http://purl.obolibrary.org/obo/FOODON_00002456
+http://purl.obolibrary.org/obo/FOODON_03303220",, , , 
+64_3, , , ,oil,http://purl.obolibrary.org/obo/FOODON_03310387,http://purl.obolibrary.org/obo/FOODON_03310387, , , 
+65,"Of course, the entities regarding food are detailed below:  milk, meat, grains, vegetable","Certainly, the entities are associated appropriately:  milk - http://purl.obolibrary.org/obo/UBERON_0001913, vegetable - http://purl.obolibrary.org/obo/FOODON_00003816.","Certainly, the entities are associated accordingly: milk - http://purl.obolibrary.org/obo/UBERON_0001913, meat - http://purl.obolibrary.org/obo/FOODON_03411457, vegetable - http://purl.obolibrary.org/obo/FOODON_00003816;http://purl.obolibrary.org/obo/CHEBI_60004;http://purl.obolibrary.org/obo/NCIT_C45305.", , , ,1.000,1.000,1.000
+65_0, , , ,milk,http://purl.obolibrary.org/obo/UBERON_0001913,http://purl.obolibrary.org/obo/UBERON_0001913, , , 
+65_1, , , ,vegetable,http://purl.obolibrary.org/obo/FOODON_00003816,"http://purl.obolibrary.org/obo/CHEBI_60004
+http://purl.obolibrary.org/obo/FOODON_00003816
+http://purl.obolibrary.org/obo/NCIT_C45305", , , 
+66,"Of course, the entities associated with food are outlined below:  barley grain, soybean oil, milk","Absolutely, the entities are related in this fashion:  barley - http://purl.obolibrary.org/obo/NCBITaxon_4513;http://purl.obolibrary.org/obo/FOODON_00003108, soybean oil - http://purl.obolibrary.org/obo/FOODON_03302776;http://purl.obolibrary.org/obo/FOODON_03310387.","Of course, the entities are bonded in this manner: lemon - http://purl.obolibrary.org/obo/NCBITaxon_2708;http://purl.obolibrary.org/obo/FOODON_03301441;http://purl.obolibrary.org/obo/FOODON_00003042;http://purl.obolibrary.org/obo/FOODON_00002732;http://purl.obolibrary.org/obo/FOODON_03301189, rice straw - http://purl.obolibrary.org/obo/FOODON_03303449;http://purl.obolibrary.org/obo/NCBITaxon_4530;http://purl.obolibrary.org/obo/PO_0009010;http://purl.obolibrary.org/obo/FOODON_03301641, barley - http://purl.obolibrary.org/obo/NCBITaxon_4513;http://purl.obolibrary.org/obo/FOODON_00003108, soybean oil - http://purl.obolibrary.org/obo/FOODON_03302776;http://purl.obolibrary.org/obo/FOODON_03310387, milk - http://purl.obolibrary.org/obo/UBERON_0001913.", , , ,1.000,1.000,1.000
+66_0, , , ,barley,"http://purl.obolibrary.org/obo/FOODON_00003108
+http://purl.obolibrary.org/obo/NCBITaxon_4513","http://purl.obolibrary.org/obo/FOODON_00003108
+http://purl.obolibrary.org/obo/NCBITaxon_4513", , , 
+66_1, , , ,soybean oil,"http://purl.obolibrary.org/obo/FOODON_03302776
+http://purl.obolibrary.org/obo/FOODON_03310387","http://purl.obolibrary.org/obo/FOODON_03302776
+http://purl.obolibrary.org/obo/FOODON_03310387", , , 
+67,"Yes, the entities pertaining to food are outlined below:  olive oil, salad vegetables, legumes, sweet bakery items, margarine, tea, salad, vegetables, meats, fatty foods, fruits","Of course, the entities are bonded correspondingly:  olive oil - http://purl.obolibrary.org/obo/FOODON_03301826;http://purl.obolibrary.org/obo/FOODON_03315145;http://purl.obolibrary.org/obo/FOODON_03317509;http://purl.obolibrary.org/obo/FOODON_03310387, salad - http://purl.obolibrary.org/obo/FOODON_03316042, bakery - http://purl.obolibrary.org/obo/ENVO_00003864, margarine - http://purl.obolibrary.org/obo/FOODON_03301672, tea - http://purl.obolibrary.org/obo/FOODON_03315081, fruits - http://purl.obolibrary.org/obo/FOODON_03304644.","Definitely, the entities are linked in this manner: olive oil - http://purl.obolibrary.org/obo/FOODON_03301826;http://purl.obolibrary.org/obo/FOODON_03317509;http://purl.obolibrary.org/obo/FOODON_03315145;http://purl.obolibrary.org/obo/FOODON_03310387, salad - http://purl.obolibrary.org/obo/FOODON_03316042, tea - http://purl.obolibrary.org/obo/FOODON_03315081.", , , ,0.667,0.667,0.667
+67_0, , , ,olive oil,"http://purl.obolibrary.org/obo/FOODON_03301826
+http://purl.obolibrary.org/obo/FOODON_03310387
+http://purl.obolibrary.org/obo/FOODON_03315145
+http://purl.obolibrary.org/obo/FOODON_03317509","http://purl.obolibrary.org/obo/FOODON_03301826
+http://purl.obolibrary.org/obo/FOODON_03310387
+http://purl.obolibrary.org/obo/FOODON_03315145
+http://purl.obolibrary.org/obo/FOODON_03317509", , , 
+67_1, , , ,salad,http://purl.obolibrary.org/obo/FOODON_03316042,http://purl.obolibrary.org/obo/FOODON_03316042, , , 
+67_2, , , ,bakery,http://purl.obolibrary.org/obo/ENVO_00003864,, , , 
+67_3, , , ,margarine,http://purl.obolibrary.org/obo/FOODON_03301672,, , , 
+67_4, , , ,tea,http://purl.obolibrary.org/obo/FOODON_03315081,http://purl.obolibrary.org/obo/FOODON_03315081, , , 
+67_5, , , ,fruits,http://purl.obolibrary.org/obo/FOODON_03304644,, , , 
+68,"Indeed, the entities that relate to food are detailed below:  milk","Definitely, the entities are linked in this manner:  milk - http://purl.obolibrary.org/obo/UBERON_0001913.","Indeed, the entities are connected accordingly: milk - http://purl.bioontology.org/ontology/SNOMEDCT/70813002.", , , ,0.000,0.000,0.000
+68_0, , , ,milk,http://purl.obolibrary.org/obo/UBERON_0001913,http://purl.bioontology.org/ontology/SNOMEDCT/70813002, , , 
+69,"Certainly, the entities connected with food are as follows:  carrot, carrots, celery, olive, celeriac","Certainly, the entities are associated accordingly:  carrot - http://purl.obolibrary.org/obo/NCBITaxon_4039;http://purl.obolibrary.org/obo/FOODON_00003408, carrots - http://purl.obolibrary.org/obo/NCBITaxon_4039, celery - http://purl.obolibrary.org/obo/FOODON_03301727;http://purl.obolibrary.org/obo/NCBITaxon_117781, olive - http://purl.obolibrary.org/obo/FOODON_03315145;http://purl.obolibrary.org/obo/FOODON_03317509, celeriac - http://purl.obolibrary.org/obo/NCBITaxon_278110.","Absolutely, the entities are related accordingly: carrot - http://purl.obolibrary.org/obo/NCBITaxon_4039;http://purl.obolibrary.org/obo/FOODON_00003408;http://purl.obolibrary.org/obo/FOODON_00003528, cooked - http://purl.obolibrary.org/obo/FOODON_00001181, olive - http://purl.obolibrary.org/obo/FOODON_03315145;http://purl.obolibrary.org/obo/FOODON_03317509;http://purl.obolibrary.org/obo/FOODON_03315145;http://purl.obolibrary.org/obo/FOODON_03301008, celery - http://purl.obolibrary.org/obo/NCBITaxon_117781;http://purl.obolibrary.org/obo/FOODON_03301727, celeriac - http://purl.obolibrary.org/obo/NCBITaxon_278311;http://purl.obolibrary.org/obo/FOODON_00003494;http://purl.obolibrary.org/obo/FOODON_00003396, carrot and celery - http://purl.obolibrary.org/obo/FOODON_03306632;http://purl.obolibrary.org/obo/NCBITaxon_117781;http://purl.obolibrary.org/obo/FOODON_03301727, grass - http://purl.obolibrary.org/obo/NCBITaxon_4550;http://purl.obolibrary.org/obo/FOODON_03420155.", , , ,0.875,0.750,0.792
+69_0, , , ,carrot,"http://purl.obolibrary.org/obo/FOODON_00003408
+http://purl.obolibrary.org/obo/NCBITaxon_4039","http://purl.obolibrary.org/obo/FOODON_00003408
+http://purl.obolibrary.org/obo/FOODON_00003528
+http://purl.obolibrary.org/obo/NCBITaxon_4039", , , 
+69_1, , , ,carrots,http://purl.obolibrary.org/obo/NCBITaxon_4039,, , , 
+69_2, , , ,celery,"http://purl.obolibrary.org/obo/FOODON_03301727
+http://purl.obolibrary.org/obo/NCBITaxon_117781","http://purl.obolibrary.org/obo/FOODON_03301727
+http://purl.obolibrary.org/obo/NCBITaxon_117781", , , 
+69_3, , , ,olive,"http://purl.obolibrary.org/obo/FOODON_03315145
+http://purl.obolibrary.org/obo/FOODON_03317509","http://purl.obolibrary.org/obo/FOODON_03301008
+http://purl.obolibrary.org/obo/FOODON_03315145
+http://purl.obolibrary.org/obo/FOODON_03315145
+http://purl.obolibrary.org/obo/FOODON_03317509", , , 
+69_4, , , ,celeriac,http://purl.obolibrary.org/obo/NCBITaxon_278110,"http://purl.obolibrary.org/obo/FOODON_00003396
+http://purl.obolibrary.org/obo/FOODON_00003494
+http://purl.obolibrary.org/obo/NCBITaxon_278311", , , 
+70,"Yes, the entities pertaining to food are outlined below:  bitter melon, momordica charantia, fenugreek, trigonella foenum graecum, gymnema sylvestre, ivy gourd, coccinia indica, nopal or prickly pear cactus, opuntia streptacantha, ginseng, aloe vera, russian tarragon, artemisia dracunculus, garlic, allium sativum, herb","Of course, the entities are bonded in the following way:  bitter melon - http://purl.obolibrary.org/obo/NCBITaxon_3673;http://purl.obolibrary.org/obo/FOODON_03301593;http://purl.obolibrary.org/obo/FOODON_00003597, momordica charantia - http://purl.obolibrary.org/obo/NCBITaxon_3673;http://purl.obolibrary.org/obo/NCBITaxon_3671, fenugreek - http://purl.obolibrary.org/obo/NCBITaxon_78534, trigonella - http://purl.obolibrary.org/obo/NCBITaxon_78532, gymnema sylvestre - http://purl.obolibrary.org/obo/NCBITaxon_4068, nopal - http://purl.obolibrary.org/obo/FOODON_00003078;http://purl.obolibrary.org/obo/NCBITaxon_23211;http://purl.obolibrary.org/obo/FOODON_00003041;http://purl.obolibrary.org/obo/FOODON_03301724, opuntia - http://purl.obolibrary.org/obo/NCBITaxon_106975, ginseng - http://purl.obolibrary.org/obo/FOODON_03301402;http://purl.obolibrary.org/obo/NCBITaxon_4054, aloe vera - http://purl.obolibrary.org/obo/NCBITaxon_34199;http://purl.obolibrary.org/obo/NCBITaxon_25641, russian - http://purl.obolibrary.org/obo/HANCESTRO_0386;http://purl.obolibrary.org/obo/FOODON_00003036;http://purl.obolibrary.org/obo/NCBITaxon_72341, artemisia dracunculus - http://purl.obolibrary.org/obo/NCBITaxon_72341;http://purl.obolibrary.org/obo/FOODON_03413433;http://purl.obolibrary.org/obo/NCBITaxon_4219, garlic - http://purl.obolibrary.org/obo/FOODON_03305208;http://purl.obolibrary.org/obo/FOODON_00003582;http://purl.obolibrary.org/obo/NCBITaxon_4682, allium sativum - http://purl.obolibrary.org/obo/NCBITaxon_4682;http://purl.obolibrary.org/obo/FOODON_03411300;http://purl.obolibrary.org/obo/NCBITaxon_4678.","Of course, the entities are bonded in this manner: garlic - http://purl.obolibrary.org/obo/FOODON_03305208;http://purl.obolibrary.org/obo/FOODON_00003582;http://purl.obolibrary.org/obo/NCBITaxon_4682;http://purl.obolibrary.org/obo/FOODON_03310387.", , , ,0.138,0.103,0.115
+70_0, , , ,bitter melon,"http://purl.obolibrary.org/obo/FOODON_00003597
+http://purl.obolibrary.org/obo/FOODON_03301593
+http://purl.obolibrary.org/obo/NCBITaxon_3673",, , , 
+70_1, , , ,momordica charantia,"http://purl.obolibrary.org/obo/NCBITaxon_3671
+http://purl.obolibrary.org/obo/NCBITaxon_3673",, , , 
+70_2, , , ,fenugreek,http://purl.obolibrary.org/obo/NCBITaxon_78534,, , , 
+70_3, , , ,trigonella,http://purl.obolibrary.org/obo/NCBITaxon_78532,, , , 
+70_4, , , ,gymnema sylvestre,http://purl.obolibrary.org/obo/NCBITaxon_4068,, , , 
+70_5, , , ,nopal,"http://purl.obolibrary.org/obo/FOODON_00003041
+http://purl.obolibrary.org/obo/FOODON_00003078
+http://purl.obolibrary.org/obo/FOODON_03301724
+http://purl.obolibrary.org/obo/NCBITaxon_23211",, , , 
+70_6, , , ,opuntia,http://purl.obolibrary.org/obo/NCBITaxon_106975,, , , 
+70_7, , , ,ginseng,"http://purl.obolibrary.org/obo/FOODON_03301402
+http://purl.obolibrary.org/obo/NCBITaxon_4054",, , , 
+70_8, , , ,aloe vera,"http://purl.obolibrary.org/obo/NCBITaxon_25641
+http://purl.obolibrary.org/obo/NCBITaxon_34199",, , , 
+70_9, , , ,russian,"http://purl.obolibrary.org/obo/FOODON_00003036
+http://purl.obolibrary.org/obo/HANCESTRO_0386
+http://purl.obolibrary.org/obo/NCBITaxon_72341",, , , 
+70_10, , , ,artemisia dracunculus,"http://purl.obolibrary.org/obo/FOODON_03413433
+http://purl.obolibrary.org/obo/NCBITaxon_4219
+http://purl.obolibrary.org/obo/NCBITaxon_72341",, , , 
+70_11, , , ,garlic,"http://purl.obolibrary.org/obo/FOODON_00003582
+http://purl.obolibrary.org/obo/FOODON_03305208
+http://purl.obolibrary.org/obo/NCBITaxon_4682","http://purl.obolibrary.org/obo/FOODON_00003582
+http://purl.obolibrary.org/obo/FOODON_03305208
+http://purl.obolibrary.org/obo/FOODON_03310387
+http://purl.obolibrary.org/obo/NCBITaxon_4682", , , 
+70_12, , , ,allium sativum,"http://purl.obolibrary.org/obo/FOODON_03411300
+http://purl.obolibrary.org/obo/NCBITaxon_4678
+http://purl.obolibrary.org/obo/NCBITaxon_4682",, , , 
+71,"Indeed, the entities concerning food are as follows:  wheat, corn, tomato, peanut, kidney bean, banana, pea, lentil, soybean, mushroom, rice, potato","Indeed, the entities are connected in this manner:  wheat - http://purl.obolibrary.org/obo/NCBITaxon_4565;http://purl.obolibrary.org/obo/FOODON_03315184, corn - http://purl.obolibrary.org/obo/NCBITaxon_381124, tomato - http://purl.obolibrary.org/obo/FOODON_03301453;http://purl.obolibrary.org/obo/FOODON_03309927;http://purl.obolibrary.org/obo/NCBITaxon_4081, peanut - http://purl.obolibrary.org/obo/FOODON_00003206;http://purl.obolibrary.org/obo/NCBITaxon_3818, kidney bean - http://purl.obolibrary.org/obo/NCBITaxon_3885;http://purl.obolibrary.org/obo/UBERON_0002113;http://purl.obolibrary.org/obo/FOODON_03310898;http://purl.obolibrary.org/obo/FOODON_00002753, banana - http://purl.obolibrary.org/obo/FOODON_03311513;http://purl.obolibrary.org/obo/FOODON_03316257;http://purl.obolibrary.org/obo/NCBITaxon_4641, pea - http://purl.obolibrary.org/obo/FOODON_03301300, lentil - http://purl.obolibrary.org/obo/FOODON_03310641;http://purl.obolibrary.org/obo/NCBITaxon_3864, mushroom - http://purl.obolibrary.org/obo/FOODON_03301303;http://purl.obolibrary.org/obo/FAO_0000012;http://purl.obolibrary.org/obo/FOODON_00003528, rice - http://purl.obolibrary.org/obo/NCBITaxon_4530;http://purl.obolibrary.org/obo/FOODON_03301641.","Indeed, the entities are connected in this fashion: wheat - http://purl.obolibrary.org/obo/NCBITaxon_4565;http://purl.obolibrary.org/obo/FOODON_03315184, corn - http://purl.obolibrary.org/obo/NCBITaxon_381124, tomato - http://purl.obolibrary.org/obo/FOODON_03309927;http://purl.obolibrary.org/obo/FOODON_03301453;http://purl.obolibrary.org/obo/NCBITaxon_4081, peanut - http://purl.obolibrary.org/obo/FOODON_00003206;http://purl.obolibrary.org/obo/NCBITaxon_3818, kidney bean - http://purl.obolibrary.org/obo/FOODON_00003062;http://purl.obolibrary.org/obo/FOODON_00002753, banana - http://purl.obolibrary.org/obo/NCBITaxon_4641;http://purl.obolibrary.org/obo/FOODON_03316257;http://purl.obolibrary.org/obo/FOODON_03311513, pea - http://purl.obolibrary.org/obo/FOODON_00002753, lentil - http://purl.obolibrary.org/obo/FOODON_03310641, soybean - http://purl.obolibrary.org/obo/NCBITaxon_3847;http://purl.obolibrary.org/obo/FOODON_00003420;http://purl.obolibrary.org/obo/FOODON_03301303, mushroom - http://purl.obolibrary.org/obo/FAO_0000012;http://purl.obolibrary.org/obo/FOODON_00003528;http://purl.obolibrary.org/obo/FOODON_03301303, rice - http://purl.obolibrary.org/obo/NCBITaxon_4530;http://purl.obolibrary.org/obo/FOODON_03301641, potato - http://purl.obolibrary.org/obo/FOODON_03301449;http://purl.obolibrary.org/obo/NCBITaxon_4113;http://purl.obolibrary.org/obo/FOODON_03315354.", , , ,0.761,0.783,0.768
+71_0, , , ,wheat,"http://purl.obolibrary.org/obo/FOODON_03315184
+http://purl.obolibrary.org/obo/NCBITaxon_4565","http://purl.obolibrary.org/obo/FOODON_03315184
+http://purl.obolibrary.org/obo/NCBITaxon_4565", , , 
+71_1, , , ,corn,http://purl.obolibrary.org/obo/NCBITaxon_381124,http://purl.obolibrary.org/obo/NCBITaxon_381124, , , 
+71_2, , , ,tomato,"http://purl.obolibrary.org/obo/FOODON_03301453
+http://purl.obolibrary.org/obo/FOODON_03309927
+http://purl.obolibrary.org/obo/NCBITaxon_4081","http://purl.obolibrary.org/obo/FOODON_03301453
+http://purl.obolibrary.org/obo/FOODON_03309927
+http://purl.obolibrary.org/obo/NCBITaxon_4081", , , 
+71_3, , , ,peanut,"http://purl.obolibrary.org/obo/FOODON_00003206
+http://purl.obolibrary.org/obo/NCBITaxon_3818","http://purl.obolibrary.org/obo/FOODON_00003206
+http://purl.obolibrary.org/obo/NCBITaxon_3818", , , 
+71_4, , , ,kidney bean,"http://purl.obolibrary.org/obo/FOODON_00002753
+http://purl.obolibrary.org/obo/FOODON_03310898
+http://purl.obolibrary.org/obo/NCBITaxon_3885
+http://purl.obolibrary.org/obo/UBERON_0002113","http://purl.obolibrary.org/obo/FOODON_00002753
+http://purl.obolibrary.org/obo/FOODON_00003062", , , 
+71_5, , , ,banana,"http://purl.obolibrary.org/obo/FOODON_03311513
+http://purl.obolibrary.org/obo/FOODON_03316257
+http://purl.obolibrary.org/obo/NCBITaxon_4641","http://purl.obolibrary.org/obo/FOODON_03311513
+http://purl.obolibrary.org/obo/FOODON_03316257
+http://purl.obolibrary.org/obo/NCBITaxon_4641", , , 
+71_6, , , ,pea,http://purl.obolibrary.org/obo/FOODON_03301300,http://purl.obolibrary.org/obo/FOODON_00002753, , , 
+71_7, , , ,lentil,"http://purl.obolibrary.org/obo/FOODON_03310641
+http://purl.obolibrary.org/obo/NCBITaxon_3864",http://purl.obolibrary.org/obo/FOODON_03310641, , , 
+71_8, , , ,mushroom,"http://purl.obolibrary.org/obo/FAO_0000012
+http://purl.obolibrary.org/obo/FOODON_00003528
+http://purl.obolibrary.org/obo/FOODON_03301303","http://purl.obolibrary.org/obo/FAO_0000012
+http://purl.obolibrary.org/obo/FOODON_00003528
+http://purl.obolibrary.org/obo/FOODON_03301303", , , 
+71_9, , , ,rice,"http://purl.obolibrary.org/obo/FOODON_03301641
+http://purl.obolibrary.org/obo/NCBITaxon_4530","http://purl.obolibrary.org/obo/FOODON_03301641
+http://purl.obolibrary.org/obo/NCBITaxon_4530", , , 
+72,"Sure thing, the entities regarding food are detailed below:  meats, caribou, polar bear, seal, char, whale, beef, pork, chicken, grains, dairy, fruits, vegetables, butter, chocolate, chips, candy, pop","Of course, the entities are bonded as such:  caribou - http://purl.obolibrary.org/obo/NCBITaxon_9870, polar bear - http://purl.obolibrary.org/obo/NCBITaxon_29073;http://purl.obolibrary.org/obo/FOODON_03412406, seal - http://purl.obolibrary.org/obo/NCBITaxon_9709, char - http://purl.obolibrary.org/obo/FOODON_03414051, whale - http://purl.obolibrary.org/obo/NCBITaxon_9721;http://purl.obolibrary.org/obo/FOODON_03411343, pork - http://purl.obolibrary.org/obo/FOODON_00001038, chicken - http://purl.obolibrary.org/obo/NCBITaxon_9031;http://purl.obolibrary.org/obo/FOODON_03411457, dairy - http://purl.obolibrary.org/obo/ENVO_00003862, fruits - http://purl.obolibrary.org/obo/FOODON_03304644, butter - http://purl.obolibrary.org/obo/FOODON_03310351, chocolate - http://purl.obolibrary.org/obo/FOODON_03307240;http://purl.obolibrary.org/obo/NCBITaxon_3641, candy - http://purl.obolibrary.org/obo/FOODON_03301051.","Certainly, the entities are associated in this manner: caribou - http://purl.obolibrary.org/obo/NCBITaxon_173306;http://purl.obolibrary.org/obo/NCBITaxon_173317;http://purl.obolibrary.org/obo/NCBITaxon_173315;http://purl.obolibrary.org/obo/NCBITaxon_179368;http://purl.obolibrary.org/obo/NCBITaxon_948070;http://purl.obolibrary.org/obo/NCBITaxon_173312;http://purl.obolibrary.org/obo/NCBITaxon_179362;http://purl.obolibrary.org/obo/NCBITaxon_173244;http://purl.obolibrary.org/obo/NCBITaxon_179370;http://purl.obolibrary.org/obo/NCBITaxon_376895;http://purl.obolibrary.org/obo/FOODON_03411269;http://purl.obolibrary.org/obo/NCBITaxon_173324;http://purl.obolibrary.org/obo/FOODON_00001013, polar bear - http://purl.obolibrary.org/obo/NCBITaxon_344904;http://purl.obolibrary.org/obo/FOODON_03411269;http://purl.obolibrary.org/obo/NCBITaxon_173306, seal - http://purl.obolibrary.org/obo/NCBITaxon_1088173;http://purl.obolibrary.org/obo/NCBITaxon_9925;http://purl.obolibrary.org/obo/NCBITaxon_1809766;http://purl.obolibrary.org/obo/NCBITaxon_9942;http://purl.obolibrary.org/obo/NCBITaxon_1809751;http://purl.obolibrary.org/obo/NCBITaxon_9943;http://purl.obolibrary.org/obo/NCBITaxon_1809744;http://purl.obolibrary.org/obo/NCBITaxon_1809777;http://purl.obolibrary.org/obo/NCBITaxon_1809754;http://purl.obolibrary.org/obo/NCBITaxon_1809765;http://purl.obolibrary.org/obo/NCBITaxon_1809747;http://purl.obolibrary.org/obo/NCBITaxon_1809752;http://purl.obolibrary.org/obo/NCBITaxon_9944;http://purl.obolibrary.org/obo/NCBITaxon_1809774;http://purl.obolibrary.org/obo/NCBITaxon_1809750;http://purl.obolibrary.org/obo/FOODON_03411337;http://purl.obolibrary.org/obo/NCBITaxon_9925;http://purl.obolibrary.org/obo/NCBITaxon_1809766;http://purl.obolibrary.org/obo/NCBITaxon_9942;http://purl.obolibrary.org/obo/NCBITaxon_1809751;http://purl.obolibrary.org/obo/NCBITaxon_9943;http://purl.obolibrary.org/obo/NCBITaxon_1809744;http://purl.obolibrary.org/obo/NCBITaxon_1809765;http://purl.obolibrary.org/obo/NCBITaxon_1809747;http://purl.obolibrary.org/obo/NCBITaxon_1809752;http://purl.obolibrary.org/obo/NCBITaxon_9944;http://purl.obolibrary.org/obo/NCBITaxon_1809774;http://purl.obolibrary.org/obo/NCBITaxon_1809750;http://purl.obolibrary.org/obo/NCBITaxon_173306, char - http://purl.obolibrary.org/obo/NCBITaxon_7898;http://purl.obolibrary.org/obo/NCBITaxon_7777, whale - http://purl.obolibrary.org/obo/NCBITaxon_148470;http://purl.obolibrary.org/obo/NCBITaxon_9925;http://purl.obolibrary.org/obo/NCBITaxon_1809766;http://purl.obolibrary.org/obo/NCBITaxon_9942;http://purl.obolibrary.org/obo/NCBITaxon_1809751;http://purl.obolibrary.org/obo/NCBITaxon_9943;http://purl.obolibrary.org/obo/NCBITaxon_1809744;http://", , , ,0.000,0.000,0.000
+72_0, , , ,caribou,http://purl.obolibrary.org/obo/NCBITaxon_9870,"http://purl.obolibrary.org/obo/FOODON_00001013
+http://purl.obolibrary.org/obo/FOODON_03411269
+http://purl.obolibrary.org/obo/NCBITaxon_173244
+http://purl.obolibrary.org/obo/NCBITaxon_173306
+http://purl.obolibrary.org/obo/NCBITaxon_173312
+http://purl.obolibrary.org/obo/NCBITaxon_173315
+http://purl.obolibrary.org/obo/NCBITaxon_173317
+http://purl.obolibrary.org/obo/NCBITaxon_173324
+http://purl.obolibrary.org/obo/NCBITaxon_179362
+http://purl.obolibrary.org/obo/NCBITaxon_179368
+http://purl.obolibrary.org/obo/NCBITaxon_179370
+http://purl.obolibrary.org/obo/NCBITaxon_376895
+http://purl.obolibrary.org/obo/NCBITaxon_948070", , , 
+72_1, , , ,polar bear,"http://purl.obolibrary.org/obo/FOODON_03412406
+http://purl.obolibrary.org/obo/NCBITaxon_29073","http://purl.obolibrary.org/obo/FOODON_03411269
+http://purl.obolibrary.org/obo/NCBITaxon_173306
+http://purl.obolibrary.org/obo/NCBITaxon_344904", , , 
+72_2, , , ,seal,http://purl.obolibrary.org/obo/NCBITaxon_9709,"http://purl.obolibrary.org/obo/FOODON_03411337
+http://purl.obolibrary.org/obo/NCBITaxon_1088173
+http://purl.obolibrary.org/obo/NCBITaxon_173306
+http://purl.obolibrary.org/obo/NCBITaxon_1809744
+http://purl.obolibrary.org/obo/NCBITaxon_1809744
+http://purl.obolibrary.org/obo/NCBITaxon_1809747
+http://purl.obolibrary.org/obo/NCBITaxon_1809747
+http://purl.obolibrary.org/obo/NCBITaxon_1809750
+http://purl.obolibrary.org/obo/NCBITaxon_1809750
+http://purl.obolibrary.org/obo/NCBITaxon_1809751
+http://purl.obolibrary.org/obo/NCBITaxon_1809751
+http://purl.obolibrary.org/obo/NCBITaxon_1809752
+http://purl.obolibrary.org/obo/NCBITaxon_1809752
+http://purl.obolibrary.org/obo/NCBITaxon_1809754
+http://purl.obolibrary.org/obo/NCBITaxon_1809765
+http://purl.obolibrary.org/obo/NCBITaxon_1809765
+http://purl.obolibrary.org/obo/NCBITaxon_1809766
+http://purl.obolibrary.org/obo/NCBITaxon_1809766
+http://purl.obolibrary.org/obo/NCBITaxon_1809774
+http://purl.obolibrary.org/obo/NCBITaxon_1809774
+http://purl.obolibrary.org/obo/NCBITaxon_1809777
+http://purl.obolibrary.org/obo/NCBITaxon_9925
+http://purl.obolibrary.org/obo/NCBITaxon_9925
+http://purl.obolibrary.org/obo/NCBITaxon_9942
+http://purl.obolibrary.org/obo/NCBITaxon_9942
+http://purl.obolibrary.org/obo/NCBITaxon_9943
+http://purl.obolibrary.org/obo/NCBITaxon_9943
+http://purl.obolibrary.org/obo/NCBITaxon_9944
+http://purl.obolibrary.org/obo/NCBITaxon_9944", , , 
+72_3, , , ,char,http://purl.obolibrary.org/obo/FOODON_03414051,"http://purl.obolibrary.org/obo/NCBITaxon_7777
+http://purl.obolibrary.org/obo/NCBITaxon_7898", , , 
+72_4, , , ,whale,"http://purl.obolibrary.org/obo/FOODON_03411343
+http://purl.obolibrary.org/obo/NCBITaxon_9721","http://purl.obolibrary.org/obo/NCBITaxon_148470
+http://purl.obolibrary.org/obo/NCBITaxon_1809744
+http://purl.obolibrary.org/obo/NCBITaxon_1809751
+http://purl.obolibrary.org/obo/NCBITaxon_1809766
+http://purl.obolibrary.org/obo/NCBITaxon_9925
+http://purl.obolibrary.org/obo/NCBITaxon_9942
+http://purl.obolibrary.org/obo/NCBITaxon_9943", , , 
+72_5, , , ,pork,http://purl.obolibrary.org/obo/FOODON_00001038,, , , 
+72_6, , , ,chicken,"http://purl.obolibrary.org/obo/FOODON_03411457
+http://purl.obolibrary.org/obo/NCBITaxon_9031",, , , 
+72_7, , , ,dairy,http://purl.obolibrary.org/obo/ENVO_00003862,, , , 
+72_8, , , ,fruits,http://purl.obolibrary.org/obo/FOODON_03304644,, , , 
+72_9, , , ,butter,http://purl.obolibrary.org/obo/FOODON_03310351,, , , 
+72_10, , , ,chocolate,"http://purl.obolibrary.org/obo/FOODON_03307240
+http://purl.obolibrary.org/obo/NCBITaxon_3641",, , , 
+72_11, , , ,candy,http://purl.obolibrary.org/obo/FOODON_03301051,, , , 
+73,"Absolutely, the entities that pertain to food are:  vegetables, rosemary","Indeed, the entities are connected in this manner:  rosemary - http://purl.obolibrary.org/obo/NCBITaxon_39367;http://purl.obolibrary.org/obo/FOODON_00002212.","Absolutely, the entities are related correspondingly: vegetables - http://purl.obolibrary.org/obo/FOODON_00003816;http://purl.obolibrary.org/obo/FOODON_00002732;http://purl.obolibrary.org/obo/CHEBI_60004;http://purl.obolibrary.org/obo/NCIT_C45305, rosemary - http://purl.obolibrary.org/obo/NCBITaxon_39367;http://purl.obolibrary.org/obo/FOODON_00002212;http://purl.obolibrary.org/obo/PO_0009047;http://purl.obolibrary.org/obo/FAO_0000006, carnosol - http://purl.obolibrary.org/obo/CHEBI_60004;http://purl.obolibrary.org/obo/NCIT_C45305, carnosic acid - http://purl.obolibrary.org/obo/CHEBI_60004;http://purl.obolibrary.org/obo/NCIT_C45305, ursolic acid - http://purl.obolibrary.org/obo/CHEBI_60004;http://purl.obolibrary.org/obo/NCIT_C45305, rosmarinic acid - http://purl.obolibrary.org/obo/CHEBI_60004;http://purl.obolibrary.org/obo/NCIT_C45305.", , , ,1.000,1.000,1.000
+73_0, , , ,rosemary,"http://purl.obolibrary.org/obo/FOODON_00002212
+http://purl.obolibrary.org/obo/NCBITaxon_39367","http://purl.obolibrary.org/obo/FAO_0000006
+http://purl.obolibrary.org/obo/FOODON_00002212
+http://purl.obolibrary.org/obo/NCBITaxon_39367
+http://purl.obolibrary.org/obo/PO_0009047", , , 
+74,"Indeed, the entities that relate to food are delineated below:  fruit, vegetables, tomatoes, olive oil, broccoli, garlic, onions, berries, soy bean, honey, tea, aloe vera, grapes, rosemary, basil, chili peppers, carrots, pomegranate, curcuma","Absolutely, the entities are related suitably:  fruit - http://purl.obolibrary.org/obo/PO_0009001, olive oil - http://purl.obolibrary.org/obo/FOODON_03301826;http://purl.obolibrary.org/obo/FOODON_03315145;http://purl.obolibrary.org/obo/FOODON_03317509;http://purl.obolibrary.org/obo/FOODON_03310387, broccoli - http://purl.obolibrary.org/obo/FOODON_03301713;http://purl.obolibrary.org/obo/FOODON_00003405;http://purl.obolibrary.org/obo/NCBITaxon_36774, garlic - http://purl.obolibrary.org/obo/FOODON_03305208;http://purl.obolibrary.org/obo/FOODON_00003582;http://purl.obolibrary.org/obo/NCBITaxon_4682, bean - http://purl.obolibrary.org/obo/FOODON_00002753, honey - http://purl.obolibrary.org/obo/UBERON_0036016, tea - http://purl.obolibrary.org/obo/FOODON_03315081, aloe vera - http://purl.obolibrary.org/obo/NCBITaxon_34199;http://purl.obolibrary.org/obo/NCBITaxon_25641, rosemary - http://purl.obolibrary.org/obo/NCBITaxon_39367;http://purl.obolibrary.org/obo/FOODON_00002212, basil - http://purl.obolibrary.org/obo/NCBITaxon_39350;http://purl.obolibrary.org/obo/FOODON_00003044, chili - http://purl.obolibrary.org/obo/FOODON_03317304;http://purl.obolibrary.org/obo/FOODON_03301511;http://purl.obolibrary.org/obo/NCBITaxon_4071, carrots - http://purl.obolibrary.org/obo/NCBITaxon_4039, pomegranate - http://purl.obolibrary.org/obo/NCBITaxon_22663;http://purl.obolibrary.org/obo/FOODON_00003066.","Absolutely, the entities are related in this way: fruit - http://purl.obolibrary.org/obo/PO_0009001, olive oil - http://purl.obolibrary.org/obo/FOODON_03301826;http://purl.obolibrary.org/obo/FOODON_03317509;http://purl.obolibrary.org/obo/FOODON_03315145;http://purl.obolibrary.org/obo/FOODON_03310387, broccoli - http://purl.obolibrary.org/obo/FOODON_03301713;http://purl.obolibrary.org/obo/NCBITaxon_36774;http://purl.obolibrary.org/obo/FOODON_00003405, garlic - http://purl.obolibrary.org/obo/FOODON_03305208;http://purl.obolibrary.org/obo/FOODON_00003582;http://purl.obolibrary.org/obo/NCBITaxon_4682, onions - http://purl.obolibrary.org/obo/FOODON_03301704;http://purl.obolibrary.org/obo/NCBITaxon_4679, soy bean - http://purl.obolibrary.org/obo/NCBITaxon_3847;http://purl.obolibrary.org/obo/FOODON_00002753, honey - http://purl.obolibrary.org/obo/UBERON_0036016, tea - http://purl.obolibrary.org/obo/FOODON_03315081, aloe vera - http://purl.obolibrary.org/obo/NCBITaxon_3419;http://purl.obolibrary.org/obo/FOODON_03311882;http://purl.obolibrary.org/obo/FOODON_00003600;http://purl.obolibrary.org/obo/NCBITaxon_40922, grapes - http://purl.obolibrary.org/obo/FOODON_00003417;http://purl.obolibrary.org/obo/FOODON_03301123, rosemary - http://purl.obolibrary.org/obo/NCBITaxon_39367;http://purl.obolibrary.org/obo/FOODON_00002212, basil - http://purl.obolibrary.org/obo/NCBITaxon_39350;http://purl.obolibrary.org/obo/FOODON_00003044, chili peppers - http://purl.obolibrary.org/obo/FOODON_03315873;http://purl.obolibrary.org/obo/FOODON_03317304;http://purl.obolibrary.org/obo/FOODON_03301511;http://purl.obolibrary.org/obo/FOODON_00003520;http://purl.obolibrary.org/obo/FOODON_03309928;http://purl.obolibrary.org/obo/FOODON_00003013;http://purl.obolibrary.org/obo/FOODON_00001649, carrots - http://purl.obolibrary.org/obo/NCBITaxon_4039, pomegranate - http://purl.obolibrary.org/obo/FOODON_00003066;http://purl.obolibrary.org/obo/NCBITaxon_22663;http://purl.obolibrary.org/obo/FOODON_03315552, curcuma - http://purl.obolibrary.org/obo/NCBITaxon_136217;http://purl.obolibrary.org/obo/FOODON_00003753.", , , ,0.769,0.769,0.769
+74_0, , , ,fruit,http://purl.obolibrary.org/obo/PO_0009001,http://purl.obolibrary.org/obo/PO_0009001, , , 
+74_1, , , ,olive oil,"http://purl.obolibrary.org/obo/FOODON_03301826
+http://purl.obolibrary.org/obo/FOODON_03310387
+http://purl.obolibrary.org/obo/FOODON_03315145
+http://purl.obolibrary.org/obo/FOODON_03317509","http://purl.obolibrary.org/obo/FOODON_03301826
+http://purl.obolibrary.org/obo/FOODON_03310387
+http://purl.obolibrary.org/obo/FOODON_03315145
+http://purl.obolibrary.org/obo/FOODON_03317509", , , 
+74_2, , , ,broccoli,"http://purl.obolibrary.org/obo/FOODON_00003405
+http://purl.obolibrary.org/obo/FOODON_03301713
+http://purl.obolibrary.org/obo/NCBITaxon_36774","http://purl.obolibrary.org/obo/FOODON_00003405
+http://purl.obolibrary.org/obo/FOODON_03301713
+http://purl.obolibrary.org/obo/NCBITaxon_36774", , , 
+74_3, , , ,garlic,"http://purl.obolibrary.org/obo/FOODON_00003582
+http://purl.obolibrary.org/obo/FOODON_03305208
+http://purl.obolibrary.org/obo/NCBITaxon_4682","http://purl.obolibrary.org/obo/FOODON_00003582
+http://purl.obolibrary.org/obo/FOODON_03305208
+http://purl.obolibrary.org/obo/NCBITaxon_4682", , , 
+74_4, , , ,bean,http://purl.obolibrary.org/obo/FOODON_00002753,, , , 
+74_5, , , ,honey,http://purl.obolibrary.org/obo/UBERON_0036016,http://purl.obolibrary.org/obo/UBERON_0036016, , , 
+74_6, , , ,tea,http://purl.obolibrary.org/obo/FOODON_03315081,http://purl.obolibrary.org/obo/FOODON_03315081, , , 
+74_7, , , ,aloe vera,"http://purl.obolibrary.org/obo/NCBITaxon_25641
+http://purl.obolibrary.org/obo/NCBITaxon_34199","http://purl.obolibrary.org/obo/FOODON_00003600
+http://purl.obolibrary.org/obo/FOODON_03311882
+http://purl.obolibrary.org/obo/NCBITaxon_3419
+http://purl.obolibrary.org/obo/NCBITaxon_40922", , , 
+74_8, , , ,rosemary,"http://purl.obolibrary.org/obo/FOODON_00002212
+http://purl.obolibrary.org/obo/NCBITaxon_39367","http://purl.obolibrary.org/obo/FOODON_00002212
+http://purl.obolibrary.org/obo/NCBITaxon_39367", , , 
+74_9, , , ,basil,"http://purl.obolibrary.org/obo/FOODON_00003044
+http://purl.obolibrary.org/obo/NCBITaxon_39350","http://purl.obolibrary.org/obo/FOODON_00003044
+http://purl.obolibrary.org/obo/NCBITaxon_39350", , , 
+74_10, , , ,chili,"http://purl.obolibrary.org/obo/FOODON_03301511
+http://purl.obolibrary.org/obo/FOODON_03317304
+http://purl.obolibrary.org/obo/NCBITaxon_4071",, , , 
+74_11, , , ,carrots,http://purl.obolibrary.org/obo/NCBITaxon_4039,http://purl.obolibrary.org/obo/NCBITaxon_4039, , , 
+74_12, , , ,pomegranate,"http://purl.obolibrary.org/obo/FOODON_00003066
+http://purl.obolibrary.org/obo/NCBITaxon_22663","http://purl.obolibrary.org/obo/FOODON_00003066
+http://purl.obolibrary.org/obo/FOODON_03315552
+http://purl.obolibrary.org/obo/NCBITaxon_22663", , , 
+75,"Certainly, the entities concerning food are listed as follows:  consumption, fruit, juice, fruit juice, fruits, raspberry, mango","Of course, the entities are bonded suitably:  fruit - http://purl.obolibrary.org/obo/PO_0009001, juice - http://purl.obolibrary.org/obo/FOODON_03315552, fruits - http://purl.obolibrary.org/obo/FOODON_03304644, raspberry - http://purl.obolibrary.org/obo/FOODON_03307119;http://purl.obolibrary.org/obo/FOODON_00003433.","Indeed, the entities are connected in this fashion: fruit - http://purl.obolibrary.org/obo/PO_0009001, juice - http://purl.obolibrary.org/obo/FOODON_03315552, fruit juice - http://purl.obolibrary.org/obo/FOODON_03301127;http://purl.obolibrary.org/obo/PO_0009001;http://purl.obolibrary.org/obo/FOODON_03315552, fruit - http://purl.obolibrary.org/obo/PO_0009001.", , , ,0.400,0.400,0.400
+75_0, , , ,fruit,http://purl.obolibrary.org/obo/PO_0009001,http://purl.obolibrary.org/obo/PO_0009001, , , 
+75_1, , , ,juice,http://purl.obolibrary.org/obo/FOODON_03315552,http://purl.obolibrary.org/obo/FOODON_03315552, , , 
+75_2, , , ,fruits,http://purl.obolibrary.org/obo/FOODON_03304644,, , , 
+75_3, , , ,raspberry,"http://purl.obolibrary.org/obo/FOODON_00003433
+http://purl.obolibrary.org/obo/FOODON_03307119",, , , 
+76,"Sure thing, the entities regarding food are outlined below:  milk, consumption, whole milk, 2% milk, reduced-fat milk, milk fat, intake","Certainly, the entities are associated suitably:  milk - http://purl.obolibrary.org/obo/UBERON_0001913, fat - http://purl.obolibrary.org/obo/FOODON_00003265;http://purl.obolibrary.org/obo/UBERON_0001013;http://purl.obolibrary.org/obo/UBERON_0001913.","Absolutely, the entities are related in this fashion: whole milk - http://purl.obolibrary.org/obo/FOODON_03301380;http://purl.obolibrary.org/obo/UBERON_0001913, milk - http://purl.obolibrary.org/obo/UBERON_0001913, 2 percent - http://purl.obolibrary.org/obo/FOODON_03303085;http://purl.obolibrary.org/obo/FOODON_03301304;http://purl.obolibrary.org/obo/UBERON_0001913, reduced fat - http://purl.obolibrary.org/obo/FOODON_03311552, milk fat - http://purl.obolibrary.org/obo/FOODON_00003157;http://purl.obolibrary.org/obo/UBERON_0001913.", , , ,0.500,0.250,0.333
+76_0, , , ,milk,http://purl.obolibrary.org/obo/UBERON_0001913,http://purl.obolibrary.org/obo/UBERON_0001913, , , 
+76_1, , , ,fat,"http://purl.obolibrary.org/obo/FOODON_00003265
+http://purl.obolibrary.org/obo/UBERON_0001013
+http://purl.obolibrary.org/obo/UBERON_0001913",, , , 
+77,"Sure thing, the entities regarding food are listed as follows:  avocado, fruit, chestnut, banana, kiwi, walnut, fruits","Absolutely, the entities are associated as:  avocado - http://purl.obolibrary.org/obo/FOODON_00003600;http://purl.obolibrary.org/obo/FOODON_03305236;http://purl.obolibrary.org/obo/NCBITaxon_3435, fruit - http://purl.obolibrary.org/obo/PO_0009001, chestnut - http://purl.obolibrary.org/obo/FOODON_03310978;http://purl.obolibrary.org/obo/FOODON_00003563, banana - http://purl.obolibrary.org/obo/FOODON_03311513;http://purl.obolibrary.org/obo/FOODON_03316257;http://purl.obolibrary.org/obo/NCBITaxon_4641, kiwi - http://purl.obolibrary.org/obo/FOODON_03414363, walnut - http://purl.obolibrary.org/obo/FOODON_03301364;http://purl.obolibrary.org/obo/FOODON_03315233, fruits - http://purl.obolibrary.org/obo/FOODON_03304644.","Absolutely, the entities are related in this fashion: avocado - http://purl.obolibrary.org/obo/FOODON_00003600;http://purl.obolibrary.org/obo/NCBITaxon_3435;http://purl.obolibrary.org/obo/FOODON_03305236, latex - http://purl.obolibrary.org/obo/CHEBI_60004;http://purl.obolibrary.org/obo/NCIT_C45305, chestnut - http://purl.obolibrary.org/obo/FOODON_00003675;http://purl.obolibrary.org/obo/FOODON_03301303, banana - http://purl.obolibrary.org/obo/NCBITaxon_4641;http://purl.obolibrary.org/obo/FOODON_03316257;http://purl.obolibrary.org/obo/FOODON_03311513, kiwi - http://purl.obolibrary.org/obo/FOODON_03414363, walnut - http://purl.obolibrary.org/obo/FOODON_03301364;http://purl.obolibrary.org/obo/FOODON_03315233.", , , ,0.692,0.692,0.692
+77_0, , , ,avocado,"http://purl.obolibrary.org/obo/FOODON_00003600
+http://purl.obolibrary.org/obo/FOODON_03305236
+http://purl.obolibrary.org/obo/NCBITaxon_3435","http://purl.obolibrary.org/obo/FOODON_00003600
+http://purl.obolibrary.org/obo/FOODON_03305236
+http://purl.obolibrary.org/obo/NCBITaxon_3435", , , 
+77_1, , , ,fruit,http://purl.obolibrary.org/obo/PO_0009001,, , , 
+77_2, , , ,chestnut,"http://purl.obolibrary.org/obo/FOODON_00003563
+http://purl.obolibrary.org/obo/FOODON_03310978","http://purl.obolibrary.org/obo/FOODON_00003675
+http://purl.obolibrary.org/obo/FOODON_03301303", , , 
+77_3, , , ,banana,"http://purl.obolibrary.org/obo/FOODON_03311513
+http://purl.obolibrary.org/obo/FOODON_03316257
+http://purl.obolibrary.org/obo/NCBITaxon_4641","http://purl.obolibrary.org/obo/FOODON_03311513
+http://purl.obolibrary.org/obo/FOODON_03316257
+http://purl.obolibrary.org/obo/NCBITaxon_4641", , , 
+77_4, , , ,kiwi,http://purl.obolibrary.org/obo/FOODON_03414363,http://purl.obolibrary.org/obo/FOODON_03414363, , , 
+77_5, , , ,walnut,"http://purl.obolibrary.org/obo/FOODON_03301364
+http://purl.obolibrary.org/obo/FOODON_03315233","http://purl.obolibrary.org/obo/FOODON_03301364
+http://purl.obolibrary.org/obo/FOODON_03315233", , , 
+77_6, , , ,fruits,http://purl.obolibrary.org/obo/FOODON_03304644,, , , 
+78,"Sure thing, the entities linked to food are delineated below:  chocolate, conventional chocolate, chocolates, isomalt chocolate, fructose-based chocolate, sweetener","Definitely, the entities are linked as:  chocolate - http://purl.obolibrary.org/obo/FOODON_03307240;http://purl.obolibrary.org/obo/NCBITaxon_3641, isomalt - http://purl.obolibrary.org/obo/FOODON_03413125;http://purl.obolibrary.org/obo/FOODON_03307240;http://purl.obolibrary.org/obo/NCBITaxon_3641, fructose - http://purl.obolibrary.org/obo/CHEBI_28757;http://purl.obolibrary.org/obo/FOODON_03307240;http://purl.obolibrary.org/obo/NCBITaxon_3641.","Absolutely, the entities are related in this way: milk chocolate - http://purl.obolibrary.org/obo/FOODON_03302806;http://purl.obolibrary.org/obo/UBERON_0001913, chocolate - http://purl.obolibrary.org/obo/FOODON_03307240;http://purl.obolibrary.org/obo/NCBITaxon_3641, sucrose - http://purl.obolibrary.org/obo/CHEBI_17716, fructose - http://purl.obolibrary.org/obo/CHEBI_60004;http://purl.obolibrary.org/obo/FOODON_03420108, isomalt - http://purl.obolibrary.org/obo/CHEBI_60004;http://purl.obolibrary.org/obo/FOODON_03420108, sweet - http://purl.obolibrary.org/obo/FOODON_03317068, pure - http://purl.obolibrary.org/obo/CHEBI_60004;http://purl.obolibrary.org/obo/NCIT_C45305.", , , ,0.750,0.250,0.375
+78_0, , , ,chocolate,"http://purl.obolibrary.org/obo/FOODON_03307240
+http://purl.obolibrary.org/obo/NCBITaxon_3641","http://purl.obolibrary.org/obo/FOODON_03307240
+http://purl.obolibrary.org/obo/NCBITaxon_3641", , , 
+78_1, , , ,isomalt,"http://purl.obolibrary.org/obo/FOODON_03307240
+http://purl.obolibrary.org/obo/FOODON_03413125
+http://purl.obolibrary.org/obo/NCBITaxon_3641","http://purl.obolibrary.org/obo/CHEBI_60004
+http://purl.obolibrary.org/obo/FOODON_03420108", , , 
+78_2, , , ,fructose,"http://purl.obolibrary.org/obo/CHEBI_28757
+http://purl.obolibrary.org/obo/FOODON_03307240
+http://purl.obolibrary.org/obo/NCBITaxon_3641","http://purl.obolibrary.org/obo/CHEBI_60004
+http://purl.obolibrary.org/obo/FOODON_03420108", , , 
+79,"Sure thing, here are the entities connected to food:  alcohol, use, salt, consumption, fruits, vegetables, fish, milk, fat, intake","Definitely, the entities are linked appropriately:  alcohol - http://purl.obolibrary.org/obo/CHEBI_30879, salt - http://purl.obolibrary.org/obo/CHEBI_24866;http://purl.obolibrary.org/obo/CHEBI_26710, fruits - http://purl.obolibrary.org/obo/FOODON_03304644, fish - http://purl.obolibrary.org/obo/NCBITaxon_7898;http://purl.obolibrary.org/obo/FOODON_03411222;http://purl.obolibrary.org/obo/NCBITaxon_7777, milk - http://purl.obolibrary.org/obo/UBERON_0001913.","Absolutely, the entities are related accordingly: fruits - http://purl.obolibrary.org/obo/FOODON_03304644, folate - http://purl.obolibrary.org/obo/CHEBI_40106;http://purl.obolibrary.org/obo/CHEBI_60004;http://purl.obolibrary.org/obo/NCIT_C45305, magnesium - http://purl.obolibrary.org/obo/CHEBI_26710;http://purl.obolibrary.org/obo/CHEBI_5291, dietary fiber - http://purl.obolibrary.org/obo/FOODON_03304644;http://purl.obolibrary.org/obo/FOODON_03309772;http://purl.obolibrary.org/obo/CHEBI_60004;http://purl.obolibrary.org/obo/NCIT_C45305, fish - http://purl.obolibrary.org/obo/NCBITaxon_7898;http://purl.obolibrary.org/obo/FOODON_03411222;http://purl.obolibrary.org/obo/NCBITaxon_7777, milk - http://purl.obolibrary.org/obo/UBERON_0001913.", , , ,0.625,0.625,0.625
+79_0, , , ,alcohol,http://purl.obolibrary.org/obo/CHEBI_30879,, , , 
+79_1, , , ,salt,"http://purl.obolibrary.org/obo/CHEBI_24866
+http://purl.obolibrary.org/obo/CHEBI_26710",, , , 
+79_2, , , ,fruits,http://purl.obolibrary.org/obo/FOODON_03304644,http://purl.obolibrary.org/obo/FOODON_03304644, , , 
+79_3, , , ,fish,"http://purl.obolibrary.org/obo/FOODON_03411222
+http://purl.obolibrary.org/obo/NCBITaxon_7777
+http://purl.obolibrary.org/obo/NCBITaxon_7898","http://purl.obolibrary.org/obo/FOODON_03411222
+http://purl.obolibrary.org/obo/NCBITaxon_7777
+http://purl.obolibrary.org/obo/NCBITaxon_7898", , , 
+79_4, , , ,milk,http://purl.obolibrary.org/obo/UBERON_0001913,http://purl.obolibrary.org/obo/UBERON_0001913, , , 
+80,"Of course, the entities regarding food are provided as follows:  wheat, rye, barley, rice, corn, wheat starch","Absolutely, the entities are related in this manner:  wheat - http://purl.obolibrary.org/obo/NCBITaxon_4565;http://purl.obolibrary.org/obo/FOODON_03315184, rye - http://purl.obolibrary.org/obo/FOODON_00003734;http://purl.obolibrary.org/obo/NCBITaxon_4550, barley - http://purl.obolibrary.org/obo/NCBITaxon_4513;http://purl.obolibrary.org/obo/FOODON_00003108, rice - http://purl.obolibrary.org/obo/NCBITaxon_4530;http://purl.obolibrary.org/obo/FOODON_03301641, corn - http://purl.obolibrary.org/obo/NCBITaxon_381124.","Absolutely, the entities are related in the following way: gluten-free - http://purl.obolibrary.org/obo/FOODON_00002716;http://purl.obolibrary.org/obo/FOODON_03301116, wheat - http://purl.obolibrary.org/obo/NCBITaxon_4565;http://purl.obolibrary.org/obo/FOODON_03315184;http://purl.obolibrary.org/obo/CHEBI_60004;http://purl.obolibrary.org/obo/NCIT_C45305, rice - http://purl.obolibrary.org/obo/NCBITaxon_4530;http://purl.obolibrary.org/obo/FOODON_03301641, corn - http://purl.obolibrary.org/obo/NCBITaxon_381124;http://purl.obolibrary.org/obo/FOODON_03307668, barley - http://purl.obolibrary.org/obo/NCBITaxon_4513;http://purl.obolibrary.org/obo/FOODON_00003108.", , , ,0.778,0.778,0.778
+80_0, , , ,wheat,"http://purl.obolibrary.org/obo/FOODON_03315184
+http://purl.obolibrary.org/obo/NCBITaxon_4565","http://purl.obolibrary.org/obo/CHEBI_60004
+http://purl.obolibrary.org/obo/FOODON_03315184
+http://purl.obolibrary.org/obo/NCBITaxon_4565
+http://purl.obolibrary.org/obo/NCIT_C45305", , , 
+80_1, , , ,rye,"http://purl.obolibrary.org/obo/FOODON_00003734
+http://purl.obolibrary.org/obo/NCBITaxon_4550",, , , 
+80_2, , , ,barley,"http://purl.obolibrary.org/obo/FOODON_00003108
+http://purl.obolibrary.org/obo/NCBITaxon_4513","http://purl.obolibrary.org/obo/FOODON_00003108
+http://purl.obolibrary.org/obo/NCBITaxon_4513", , , 
+80_3, , , ,rice,"http://purl.obolibrary.org/obo/FOODON_03301641
+http://purl.obolibrary.org/obo/NCBITaxon_4530","http://purl.obolibrary.org/obo/FOODON_03301641
+http://purl.obolibrary.org/obo/NCBITaxon_4530", , , 
+80_4, , , ,corn,http://purl.obolibrary.org/obo/NCBITaxon_381124,"http://purl.obolibrary.org/obo/FOODON_03307668
+http://purl.obolibrary.org/obo/NCBITaxon_381124", , , 
+81,"Definitely, the entities concerning food are delineated below:  cheese, yogurt, dairy products, milk, organic milk, milk products","Indeed, the entities are connected accordingly:  cheese - http://purl.obolibrary.org/obo/FOODON_00001013, dairy - http://purl.obolibrary.org/obo/ENVO_00003862, milk - http://purl.obolibrary.org/obo/UBERON_0001913.","Absolutely, the entities are related in this manner: milk - http://purl.obolibrary.org/obo/UBERON_0001913, cheese - http://purl.obolibrary.org/obo/FOODON_00001013.", , , ,0.667,0.667,0.667
+81_0, , , ,cheese,http://purl.obolibrary.org/obo/FOODON_00001013,http://purl.obolibrary.org/obo/FOODON_00001013, , , 
+81_1, , , ,dairy,http://purl.obolibrary.org/obo/ENVO_00003862,, , , 
+81_2, , , ,milk,http://purl.obolibrary.org/obo/UBERON_0001913,http://purl.obolibrary.org/obo/UBERON_0001913, , , 
+82,"Sure thing, the entities linked to food are outlined below:  dried plums, prune juice, dried plum powder, dried plum","Absolutely, the entities are related properly:  prune juice - http://purl.obolibrary.org/obo/FOODON_03303632;http://purl.obolibrary.org/obo/FOODON_03301721;http://purl.obolibrary.org/obo/FOODON_03315552, plum - http://purl.obolibrary.org/obo/NCBITaxon_3758;http://purl.obolibrary.org/obo/FOODON_03301580;http://purl.obolibrary.org/obo/FOODON_00003483;http://purl.obolibrary.org/obo/FOODON_00002976.","Of course, the entities are bonded in this manner: dried - http://purl.obolibrary.org/obo/FOODON_00002753;http://purl.obolibrary.org/obo/FOODON_03301585;http://purl.obolibrary.org/obo/FOODON_00003594;http://purl.obolibrary.org/obo/NCBITaxon_3448;http://purl.obolibrary.org/obo/FOODON_03301722;http://purl.obolibrary.org/obo/FOODON_00003593;http://purl.obolibrary.org/obo/FOODON_03315104, prunes - http://purl.obolibrary.org/obo/FOODON_03301243, plum - http://purl.obolibrary.org/obo/FOODON_00003411;http://purl.obolibrary.org/obo/FOODON_03301721.", , , ,0.000,0.000,0.000
+82_0, , , ,prune juice,"http://purl.obolibrary.org/obo/FOODON_03301721
+http://purl.obolibrary.org/obo/FOODON_03303632
+http://purl.obolibrary.org/obo/FOODON_03315552",, , , 
+82_1, , , ,plum,"http://purl.obolibrary.org/obo/FOODON_00002976
+http://purl.obolibrary.org/obo/FOODON_00003483
+http://purl.obolibrary.org/obo/FOODON_03301580
+http://purl.obolibrary.org/obo/NCBITaxon_3758","http://purl.obolibrary.org/obo/FOODON_00003411
+http://purl.obolibrary.org/obo/FOODON_03301721", , , 
+83,"Yes, the entities related to food are detailed below:  products, yogurt, fermented milk product, milk","Indeed, the entities are connected in this manner:  milk product - http://purl.obolibrary.org/obo/FOODON_00001256;http://purl.obolibrary.org/obo/UBERON_0001913, milk - http://purl.obolibrary.org/obo/UBERON_0001913.","Of course, the entities are linked in this way: milk - http://purl.obolibrary.org/obo/UBERON_0001913, yogurt - http://purl.obolibrary.org/obo/FOODON_00001073, fermented - http://purl.obolibrary.org/obo/FOODON_00001258, energy - http://purl.obolibrary.org/obo/FOODON_00002718, blood - http://purl.obolibrary.org/obo/UBERON_0001913, fatty acid - http://purl.obolibrary.org/obo/FOODON_03305348;http://purl.obolibrary.org/obo/FOODON_00002976, phospholipid - http://purl.obolibrary.org/obo/FOODON_03304045;http://purl.obolibrary.org/obo/FOODON_03304644, sphingolipid - http://purl.obolibrary.org/obo/FOODON_00003043, conjugated linoleic acid - http://purl.obolibrary.org/obo/FOODON_03304357.", , , ,0.667,0.333,0.444
+83_0, , , ,milk product,"http://purl.obolibrary.org/obo/FOODON_00001256
+http://purl.obolibrary.org/obo/UBERON_0001913",, , , 
+83_1, , , ,milk,http://purl.obolibrary.org/obo/UBERON_0001913,http://purl.obolibrary.org/obo/UBERON_0001913, , , 
+84,"Yes, the entities related to food are outlined below:  wholemeal bread, fruit, vegetables, cheese, fish, tea, whole-milk, consumption, meat, sausage, cold cuts, liver, salt, coffee","Absolutely, the entities are related in this manner:  wholemeal bread - http://purl.obolibrary.org/obo/FOODON_03301119, fruit - http://purl.obolibrary.org/obo/PO_0009001, cheese - http://purl.obolibrary.org/obo/FOODON_00001013, fish - http://purl.obolibrary.org/obo/NCBITaxon_7898;http://purl.obolibrary.org/obo/FOODON_03411222;http://purl.obolibrary.org/obo/NCBITaxon_7777, tea - http://purl.obolibrary.org/obo/FOODON_03315081, milk - http://purl.obolibrary.org/obo/UBERON_0001913, sausage - http://purl.obolibrary.org/obo/FOODON_03315904, liver - http://purl.obolibrary.org/obo/UBERON_0002107;http://purl.obolibrary.org/obo/FOODON_03309772, salt - http://purl.obolibrary.org/obo/CHEBI_24866;http://purl.obolibrary.org/obo/CHEBI_26710.","Indeed, the entities are connected accordingly: wholemeal bread - http://purl.obolibrary.org/obo/FOODON_03306611;http://purl.obolibrary.org/obo/FOODON_03301116, fruit - http://purl.obolibrary.org/obo/PO_0009001, cheese - http://purl.obolibrary.org/obo/FOODON_00001013, fish - http://purl.obolibrary.org/obo/NCBITaxon_7898;http://purl.obolibrary.org/obo/FOODON_03411222;http://purl.obolibrary.org/obo/NCBITaxon_7777, tea - http://purl.obolibrary.org/obo/FOODON_03315081, milk - http://purl.obolibrary.org/obo/UBERON_0001913, meat - http://purl.obolibrary.org/obo/FOODON_03411297;http://purl.obolibrary.org/obo/FOODON_03301189, liver - http://purl.obolibrary.org/obo/FOODON_03309772;http://purl.obolibrary.org/obo/UBERON_0002107, salt - http://purl.obolibrary.org/obo/CHEBI_24866;http://purl.obolibrary.org/obo/CHEBI_26710, coffee - http://purl.obolibrary.org/obo/FOODON_03301036;http://purl.obolibrary.org/obo/NCBITaxon_13443.", , , ,0.846,0.846,0.846
+84_0, , , ,wholemeal bread,http://purl.obolibrary.org/obo/FOODON_03301119,"http://purl.obolibrary.org/obo/FOODON_03301116
+http://purl.obolibrary.org/obo/FOODON_03306611", , , 
+84_1, , , ,fruit,http://purl.obolibrary.org/obo/PO_0009001,http://purl.obolibrary.org/obo/PO_0009001, , , 
+84_2, , , ,cheese,http://purl.obolibrary.org/obo/FOODON_00001013,http://purl.obolibrary.org/obo/FOODON_00001013, , , 
+84_3, , , ,fish,"http://purl.obolibrary.org/obo/FOODON_03411222
+http://purl.obolibrary.org/obo/NCBITaxon_7777
+http://purl.obolibrary.org/obo/NCBITaxon_7898","http://purl.obolibrary.org/obo/FOODON_03411222
+http://purl.obolibrary.org/obo/NCBITaxon_7777
+http://purl.obolibrary.org/obo/NCBITaxon_7898", , , 
+84_4, , , ,tea,http://purl.obolibrary.org/obo/FOODON_03315081,http://purl.obolibrary.org/obo/FOODON_03315081, , , 
+84_5, , , ,milk,http://purl.obolibrary.org/obo/UBERON_0001913,http://purl.obolibrary.org/obo/UBERON_0001913, , , 
+84_6, , , ,sausage,http://purl.obolibrary.org/obo/FOODON_03315904,, , , 
+84_7, , , ,liver,"http://purl.obolibrary.org/obo/FOODON_03309772
+http://purl.obolibrary.org/obo/UBERON_0002107","http://purl.obolibrary.org/obo/FOODON_03309772
+http://purl.obolibrary.org/obo/UBERON_0002107", , , 
+84_8, , , ,salt,"http://purl.obolibrary.org/obo/CHEBI_24866
+http://purl.obolibrary.org/obo/CHEBI_26710","http://purl.obolibrary.org/obo/CHEBI_24866
+http://purl.obolibrary.org/obo/CHEBI_26710", , , 
+85,"Definitely, the entities concerning food are detailed below:  cereal, wheat, rice, maize, barley, sorghum, pigmented sorghum grain","Certainly, the entities are bonded in this way:  wheat - http://purl.obolibrary.org/obo/NCBITaxon_4565;http://purl.obolibrary.org/obo/FOODON_03315184, rice - http://purl.obolibrary.org/obo/NCBITaxon_4530;http://purl.obolibrary.org/obo/FOODON_03301641, maize - http://purl.obolibrary.org/obo/NCBITaxon_4577;http://purl.obolibrary.org/obo/NCBITaxon_381124, barley - http://purl.obolibrary.org/obo/NCBITaxon_4513;http://purl.obolibrary.org/obo/FOODON_00003108, sorghum - http://purl.obolibrary.org/obo/FOODON_03309978;http://purl.obolibrary.org/obo/NCBITaxon_4557.","Absolutely, the entities are related in this way: sorghum - http://purl.obolibrary.org/obo/NCBITaxon_4557;http://purl.obolibrary.org/obo/NCBITaxon_4559;http://purl.obolibrary.org/obo/NCBITaxon_3641;http://purl.obolibrary.org/obo/FOODON_03309728;http://purl.obolibrary.org/obo/NCBITaxon_9103;http://purl.obolibrary.org/obo/FOODON_03420155;http://purl.obolibrary.org/obo/NCBITaxon_4577;http://purl.obolibrary.org/obo/FOODON_03303225, grain - http://purl.obolibrary.org/obo/FOODON_03301116;http://purl.obolibrary.org/obo/FOODON_03315184;http://purl.obolibrary.org/obo/NCBITaxon_4550;http://purl.obolibrary.org/obo/FOODON_03301116;http://purl.obolibrary.org/obo/NCBITaxon_4550;http://purl.obolibrary.org/obo/FOODON_03315184, tannins - http://purl.obolibrary.org/obo/CHEBI_60004;http://purl.obolibrary.org/obo/NCIT_C45305, maize - http://purl.obolibrary.org/obo/NCBITaxon_4577;http://purl.obolibrary.org/obo/NCBITaxon_381124;http://purl.obolibrary.org/obo/NCBITaxon_381123;http://purl.obolibrary.org/obo/NCBITaxon_381125;http://purl.obolibrary.org/obo/NCBITaxon_381126;http://purl.obolibrary.org/obo/NCBITaxon_381128;http://purl.obolibrary.org/obo/NCBITaxon_381127;http://purl.obolibrary.org/obo/NCBITaxon_381120;http://purl.obolibrary.org/obo/FOODON_03303225;http://purl.obolibrary.org/obo/CHEBI_60004;http://purl.obolibrary.org/obo/NCIT_C45305, wheat - http://purl.obolibrary.org/obo/NCBITaxon_4565;http://purl.obolibrary.org/obo/FOODON_03315184, rice - http://purl.obolibrary.org/obo/NCBITaxon_4530;http://purl.obolibrary.org/obo/FOODON_03301641, barley - http://purl.obolibrary.org/obo/NCBITaxon_4513;http://purl.obolibrary.org/obo/FOODON_00003108, pigmented - http://purl.obolibrary.org/obo/FOODON_00002602;http://purl.obolibrary.org/obo/FOODON_00003520;http://purl.obolibrary.org/obo/FOODON_03309928;http://purl.obolibrary.org/obo/FOODON_00003587;http://purl.obolibrary.org/obo/FOODON_00003496;http://purl.obolibrary.org/obo/FOODON_03309928;http://purl.obolibrary.org/obo/FOODON_00003520;http://purl.obolibrary.org/obo/FOODON_03301453;http://purl.obolibrary.org/obo/NCBITaxon_4113;http://purl.obolibrary.org/obo/FOODON_03315354;http://purl.obolibrary.org/obo/NCBITaxon_4071.", , , ,0.850,0.900,0.867
+85_0, , , ,wheat,"http://purl.obolibrary.org/obo/FOODON_03315184
+http://purl.obolibrary.org/obo/NCBITaxon_4565","http://purl.obolibrary.org/obo/FOODON_03315184
+http://purl.obolibrary.org/obo/NCBITaxon_4565", , , 
+85_1, , , ,rice,"http://purl.obolibrary.org/obo/FOODON_03301641
+http://purl.obolibrary.org/obo/NCBITaxon_4530","http://purl.obolibrary.org/obo/FOODON_03301641
+http://purl.obolibrary.org/obo/NCBITaxon_4530", , , 
+85_2, , , ,maize,"http://purl.obolibrary.org/obo/NCBITaxon_381124
+http://purl.obolibrary.org/obo/NCBITaxon_4577","http://purl.obolibrary.org/obo/CHEBI_60004
+http://purl.obolibrary.org/obo/FOODON_03303225
+http://purl.obolibrary.org/obo/NCBITaxon_381120
+http://purl.obolibrary.org/obo/NCBITaxon_381123
+http://purl.obolibrary.org/obo/NCBITaxon_381124
+http://purl.obolibrary.org/obo/NCBITaxon_381125
+http://purl.obolibrary.org/obo/NCBITaxon_381126
+http://purl.obolibrary.org/obo/NCBITaxon_381127
+http://purl.obolibrary.org/obo/NCBITaxon_381128
+http://purl.obolibrary.org/obo/NCBITaxon_4577
+http://purl.obolibrary.org/obo/NCIT_C45305", , , 
+85_3, , , ,barley,"http://purl.obolibrary.org/obo/FOODON_00003108
+http://purl.obolibrary.org/obo/NCBITaxon_4513","http://purl.obolibrary.org/obo/FOODON_00003108
+http://purl.obolibrary.org/obo/NCBITaxon_4513", , , 
+85_4, , , ,sorghum,"http://purl.obolibrary.org/obo/FOODON_03309978
+http://purl.obolibrary.org/obo/NCBITaxon_4557","http://purl.obolibrary.org/obo/FOODON_03303225
+http://purl.obolibrary.org/obo/FOODON_03309728
+http://purl.obolibrary.org/obo/FOODON_03420155
+http://purl.obolibrary.org/obo/NCBITaxon_3641
+http://purl.obolibrary.org/obo/NCBITaxon_4557
+http://purl.obolibrary.org/obo/NCBITaxon_4559
+http://purl.obolibrary.org/obo/NCBITaxon_4577
+http://purl.obolibrary.org/obo/NCBITaxon_9103", , , 
+86,"Yes, the entities linked to food are listed below:  baladi bread, wheat flour, soy bean flour, baladi breads, soybean flour, breads, soybean flour fortified baladi bread, soy flour fortified baladi bread, soy flour","Certainly, the entities are associated accordingly:  wheat flour - http://purl.obolibrary.org/obo/FOODON_03301116;http://purl.obolibrary.org/obo/FOODON_03301116;http://purl.obolibrary.org/obo/NCBITaxon_4565;http://purl.obolibrary.org/obo/FOODON_03315184, bean flour - http://purl.obolibrary.org/obo/FOODON_00002413;http://purl.obolibrary.org/obo/FOODON_00002753;http://purl.obolibrary.org/obo/FOODON_03301116, soybean flour - http://purl.obolibrary.org/obo/FOODON_03302142;http://purl.obolibrary.org/obo/FOODON_03301116, soy flour - http://purl.obolibrary.org/obo/FOODON_03302142;http://purl.obolibrary.org/obo/FOODON_03301116.","Certainly, the entities are associated properly: wheat flour - http://purl.obolibrary.org/obo/FOODON_03301116;http://purl.obolibrary.org/obo/FOODON_03301116;http://purl.obolibrary.org/obo/NCBITaxon_4565;http://purl.obolibrary.org/obo/FOODON_03315184, soy bean - http://purl.obolibrary.org/obo/FOODON_03412311;http://purl.obolibrary.org/obo/NCBITaxon_3847, fortified - http://purl.obolibrary.org/obo/FOODON_00002687;http://purl.obolibrary.org/obo/NCBITaxon_4550;http://purl.obolibrary.org/obo/FOODON_03301116, bread - http://purl.obolibrary.org/obo/FOODON_03309973, soy flour - http://purl.obolibrary.org/obo/FOODON_03301116;http://purl.obolibrary.org/obo/FOODON_03310387, wheat flour - http://purl.obolibrary.org/obo/FOODON_03301116;http://purl.obolibrary.org/obo/FOODON_03301116;http://purl.obolibrary.org/obo/NCBITaxon_4565;http://purl.obolibrary.org/obo/FOODON_03315184.", , , ,0.600,0.400,0.467
+86_0, , , ,wheat flour,"http://purl.obolibrary.org/obo/FOODON_03301116
+http://purl.obolibrary.org/obo/FOODON_03301116
+http://purl.obolibrary.org/obo/FOODON_03315184
+http://purl.obolibrary.org/obo/NCBITaxon_4565","http://purl.obolibrary.org/obo/FOODON_03301116
+http://purl.obolibrary.org/obo/FOODON_03301116
+http://purl.obolibrary.org/obo/FOODON_03315184
+http://purl.obolibrary.org/obo/NCBITaxon_4565", , , 
+86_1, , , ,bean flour,"http://purl.obolibrary.org/obo/FOODON_00002413
+http://purl.obolibrary.org/obo/FOODON_00002753
+http://purl.obolibrary.org/obo/FOODON_03301116",, , , 
+86_2, , , ,soybean flour,"http://purl.obolibrary.org/obo/FOODON_03301116
+http://purl.obolibrary.org/obo/FOODON_03302142",, , , 
+86_3, , , ,soy flour,"http://purl.obolibrary.org/obo/FOODON_03301116
+http://purl.obolibrary.org/obo/FOODON_03302142","http://purl.obolibrary.org/obo/FOODON_03301116
+http://purl.obolibrary.org/obo/FOODON_03310387", , , 
+87,"Yes, the entities pertaining to food are detailed below:  beer, wine, spirits, candy jelly, soda pop, consumption, fruit, rice, seaweed, tofu, tsukudani, dish of fish, sugar, soy sauce","Definitely, the entities are linked appropriately:  candy - http://purl.obolibrary.org/obo/FOODON_03301051, fruit - http://purl.obolibrary.org/obo/PO_0009001, rice - http://purl.obolibrary.org/obo/NCBITaxon_4530;http://purl.obolibrary.org/obo/FOODON_03301641, seaweed - http://purl.obolibrary.org/obo/FOODON_03412266, tsukudani - http://purl.obolibrary.org/obo/FOODON_03315487, fish - http://purl.obolibrary.org/obo/NCBITaxon_7898;http://purl.obolibrary.org/obo/FOODON_03411222;http://purl.obolibrary.org/obo/NCBITaxon_7777, sugar - http://purl.obolibrary.org/obo/FOODON_03420108, soy sauce - http://purl.obolibrary.org/obo/FOODON_03301115;http://purl.obolibrary.org/obo/FOODON_03311146.","Indeed, the entities are connected accordingly: candy - http://purl.obolibrary.org/obo/FOODON_03301051, jelly - http://purl.obolibrary.org/obo/FOODON_03301577;http://purl.obolibrary.org/obo/FOODON_03309973, rice - http://purl.obolibrary.org/obo/NCBITaxon_4530;http://purl.obolibrary.org/obo/FOODON_03301641, seaweed - http://purl.obolibrary.org/obo/FOODON_03412266, tofu - http://purl.obolibrary.org/obo/FOODON_00003263, fish - http://purl.obolibrary.org/obo/NCBITaxon_7898;http://purl.obolibrary.org/obo/FOODON_03411222;http://purl.obolibrary.org/obo/NCBITaxon_7777, sugar - http://purl.obolibrary.org/obo/FOODON_03420108, soy sauce - http://purl.obolibrary.org/obo/FOODON_03301115;http://purl.obolibrary.org/obo/FOODON_03311146.", , , ,0.833,0.833,0.833
+87_0, , , ,candy,http://purl.obolibrary.org/obo/FOODON_03301051,http://purl.obolibrary.org/obo/FOODON_03301051, , , 
+87_1, , , ,fruit,http://purl.obolibrary.org/obo/PO_0009001,, , , 
+87_2, , , ,rice,"http://purl.obolibrary.org/obo/FOODON_03301641
+http://purl.obolibrary.org/obo/NCBITaxon_4530","http://purl.obolibrary.org/obo/FOODON_03301641
+http://purl.obolibrary.org/obo/NCBITaxon_4530", , , 
+87_3, , , ,seaweed,http://purl.obolibrary.org/obo/FOODON_03412266,http://purl.obolibrary.org/obo/FOODON_03412266, , , 
+87_4, , , ,tsukudani,http://purl.obolibrary.org/obo/FOODON_03315487,, , , 
+87_5, , , ,fish,"http://purl.obolibrary.org/obo/FOODON_03411222
+http://purl.obolibrary.org/obo/NCBITaxon_7777
+http://purl.obolibrary.org/obo/NCBITaxon_7898","http://purl.obolibrary.org/obo/FOODON_03411222
+http://purl.obolibrary.org/obo/NCBITaxon_7777
+http://purl.obolibrary.org/obo/NCBITaxon_7898", , , 
+87_6, , , ,sugar,http://purl.obolibrary.org/obo/FOODON_03420108,http://purl.obolibrary.org/obo/FOODON_03420108, , , 
+87_7, , , ,soy sauce,"http://purl.obolibrary.org/obo/FOODON_03301115
+http://purl.obolibrary.org/obo/FOODON_03311146","http://purl.obolibrary.org/obo/FOODON_03301115
+http://purl.obolibrary.org/obo/FOODON_03311146", , , 
+88,"Certainly, the entities connected with food are delineated below:  bovine milk, milk","Certainly, the entities are associated accordingly:  bovine - http://purl.obolibrary.org/obo/FOODON_03414374;http://purl.obolibrary.org/obo/UBERON_0001913, milk - http://purl.obolibrary.org/obo/UBERON_0001913.","Indeed, the entities are connected in this manner: corn - http://purl.obolibrary.org/obo/NCBITaxon_381124;http://purl.obolibrary.org/obo/FOODON_03307668, grass - http://purl.obolibrary.org/obo/FOODON_03420155;http://purl.obolibrary.org/obo/NCBITaxon_4550;http://purl.obolibrary.org/obo/FOODON_03420102, clover - http://purl.obolibrary.org/obo/NCBITaxon_147435;http://purl.obolibrary.org/obo/FOODON_03411355;http://purl.obolibrary.org/obo/FOODON_00003478;http://purl.obolibrary.org/obo/FOODON_00003564;http://purl.obolibrary.org/obo/FOODON_00003396;http://purl.obolibrary.org/obo/NCBITaxon_224411;http://purl.obolibrary.org/obo/FOODON_03411357;http://purl.obolibrary.org/obo/NCBITaxon_224448;http://purl.obolibrary.org/obo/FOODON_00003383;http://purl.obolibrary.org/obo/NCBITaxon_3977;http://purl.obolibrary.org/obo/FOODON_00003487;http://purl.obolibrary.org/obo/NCBITaxon_44834;http://purl.obolibrary.org/obo/FOODON_00003520;http://purl.obolibrary.org/obo/FOODON_00003323;http://purl.obolibrary.org/obo/NCBITaxon_374521;http://purl.obolibrary.org/obo/FOODON_00003314;http://purl.obolibrary.org/obo/NCBITaxon_224411;http://purl.obolibrary.org/obo/FOODON_03411356;http://purl.obolibrary.org/obo/NCBITaxon_3977;http://purl.obolibrary.org/obo/FOODON_00003314;http://purl.obolibrary.org/obo/NCBITaxon_44834, sugar - http://purl.obolibrary.org/obo/FOODON_03420108, rapeseed - http://purl.obolibrary.org/obo/FOODON_03310074;http://purl.obolibrary.org/obo/NCBITaxon_380786;http://purl.obolibrary.org/obo/FOODON_03310387, molasses - http://purl.obolibrary.org/obo/CHEBI_83163, sugar beet - http://purl.obolibrary.org/obo/FOODON_00003444;http://purl.obolibrary.org/obo/NCBITaxon_3704;http://purl.obolibrary.org/obo/FOODON_03301716, rapeseed - http://purl.obolibrary.org/obo/FOODON_03310387, corn - http://purl.obolibrary.org/obo/NCBITaxon_381124;http://purl.obolibrary.org/obo/FOODON_03307668, saturated fat - http://purl.obolibrary.org/obo/FOODON_03310002;http://purl.obolibrary.org/obo/UBERON_0001013, milk - http://purl.obolibrary.org/obo/UBERON_0001913.", , , ,0.667,0.333,0.444
+88_0, , , ,bovine,"http://purl.obolibrary.org/obo/FOODON_03414374
+http://purl.obolibrary.org/obo/UBERON_0001913",, , , 
+88_1, , , ,milk,http://purl.obolibrary.org/obo/UBERON_0001913,http://purl.obolibrary.org/obo/UBERON_0001913, , , 
